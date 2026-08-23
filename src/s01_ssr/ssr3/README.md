@@ -41,7 +41,7 @@
 
 ```bash
 cd src/s01_ssr/ssr3
-python crawl.py                    # auth=("admin","admin")，约 170 秒
+python crawl.py                    # auth=("admin","admin")，约 150 秒
 python crawl.py --manual-header    # 手工拼 Authorization 头，验证与上面等价
 python crawl.py --no-detail        # 只抓 10 个列表页，约 14 秒
 ```
@@ -56,9 +56,9 @@ python crawl.py --no-detail        # 只抓 10 个列表页，约 14 秒
 [ssr3] 抓取完成
   记录数     : 100（列表页 10 页 / 详情页 100 个）
   请求数     : 111，失败 0
-  单请求均值 : 1.19s
-  总耗时     : 169.59s（列表 17.15s + 详情 152.43s）
-  串行预估   : 131.65s（111 请求 × 均值 1.19s）
+  单请求均值 : 0.99s
+  总耗时     : 148.14s（列表 16.02s + 详情 132.12s）
+  串行预估   : 109.47s（111 请求 × 均值 0.99s）
   落盘       : ssr3.json 482.8KB / ssr3.summary.json
 ```
 

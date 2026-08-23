@@ -148,11 +148,11 @@
     "details": 100,
     "requests": 111,
     "failures": [],
-    "elapsed_sec": 169.59,
-    "elapsed_pages_sec": 17.15,
-    "elapsed_details_sec": 152.43,
-    "avg_request_sec": 1.19,
-    "serial_estimate_sec": 131.65
+    "elapsed_sec": 148.14,
+    "elapsed_pages_sec": 16.02,
+    "elapsed_details_sec": 132.12,
+    "avg_request_sec": 0.99,
+    "serial_estimate_sec": 109.47
   },
   "truncated": false,
   "total_records": 100,

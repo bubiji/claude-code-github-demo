@@ -15,7 +15,7 @@
 ```bash
 # 仓库根目录已有 .venv（requirements.txt 装好 requests / beautifulsoup4 / lxml）
 cd src/s01_ssr/ssr1
-python crawl.py                 # 串行 + 0.3s 礼貌间隔，约 70 秒
+python crawl.py                 # 串行 + 0.3s 礼貌间隔，约 65 秒
 python crawl.py --no-detail     # 只抓 10 个列表页，约 12 秒
 python crawl.py --workers 4     # 想快一点
 ```
@@ -29,9 +29,9 @@ python crawl.py --workers 4     # 想快一点
 [ssr1] 抓取完成
   记录数     : 100（列表页 10 页 / 详情页 100 个）
   请求数     : 111，失败 0
-  单请求均值 : 0.29s
-  总耗时     : 69.41s（列表 6.86s + 详情 62.54s）
-  串行预估   : 32.06s（111 请求 × 均值 0.29s）
+  单请求均值 : 0.25s
+  总耗时     : 65.43s（列表 5.98s + 详情 59.45s）
+  串行预估   : 27.21s（111 请求 × 均值 0.25s）
   落盘       : ssr1.json 482.8KB / ssr1.csv 365.6KB / ssr1.summary.json
 ```
 

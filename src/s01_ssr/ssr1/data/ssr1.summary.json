@@ -139,11 +139,11 @@
     "details": 100,
     "requests": 111,
     "failures": [],
-    "elapsed_sec": 69.41,
-    "elapsed_pages_sec": 6.86,
-    "elapsed_details_sec": 62.54,
-    "avg_request_sec": 0.29,
-    "serial_estimate_sec": 32.06
+    "elapsed_sec": 65.43,
+    "elapsed_pages_sec": 5.98,
+    "elapsed_details_sec": 59.45,
+    "avg_request_sec": 0.25,
+    "serial_estimate_sec": 27.21
   },
   "truncated": false,
   "total_records": 100,

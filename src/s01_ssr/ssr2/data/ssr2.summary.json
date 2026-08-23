@@ -161,11 +161,11 @@
     "details": 100,
     "requests": 111,
     "failures": [],
-    "elapsed_sec": 173.54,
-    "elapsed_pages_sec": 18.22,
-    "elapsed_details_sec": 155.33,
-    "avg_request_sec": 1.22,
-    "serial_estimate_sec": 135.81
+    "elapsed_sec": 152.69,
+    "elapsed_pages_sec": 16.98,
+    "elapsed_details_sec": 135.71,
+    "avg_request_sec": 1.03,
+    "serial_estimate_sec": 114.23
   },
   "truncated": false,
   "total_records": 100,
