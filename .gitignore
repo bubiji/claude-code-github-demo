@@ -16,3 +16,6 @@ build/
 
 # 本地项目绑定（project-workflow 治理体系内部文件，不进公开仓库）
 .Project
+
+# 本地虚拟环境
+.venv/
