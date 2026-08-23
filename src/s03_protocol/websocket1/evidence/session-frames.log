@@ -1,0 +1,31 @@
+2026-08-23T10:19:03.931902+00:00 = connection is CONNECTING
+2026-08-23T10:19:04.026083+00:00 > GET /websocket HTTP/1.1
+2026-08-23T10:19:04.026187+00:00 > Host: websocket1.scrape.center
+2026-08-23T10:19:04.026211+00:00 > Upgrade: websocket
+2026-08-23T10:19:04.026225+00:00 > Connection: Upgrade
+2026-08-23T10:19:04.026238+00:00 > Sec-WebSocket-Key: 0cgfYsfOO+jNH7XFYibccA==
+2026-08-23T10:19:04.026250+00:00 > Sec-WebSocket-Version: 13
+2026-08-23T10:19:04.026260+00:00 > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2026-08-23T10:19:04.026270+00:00 > User-Agent: Python/3.14 websockets/17.0.1
+2026-08-23T10:19:04.114089+00:00 < HTTP/1.1 101 Switching Protocols
+2026-08-23T10:19:04.114440+00:00 < Date: Sun, 23 Aug 2026 10:19:04 GMT
+2026-08-23T10:19:04.114501+00:00 < Connection: upgrade
+2026-08-23T10:19:04.114554+00:00 < Upgrade: websocket
+2026-08-23T10:19:04.114594+00:00 < Sec-WebSocket-Accept: s85ZiXChCUX1YLSu0UR3NTRvEZA=
+2026-08-23T10:19:04.114634+00:00 < Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2026-08-23T10:19:04.114674+00:00 < Strict-Transport-Security: max-age=15724800; includeSubDomains
+2026-08-23T10:19:04.115254+00:00 = connection is OPEN
+2026-08-23T10:19:04.118221+00:00 > TEXT '{"sender": "e5dd3ab6-5675-4393-b590-96b07c0b6a3a", "content": "hello"}' [70 bytes]
+2026-08-23T10:19:05.185258+00:00 < TEXT '{"sender": "e5dd3ab6-5675-4393-b590-96b07c0b6a3a", "answer": "hello!"}' [70 bytes]
+2026-08-23T10:19:06.186970+00:00 > TEXT '{"sender": "e5dd3ab6-5675-4393-b590-96b07c0b6a3a", "content": "你好，我是来做 WebSocket 抓包分析的"}' [112 bytes]
+2026-08-23T10:19:07.259632+00:00 < TEXT '{"sender": "e5dd3ab6-5675-4393-b590-96b07c0b6a3a", "answer": "你好，我是来做 WebSocket 抓包分析的!"}' [112 bytes]
+2026-08-23T10:19:08.260588+00:00 > TEXT '{"sender": "e5dd3ab6-5675-4393-b590-96b07c0b6a3a", "content": "What is the weather like?"}' [90 bytes]
+2026-08-23T10:19:09.329868+00:00 < TEXT '{"sender": "e5dd3ab6-5675-4393-b590-96b07c0b6a3a", "answer": "What is the weather like?!"}' [90 bytes]
+2026-08-23T10:19:10.331318+00:00 > TEXT '{"sender": "e5dd3ab6-5675-4393-b590-96b07c0b6a3a", "content": "bye"}' [68 bytes]
+2026-08-23T10:19:11.400530+00:00 < TEXT '{"sender": "e5dd3ab6-5675-4393-b590-96b07c0b6a3a", "answer": "bye!"}' [68 bytes]
+2026-08-23T10:19:12.401934+00:00 > CLOSE 1000 (OK) bye [5 bytes]
+2026-08-23T10:19:12.402088+00:00 = connection is CLOSING
+2026-08-23T10:19:12.469668+00:00 < CLOSE 1000 (OK) bye [5 bytes]
+2026-08-23T10:19:12.469786+00:00 > EOF
+2026-08-23T10:19:12.469804+00:00 = connection is CLOSED
+2026-08-23T10:19:12.469821+00:00 x closing TCP connection

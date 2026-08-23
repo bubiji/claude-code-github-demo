@@ -1,0 +1,136 @@
+{
+  "captured_at": "2026-08-23T10:19:41.686743+00:00",
+  "client": "httpx/0.28.1",
+  "requests_per_config": 15,
+  "workers": 5,
+  "spa16_h2_only": {
+    "host": "spa16.scrape.center",
+    "endpoint": "https://spa16.scrape.center/api/book/",
+    "runs": [
+      {
+        "protocol": "h2",
+        "mode": "sequential",
+        "requests": 15,
+        "http_versions": [
+          "HTTP/2"
+        ],
+        "active_s": 6.822,
+        "tcp_connections": 1,
+        "sent_bytes": 754,
+        "sent_bytes_per_request": 50.3,
+        "recv_bytes": 49658,
+        "per_request_ms": {
+          "min": 297.4,
+          "median": 393.9,
+          "max": 896.7
+        },
+        "note": "sent/recv = 交给 TLS 加密前的 HTTP 报文字节；已扣除热身请求"
+      },
+      {
+        "protocol": "h2",
+        "mode": "concurrent(max_connections=5)",
+        "requests": 15,
+        "http_versions": [
+          "HTTP/2"
+        ],
+        "wall_s": 8.999,
+        "tcp_connections": 1,
+        "connection_repr": [
+          "<AsyncHTTPConnection ['https://spa16.scrape.center:443', HTTP/2, IDLE, Request Count: 16]>"
+        ],
+        "per_request_ms": {
+          "min": 2201.8,
+          "median": 5398.9,
+          "max": 8996.7
+        },
+        "note": "connection_repr 里的 Request Count 就是该条 TCP 连接扛了多少个请求；含 1 次热身"
+      }
+    ]
+  },
+  "control": {
+    "control_host": "spa1.scrape.center",
+    "endpoint": "https://spa1.scrape.center/api/movie/",
+    "runs": [
+      {
+        "protocol": "h2",
+        "mode": "sequential",
+        "requests": 15,
+        "http_versions": [
+          "HTTP/2"
+        ],
+        "active_s": 8.577,
+        "tcp_connections": 1,
+        "sent_bytes": 759,
+        "sent_bytes_per_request": 50.6,
+        "recv_bytes": 31963,
+        "per_request_ms": {
+          "min": 197.5,
+          "median": 500.6,
+          "max": 1395.1
+        },
+        "note": "sent/recv = 交给 TLS 加密前的 HTTP 报文字节；已扣除热身请求"
+      },
+      {
+        "protocol": "http/1.1",
+        "mode": "sequential",
+        "requests": 15,
+        "http_versions": [
+          "HTTP/1.1"
+        ],
+        "active_s": 8.758,
+        "tcp_connections": 1,
+        "sent_bytes": 2914,
+        "sent_bytes_per_request": 194.3,
+        "recv_bytes": 33373,
+        "per_request_ms": {
+          "min": 103.9,
+          "median": 521.7,
+          "max": 1093.1
+        },
+        "note": "sent/recv = 交给 TLS 加密前的 HTTP 报文字节；已扣除热身请求"
+      },
+      {
+        "protocol": "h2",
+        "mode": "concurrent(max_connections=5)",
+        "requests": 15,
+        "http_versions": [
+          "HTTP/2"
+        ],
+        "wall_s": 9.202,
+        "tcp_connections": 1,
+        "connection_repr": [
+          "<AsyncHTTPConnection ['https://spa1.scrape.center:443', HTTP/2, IDLE, Request Count: 16]>"
+        ],
+        "per_request_ms": {
+          "min": 1301.1,
+          "median": 6394.9,
+          "max": 9192.1
+        },
+        "note": "connection_repr 里的 Request Count 就是该条 TCP 连接扛了多少个请求；含 1 次热身"
+      },
+      {
+        "protocol": "http/1.1",
+        "mode": "concurrent(max_connections=5)",
+        "requests": 15,
+        "http_versions": [
+          "HTTP/1.1"
+        ],
+        "wall_s": 9.998,
+        "tcp_connections": 5,
+        "connection_repr": [
+          "<AsyncHTTPConnection ['https://spa1.scrape.center:443', HTTP/1.1, IDLE, Request Count: 4]>",
+          "<AsyncHTTPConnection ['https://spa1.scrape.center:443', HTTP/1.1, IDLE, Request Count: 3]>",
+          "<AsyncHTTPConnection ['https://spa1.scrape.center:443', HTTP/1.1, IDLE, Request Count: 3]>",
+          "<AsyncHTTPConnection ['https://spa1.scrape.center:443', HTTP/1.1, IDLE, Request Count: 3]>",
+          "<AsyncHTTPConnection ['https://spa1.scrape.center:443', HTTP/1.1, IDLE, Request Count: 3]>"
+        ],
+        "per_request_ms": {
+          "min": 1498.9,
+          "median": 5591.4,
+          "max": 9985.3
+        },
+        "note": "connection_repr 里的 Request Count 就是该条 TCP 连接扛了多少个请求；含 1 次热身"
+      }
+    ]
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "case": "websocket1",
+  "issue": 6,
+  "url": "wss://websocket1.scrape.center/websocket",
+  "captured_at": "2026-08-23T10:19:12.470239+00:00",
+  "client": "websockets/17.0.1",
+  "frame_log_max_size": 4096,
+  "frames_truncated": 0,
+  "sender_uuid": "e5dd3ab6-5675-4393-b590-96b07c0b6a3a",
+  "handshake": {
+    "request": {
+      "path": "/websocket",
+      "headers": [
+        [
+          "Host",
+          "websocket1.scrape.center"
+        ],
+        [
+          "Upgrade",
+          "websocket"
+        ],
+        [
+          "Connection",
+          "Upgrade"
+        ],
+        [
+          "Sec-WebSocket-Key",
+          "0cgfYsfOO+jNH7XFYibccA=="
+        ],
+        [
+          "Sec-WebSocket-Version",
+          "13"
+        ],
+        [
+          "Sec-WebSocket-Extensions",
+          "permessage-deflate; client_max_window_bits"
+        ],
+        [
+          "User-Agent",
+          "Python/3.14 websockets/17.0.1"
+        ]
+      ]
+    },
+    "response": {
+      "status_code": 101,
+      "reason": "Switching Protocols",
+      "headers": [
+        [
+          "Date",
+          "Sun, 23 Aug 2026 10:19:04 GMT"
+        ],
+        [
+          "Connection",
+          "upgrade"
+        ],
+        [
+          "Upgrade",
+          "websocket"
+        ],
+        [
+          "Sec-WebSocket-Accept",
+          "s85ZiXChCUX1YLSu0UR3NTRvEZA="
+        ],
+        [
+          "Sec-WebSocket-Extensions",
+          "permessage-deflate; server_max_window_bits=12; client_max_window_bits=12"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=15724800; includeSubDomains"
+        ]
+      ]
+    },
+    "subprotocol": null,
+    "extensions": [
+      "PerMessageDeflate(remote_no_context_takeover=False, local_no_context_takeover=False, remote_max_window_bits=12, local_max_window_bits=12)"
+    ],
+    "local_address": [
+      "192.168.8.197",
+      63929
+    ],
+    "remote_address": [
+      "129.226.111.143",
+      443
+    ]
+  },
+  "app_protocol": {
+    "send": {
+      "sender": "<uuid4>",
+      "content": "<text>"
+    },
+    "recv": {
+      "sender": "<uuid4 回显>",
+      "answer": "<text>"
+    },
+    "note": "端点与格式来自页面 JS：js/chunk-e3bb7ce4.bdd85238.js"
+  },
+  "transcript": [
+    {
+      "sent": "hello",
+      "received": "hello!",
+      "raw": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"hello!\"}",
+      "rtt_ms": 1067.4
+    },
+    {
+      "sent": "你好，我是来做 WebSocket 抓包分析的",
+      "received": "你好，我是来做 WebSocket 抓包分析的!",
+      "raw": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"你好，我是来做 WebSocket 抓包分析的!\"}",
+      "rtt_ms": 1073.0
+    },
+    {
+      "sent": "What is the weather like?",
+      "received": "What is the weather like?!",
+      "raw": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"What is the weather like?!\"}",
+      "rtt_ms": 1069.5
+    },
+    {
+      "sent": "bye",
+      "received": "bye!",
+      "raw": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"bye!\"}",
+      "rtt_ms": 1069.4
+    }
+  ],
+  "frames": [
+    {
+      "ts": "2026-08-23T10:19:04.118221+00:00",
+      "direction": "client->server",
+      "opcode": "TEXT",
+      "payload": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"content\": \"hello\"}",
+      "payload_bytes": 70,
+      "truncated": false,
+      "raw_log_line": "'{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"content\": \"hello\"}' [70 bytes]"
+    },
+    {
+      "ts": "2026-08-23T10:19:05.185258+00:00",
+      "direction": "server->client",
+      "opcode": "TEXT",
+      "payload": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"hello!\"}",
+      "payload_bytes": 70,
+      "truncated": false,
+      "raw_log_line": "'{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"hello!\"}' [70 bytes]"
+    },
+    {
+      "ts": "2026-08-23T10:19:06.186970+00:00",
+      "direction": "client->server",
+      "opcode": "TEXT",
+      "payload": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"content\": \"你好，我是来做 WebSocket 抓包分析的\"}",
+      "payload_bytes": 112,
+      "truncated": false,
+      "raw_log_line": "'{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"content\": \"你好，我是来做 WebSocket 抓包分析的\"}' [112 bytes]"
+    },
+    {
+      "ts": "2026-08-23T10:19:07.259632+00:00",
+      "direction": "server->client",
+      "opcode": "TEXT",
+      "payload": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"你好，我是来做 WebSocket 抓包分析的!\"}",
+      "payload_bytes": 112,
+      "truncated": false,
+      "raw_log_line": "'{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"你好，我是来做 WebSocket 抓包分析的!\"}' [112 bytes]"
+    },
+    {
+      "ts": "2026-08-23T10:19:08.260588+00:00",
+      "direction": "client->server",
+      "opcode": "TEXT",
+      "payload": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"content\": \"What is the weather like?\"}",
+      "payload_bytes": 90,
+      "truncated": false,
+      "raw_log_line": "'{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"content\": \"What is the weather like?\"}' [90 bytes]"
+    },
+    {
+      "ts": "2026-08-23T10:19:09.329868+00:00",
+      "direction": "server->client",
+      "opcode": "TEXT",
+      "payload": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"What is the weather like?!\"}",
+      "payload_bytes": 90,
+      "truncated": false,
+      "raw_log_line": "'{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"What is the weather like?!\"}' [90 bytes]"
+    },
+    {
+      "ts": "2026-08-23T10:19:10.331318+00:00",
+      "direction": "client->server",
+      "opcode": "TEXT",
+      "payload": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"content\": \"bye\"}",
+      "payload_bytes": 68,
+      "truncated": false,
+      "raw_log_line": "'{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"content\": \"bye\"}' [68 bytes]"
+    },
+    {
+      "ts": "2026-08-23T10:19:11.400530+00:00",
+      "direction": "server->client",
+      "opcode": "TEXT",
+      "payload": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"bye!\"}",
+      "payload_bytes": 68,
+      "truncated": false,
+      "raw_log_line": "'{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"bye!\"}' [68 bytes]"
+    },
+    {
+      "ts": "2026-08-23T10:19:12.401934+00:00",
+      "direction": "client->server",
+      "opcode": "CLOSE",
+      "payload": "1000 (OK) bye",
+      "payload_bytes": 5,
+      "truncated": false,
+      "raw_log_line": "1000 (OK) bye [5 bytes]"
+    },
+    {
+      "ts": "2026-08-23T10:19:12.469668+00:00",
+      "direction": "server->client",
+      "opcode": "CLOSE",
+      "payload": "1000 (OK) bye",
+      "payload_bytes": 5,
+      "truncated": false,
+      "raw_log_line": "1000 (OK) bye [5 bytes]"
+    }
+  ],
+  "close": {
+    "close_code": 1000,
+    "close_reason": "bye",
+    "clean_close": true
+  },
+  "duration_s": 8.85
+}
