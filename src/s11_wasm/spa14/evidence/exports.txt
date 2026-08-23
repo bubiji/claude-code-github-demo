@@ -1,0 +1,9 @@
+== IMPORTS ==
+== EXPORTS ==
+  memory :: MemoryType
+  encrypt :: func ['i32', 'i32'] -> ['i32']
+  __indirect_function_table :: TableType
+  _initialize :: func [] -> []
+  stackSave :: func [] -> ['i32']
+  stackRestore :: func ['i32'] -> []
+  stackAlloc :: func ['i32'] -> ['i32']
