@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://ssr1.scrape.center/page/1",
+    "status": 200,
+    "elapsed_sec": 0.51,
+    "html_bytes": 41667,
+    "www_authenticate": null,
+    "cards_in_html": 10,
+    "verdict": "免验证，且 HTML 里直接有 10 条数据 → 可以抓",
+    "name": "ssr1",
+    "description_verbatim": "电影数据网站，无反爬，数据通过服务端渲染，适合基本爬虫练习。"
+  },
+  {
+    "url": "https://ssr4.scrape.center/page/1",
+    "status": 200,
+    "elapsed_sec": 5.89,
+    "html_bytes": 41667,
+    "www_authenticate": null,
+    "cards_in_html": 10,
+    "verdict": "免验证，且 HTML 里直接有 10 条数据 → 可以抓",
+    "name": "ssr4",
+    "description_verbatim": "电影数据网站，无反爬，每个响应增加了 5 秒延迟，适合测试慢速网站爬取或做爬取速度测试，减少网速干扰。"
+  },
+  {
+    "url": "https://spa1.scrape.center/",
+    "status": 200,
+    "elapsed_sec": 0.25,
+    "html_bytes": 952,
+    "www_authenticate": null,
+    "cards_in_html": 0,
+    "verdict": "免验证，但 HTML 里没有数据（Ajax 动态渲染）→ 要去找它的接口",
+    "name": "spa1",
+    "description_verbatim": "电影数据网站，无反爬，数据通过 Ajax 加载，页面动态渲染，适合 Ajax 分析和动态页面渲染爬取。"
+  },
+  {
+    "url": "https://ssr3.scrape.center/page/1",
+    "status": 401,
+    "elapsed_sec": 0.44,
+    "html_bytes": 172,
+    "www_authenticate": "Basic realm=\"Authentication Required\"",
+    "cards_in_html": 0,
+    "verdict": "需要验证：Basic realm=\"Authentication Required\"",
+    "name": "ssr3",
+    "description_verbatim": "电影数据网站，无反爬，带有 HTTP Basic Authentication，适合用作 HTTP 认证案例，用户名密码均为 admin。"
+  }
+]
