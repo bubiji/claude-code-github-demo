@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-08-23T20:03:16+09:00",
+  "expiry_probe": [
+    {
+      "age_seconds": 0,
+      "ts": 1787482975,
+      "token": "ZDAwMjJkMWRkM2Y2ODU5MTY0MzVlMzBkOTMxNDAxY2MwMjFmODM2YiwxNzg3NDgyOTc1",
+      "http": 200
+    },
+    {
+      "age_seconds": 30,
+      "ts": 1787482945,
+      "token": "YmVhODdhMTUzYjA1M2NlMTM4MmM4ZjY5MWRkMjc3MzhiMjQ4ZWM4NiwxNzg3NDgyOTQ1",
+      "http": 200
+    },
+    {
+      "age_seconds": 60,
+      "ts": 1787482915,
+      "token": "YWZlNDAyNDZlODNhOGUyZWI3YzcwYTY1MWYyODczNDA0MjE3Mjg4OCwxNzg3NDgyOTE1",
+      "http": 200
+    },
+    {
+      "age_seconds": 120,
+      "ts": 1787482855,
+      "token": "NzY5YTEzMzFmOTcwZDU5ODU4MmFhNDUwNzBjZGYxYjY4NDFmMjQ3MywxNzg3NDgyODU1",
+      "http": 200
+    },
+    {
+      "age_seconds": 150,
+      "ts": 1787482825,
+      "token": "N2Q0YmY4NDVjZGQ2YWFjZDgxMWM5OGJkMmFlMGI3OGMwM2QyMjRmOSwxNzg3NDgyODI1",
+      "http": 200
+    },
+    {
+      "age_seconds": 180,
+      "ts": 1787482795,
+      "token": "ZjEwYmFhNTExN2M1NzkzNzFiMWE3M2I2MjAzNzk3NWYxNzJlMDU0MSwxNzg3NDgyNzk1",
+      "http": 401
+    },
+    {
+      "age_seconds": 300,
+      "ts": 1787482675,
+      "token": "ZDIzZDcwNDAwN2QzYzNhZGZmZTljNjNiNGM3NTUxN2U0NWNlZTU0MSwxNzg3NDgyNjc1",
+      "http": 401
+    },
+    {
+      "age_seconds": 600,
+      "ts": 1787482375,
+      "token": "NGUzMmFiYjc1ZjI5NTdiZTU5OTEwYjA5MTYzOGQzNDQ5NWY2MTBiOSwxNzg3NDgyMzc1",
+      "http": 401
+    },
+    {
+      "age_seconds": 3600,
+      "ts": 1787479375,
+      "token": "OWUwM2Y0NWY2ZjMzNmNiZjQzZjg1Y2IzZDFlZjEwYmYwY2I2YmVjMywxNzg3NDc5Mzc1",
+      "http": 401
+    },
+    {
+      "age_seconds": -60,
+      "ts": 1787483035,
+      "token": "Y2Q0NGIwNjVmYTBhZTUxOTU3ZmE0YjExZTZkNDAxYjU5ZTU4Yzc0YywxNzg3NDgzMDM1",
+      "http": 200
+    },
+    {
+      "age_seconds": -150,
+      "ts": 1787483125,
+      "token": "ZDU2MTE3YWMxYTk1ZmFlZDM3NjQ5NmYwYzNlMmIwZTBmNTNjYTg0MSwxNzg3NDgzMTI1",
+      "http": 200
+    },
+    {
+      "age_seconds": -300,
+      "ts": 1787483275,
+      "token": "M2E1ZTdlMmM3ZTE4MTlmM2Q3MjlmY2JjOGIzMTY5ZWU5ODQwOWZhOSwxNzg3NDgzMjc1",
+      "http": 401
+    }
+  ],
+  "offset_independence": [
+    {
+      "offset": 0,
+      "http": 200
+    },
+    {
+      "offset": 30,
+      "http": 200
+    },
+    {
+      "offset": 90,
+      "http": 200
+    }
+  ],
+  "wrong_url_probe": {
+    "signed_url": "/api/movie/",
+    "http": 401
+  }
+}

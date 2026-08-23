@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-08-23T20:02:24+09:00",
+  "expiry_probe": [
+    {
+      "age_seconds": 0,
+      "ts": 1787482944,
+      "sign": 595844006,
+      "http": 200
+    },
+    {
+      "age_seconds": 30,
+      "ts": 1787482914,
+      "sign": 595843996,
+      "http": 200
+    },
+    {
+      "age_seconds": 60,
+      "ts": 1787482884,
+      "sign": 595843986,
+      "http": 200
+    },
+    {
+      "age_seconds": 120,
+      "ts": 1787482824,
+      "sign": 595843966,
+      "http": 200
+    },
+    {
+      "age_seconds": 150,
+      "ts": 1787482794,
+      "sign": 595843956,
+      "http": 200
+    },
+    {
+      "age_seconds": 180,
+      "ts": 1787482764,
+      "sign": 595843946,
+      "http": 401
+    },
+    {
+      "age_seconds": 300,
+      "ts": 1787482644,
+      "sign": 595843906,
+      "http": 401
+    },
+    {
+      "age_seconds": 600,
+      "ts": 1787482344,
+      "sign": 595843806,
+      "http": 401
+    },
+    {
+      "age_seconds": 3600,
+      "ts": 1787479344,
+      "sign": 595842806,
+      "http": 401
+    },
+    {
+      "age_seconds": -60,
+      "ts": 1787483004,
+      "sign": 595844026,
+      "http": 200
+    },
+    {
+      "age_seconds": -150,
+      "ts": 1787483094,
+      "sign": 595844056,
+      "http": 200
+    },
+    {
+      "age_seconds": -300,
+      "ts": 1787483244,
+      "sign": 595844106,
+      "http": 401
+    }
+  ],
+  "offset_binding_probe": [
+    {
+      "request_offset": 10,
+      "sign_computed_for_offset": 10,
+      "ts": 1787482960,
+      "sign": 595844021,
+      "http": 200
+    },
+    {
+      "request_offset": 10,
+      "sign_computed_for_offset": 0,
+      "ts": 1787482960,
+      "sign": 595844011,
+      "http": 200
+    },
+    {
+      "request_offset": 0,
+      "sign_computed_for_offset": 10,
+      "ts": 1787482960,
+      "sign": 595844021,
+      "http": 200
+    },
+    {
+      "request_offset": 100,
+      "sign_computed_for_offset": 0,
+      "ts": 1787482960,
+      "sign": 595844011,
+      "http": 401
+    },
+    {
+      "request_offset": 0,
+      "sign_computed_for_offset": 100,
+      "ts": 1787482960,
+      "sign": 595844111,
+      "http": 401
+    }
+  ]
+}
