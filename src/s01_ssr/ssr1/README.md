@@ -16,7 +16,7 @@
 # 仓库根目录已有 .venv（requirements.txt 装好 requests / beautifulsoup4 / lxml）
 cd src/s01_ssr/ssr1
 python crawl.py                 # 串行 + 0.3s 礼貌间隔，约 65 秒
-python crawl.py --no-detail     # 只抓 10 个列表页，约 12 秒
+python crawl.py --no-detail     # 只抓 10 个列表页，约 14 秒
 python crawl.py --workers 4     # 想快一点
 ```
 
