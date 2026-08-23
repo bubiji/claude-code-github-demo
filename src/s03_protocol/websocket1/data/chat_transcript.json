@@ -1,0 +1,26 @@
+[
+  {
+    "sent": "hello",
+    "received": "hello!",
+    "raw": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"hello!\"}",
+    "rtt_ms": 1067.4
+  },
+  {
+    "sent": "你好，我是来做 WebSocket 抓包分析的",
+    "received": "你好，我是来做 WebSocket 抓包分析的!",
+    "raw": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"你好，我是来做 WebSocket 抓包分析的!\"}",
+    "rtt_ms": 1073.0
+  },
+  {
+    "sent": "What is the weather like?",
+    "received": "What is the weather like?!",
+    "raw": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"What is the weather like?!\"}",
+    "rtt_ms": 1069.5
+  },
+  {
+    "sent": "bye",
+    "received": "bye!",
+    "raw": "{\"sender\": \"e5dd3ab6-5675-4393-b590-96b07c0b6a3a\", \"answer\": \"bye!\"}",
+    "rtt_ms": 1069.4
+  }
+]
