@@ -1,0 +1,2202 @@
+{
+  "source": "https://antispider5.scrape.center",
+  "issue": 8,
+  "case": "antispider5",
+  "limit_declared": "限制单个 IP 访问频率 5 分钟最多 10 次，如果过多则会封禁 IP 10 分钟。",
+  "run": {
+    "finished_at": "2026-08-23 19:55:09",
+    "elapsed_s": 715.0,
+    "elapsed_min": 11.9,
+    "min_interval_s": 35.0,
+    "window_capacity": 9,
+    "site_total_declared": 104,
+    "fetched_list_items": 100,
+    "list_pages_crawled": 11,
+    "pagination_exhausted": true,
+    "is_full_list_pagination": true,
+    "gap_vs_declared": 4,
+    "detail_samples": 6,
+    "detail_is_sample_only": true,
+    "detail_full_would_cost": {
+      "n_requests": 100,
+      "quota": "10/300s",
+      "ideal_s": 3000,
+      "ideal_min": 50.0,
+      "planned_interval_s": 35.0,
+      "planned_s": 3465,
+      "planned_min": 57.8
+    }
+  },
+  "gap_probe": {
+    "why": "列表翻页到 /page/11 返回 0 条即止，站点分页控件却声明「共 104 条」",
+    "results": [
+      {
+        "id": 101,
+        "status": 500
+      },
+      {
+        "id": 102,
+        "status": 500
+      },
+      {
+        "id": 103,
+        "status": 500
+      },
+      {
+        "id": 104,
+        "status": 500
+      }
+    ]
+  },
+  "client": {
+    "requests": 21,
+    "retries": 0,
+    "failed": 0,
+    "rate_limited_hits": 0,
+    "bytes_down": 1919491,
+    "proxy_switches": 0,
+    "elapsed_s": 715.0,
+    "limiter": {
+      "in_window": 9,
+      "capacity": 9,
+      "window_s": 300.0,
+      "min_interval_s": 35.0,
+      "total_wait_s": 681.7
+    }
+  },
+  "request_timeline": [
+    {
+      "t": 1787481794.4,
+      "url": "https://antispider5.scrape.center/page/1",
+      "status": 200,
+      "wait_before_s": 0.0,
+      "elapsed_s": 1.35,
+      "bytes": 41667
+    },
+    {
+      "t": 1787481829.836,
+      "url": "https://antispider5.scrape.center/page/2",
+      "status": 200,
+      "wait_before_s": 33.9,
+      "elapsed_s": 1.128,
+      "bytes": 42180
+    },
+    {
+      "t": 1787481864.995,
+      "url": "https://antispider5.scrape.center/page/3",
+      "status": 200,
+      "wait_before_s": 33.9,
+      "elapsed_s": 1.061,
+      "bytes": 41106
+    },
+    {
+      "t": 1787481900.021,
+      "url": "https://antispider5.scrape.center/page/4",
+      "status": 200,
+      "wait_before_s": 33.8,
+      "elapsed_s": 1.248,
+      "bytes": 40050
+    },
+    {
+      "t": 1787481935.254,
+      "url": "https://antispider5.scrape.center/page/5",
+      "status": 200,
+      "wait_before_s": 33.8,
+      "elapsed_s": 1.004,
+      "bytes": 42170
+    },
+    {
+      "t": 1787481971.424,
+      "url": "https://antispider5.scrape.center/page/6",
+      "status": 200,
+      "wait_before_s": 35.0,
+      "elapsed_s": 1.439,
+      "bytes": 43176
+    },
+    {
+      "t": 1787482006.888,
+      "url": "https://antispider5.scrape.center/page/7",
+      "status": 200,
+      "wait_before_s": 33.9,
+      "elapsed_s": 1.141,
+      "bytes": 42400
+    },
+    {
+      "t": 1787482042.226,
+      "url": "https://antispider5.scrape.center/page/8",
+      "status": 200,
+      "wait_before_s": 34.1,
+      "elapsed_s": 1.293,
+      "bytes": 41964
+    },
+    {
+      "t": 1787482078.045,
+      "url": "https://antispider5.scrape.center/page/9",
+      "status": 200,
+      "wait_before_s": 34.4,
+      "elapsed_s": 1.172,
+      "bytes": 43121
+    },
+    {
+      "t": 1787482113.857,
+      "url": "https://antispider5.scrape.center/page/10",
+      "status": 200,
+      "wait_before_s": 34.5,
+      "elapsed_s": 1.279,
+      "bytes": 41936
+    },
+    {
+      "t": 1787482150.069,
+      "url": "https://antispider5.scrape.center/page/11",
+      "status": 500,
+      "wait_before_s": 34.7,
+      "elapsed_s": 1.353,
+      "bytes": 145
+    },
+    {
+      "t": 1787482185.785,
+      "url": "https://antispider5.scrape.center/detail/101",
+      "status": 500,
+      "wait_before_s": 34.4,
+      "elapsed_s": 2.034,
+      "bytes": 145
+    },
+    {
+      "t": 1787482221.854,
+      "url": "https://antispider5.scrape.center/detail/102",
+      "status": 500,
+      "wait_before_s": 34.0,
+      "elapsed_s": 1.962,
+      "bytes": 145
+    },
+    {
+      "t": 1787482257.795,
+      "url": "https://antispider5.scrape.center/detail/103",
+      "status": 500,
+      "wait_before_s": 34.0,
+      "elapsed_s": 1.819,
+      "bytes": 145
+    },
+    {
+      "t": 1787482293.977,
+      "url": "https://antispider5.scrape.center/detail/104",
+      "status": 500,
+      "wait_before_s": 34.4,
+      "elapsed_s": 2.039,
+      "bytes": 145
+    },
+    {
+      "t": 1787482329.966,
+      "url": "https://antispider5.scrape.center/detail/1",
+      "status": 200,
+      "wait_before_s": 33.9,
+      "elapsed_s": 1.454,
+      "bytes": 398076
+    },
+    {
+      "t": 1787482365.169,
+      "url": "https://antispider5.scrape.center/detail/2",
+      "status": 200,
+      "wait_before_s": 32.5,
+      "elapsed_s": 0.951,
+      "bytes": 194889
+    },
+    {
+      "t": 1787482401.297,
+      "url": "https://antispider5.scrape.center/detail/3",
+      "status": 200,
+      "wait_before_s": 34.7,
+      "elapsed_s": 1.125,
+      "bytes": 136124
+    },
+    {
+      "t": 1787482436.446,
+      "url": "https://antispider5.scrape.center/detail/4",
+      "status": 200,
+      "wait_before_s": 33.7,
+      "elapsed_s": 1.275,
+      "bytes": 366272
+    },
+    {
+      "t": 1787482472.847,
+      "url": "https://antispider5.scrape.center/detail/5",
+      "status": 200,
+      "wait_before_s": 34.4,
+      "elapsed_s": 0.969,
+      "bytes": 209267
+    },
+    {
+      "t": 1787482508.05,
+      "url": "https://antispider5.scrape.center/detail/6",
+      "status": 200,
+      "wait_before_s": 33.8,
+      "elapsed_s": 0.97,
+      "bytes": 194368
+    }
+  ],
+  "summary": {
+    "n": 100,
+    "score": {
+      "n_with_value": 100,
+      "min": 8.8,
+      "max": 9.5,
+      "mean": 8.97,
+      "median": 8.9,
+      "buckets": {
+        "8": 60,
+        "9": 40
+      }
+    },
+    "categories": {
+      "distinct": 22,
+      "top20": {
+        "剧情": 68,
+        "爱情": 28,
+        "奇幻": 25,
+        "冒险": 24,
+        "喜剧": 18,
+        "动作": 17,
+        "动画": 16,
+        "犯罪": 14,
+        "战争": 9,
+        "科幻": 9,
+        "家庭": 9,
+        "历史": 7,
+        "悬疑": 7,
+        "传记": 6,
+        "古装": 5,
+        "惊悚": 5,
+        "歌舞": 3,
+        "音乐": 3,
+        "纪录片": 3,
+        "武侠": 3
+      }
+    },
+    "regions": {
+      "distinct": 23,
+      "top20": {
+        "美国": 51,
+        "中国香港": 14,
+        "英国": 14,
+        "日本": 12,
+        "法国": 10,
+        "韩国": 8,
+        "意大利": 7,
+        "中国大陆": 7,
+        "德国": 6,
+        "西班牙": 3,
+        "瑞士": 3,
+        "新西兰": 3,
+        "中国台湾": 2,
+        "加拿大": 2,
+        "澳大利亚": 2,
+        "中国内地": 1,
+        "泰国": 1,
+        "西德": 1,
+        "阿联酋": 1,
+        "巴西": 1
+      }
+    }
+  },
+  "detail_samples": [
+    {
+      "title": "霸王别姬 - Farewell My Concubine",
+      "drama": "影片借一出《霸王别姬》的京戏，牵扯出三个人之间一段随时代风云变幻的爱恨情仇。段小楼（张丰毅 饰）与程蝶衣（张国荣 饰）是一对打小一起长大的师兄弟，两人一个演生，一个饰旦，一向配合天衣无缝，尤其一出《霸王别姬》，更是誉满京城，为此，两人约定合演一辈子《霸王别姬》。但两人对戏剧与人生关系的理解有本质不同，段小楼深知戏非人生，程蝶衣则是人戏不分。段小楼在认为该成家立业之时迎娶了名妓菊仙（巩俐 饰），致使程蝶衣认定菊仙是可耻的第三者，使段小楼做了叛徒，自此，三人围绕一出《霸王别姬》生出的爱恨情仇战开始随着时代风云的变迁不断升级，终酿成悲剧。",
+      "score": "9.5",
+      "categories": [
+        "剧情",
+        "爱情"
+      ],
+      "id": 1
+    },
+    {
+      "title": "这个杀手不太冷 - Léon",
+      "drama": "里昂（让·雷诺 饰）是名孤独的职业杀手，受人雇佣。一天，邻居家小姑娘马蒂尔德（纳塔丽·波特曼 饰）敲开他的房门，要求在他那里暂避杀身之祸。原来邻居家的主人是警方缉毒组的眼线，只因贪污了一小包毒品而遭恶警（加里·奥德曼 饰）杀害全家的惩罚。马蒂尔德 得到里昂的留救，幸免于难，并留在里昂那里。里昂教小女孩使枪，她教里昂法文，两人关系日趋亲密，相处融洽。 女孩想着去报仇，反倒被抓，里昂及时赶到，将女孩救回。混杂着哀怨情仇的正邪之战渐次升级，更大的冲突在所难免……",
+      "score": "9.5",
+      "categories": [
+        "剧情",
+        "动作",
+        "犯罪"
+      ],
+      "id": 2
+    },
+    {
+      "title": "肖申克的救赎 - The Shawshank Redemption",
+      "drama": "20世纪40年代末，小有成就的青年银行家安迪（蒂姆·罗宾斯 饰）因涉嫌杀害妻子及她的情人而锒铛入狱。在这座名为肖申克的监狱内，希望似乎虚无缥缈，终身监禁的惩罚无疑注定了安迪接下来灰暗绝望的人生。未过多久，安迪尝试接近囚犯中颇有声望的瑞德（摩根·弗里曼 饰），请求对方帮自己搞来小锤子。以此为契机，二人逐渐熟稔，安迪也仿佛在鱼龙混杂、罪恶横生、黑白混淆的牢狱中找到属于自己的求生之道。他利用自身的专业知识，帮助监狱管理层逃税、洗黑钱，同时凭借与瑞德的交往在犯人中间也渐渐受到礼遇。表面看来，他已如瑞德那样对那堵高墙从憎恨转变为处之泰然，但是对自由的渴望仍促使他朝着心中的希望和目标前进。而关于其罪行的真相，似乎更使这一切朝前推进了一步……",
+      "score": "9.5",
+      "categories": [
+        "剧情",
+        "犯罪"
+      ],
+      "id": 3
+    },
+    {
+      "title": "泰坦尼克号 - Titanic",
+      "drama": "1912年4月15日，载着1316号乘客和891名船员的豪华巨轮“泰坦尼克号”与冰山相撞而沉没，这场海难被认为是20世纪人间十大灾难之一。1985年，“泰坦尼克号”的沉船遗骸在北大西洋两英里半的海底被发现。美国探险家洛维特（比尔·帕克斯顿 饰）亲自潜入海底，在船舱的墙壁上看见了一幅画，洛维持的发现立刻引起了一位老妇人（格劳瑞亚·斯图尔特 饰）的注意。已经是101岁高龄的露丝称她就是画中的少女。在潜水舱里，露丝开始叙述当年在船上发生的故事。年轻的贵族少女露丝（凯特·温丝莱特 饰）与穷画家杰克（莱昂纳多·迪卡普里奥 饰）不顾世俗的偏见坠入爱河，然而就在1912年4月14日，一个风平浪静的夜晚，泰坦尼克号撞上了冰山，“永不沉没的”泰坦尼克号面临沉船的命运，罗丝和杰克刚萌芽的爱情也将经历生死的考验，最终不得不永世相隔。老态龙钟的罗丝讲完这段哀恸天地的爱情之后，把那串价值连城的项链“海洋之心”沉入海底，让它陪着杰克和这段爱情长眠海底。",
+      "score": "9.5",
+      "categories": [
+        "剧情",
+        "爱情",
+        "灾难"
+      ],
+      "id": 4
+    },
+    {
+      "title": "罗马假日 - Roman Holiday",
+      "drama": "欧洲某国的安妮公主（奥黛丽·赫本 饰）到访罗马，国务烦身，但她又厌倦繁文缛节。一天晚上，身心俱疲的她偷偷来到民间欣赏夜景，巧遇报社记者乔（格利高里·派克 饰）。二人把手同游，相当快乐。公主更是到乔的家中作客并在那过夜。不料乔无意中发现了公主的真实身份，他决定炮制一个独家新闻，于是乔和朋友、摄影师欧文（埃迪·艾伯特 饰）一起带公主同游罗马，并且偷拍了公主的很多生活照。然而，在接下来与公主的相处中，乔不知不觉恋上了公主。为了保护公主的形象，乔只能忍痛抛弃功成名就的良机，将照片送予了公主。安妮公主在经历了罗马一日假期后，反而体验了自己对国家的责任，毅然返回了大使馆，为了本身的责任而果断抛弃了爱情。",
+      "score": "9.5",
+      "categories": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "id": 5
+    },
+    {
+      "title": "唐伯虎点秋香 - Flirting Scholar",
+      "drama": "唐伯虎（周星驰 饰）身为江南四大才子之首，却有道不尽的心酸。宁王想让唐伯虎帮其图谋作反，被唐伯虎拒绝意淫结仇。唐伯虎在与朋友出游时，遇到了貌若天仙的秋香（巩俐 饰）并对她一见钟情，决心要到华府当家丁以追求秋香，唐伯虎被取名华安。期间华太师遇到了宁王上门刁难，幸好有唐伯虎出面相助，并暴露了自己是唐伯虎的身份。秋香才知道华安是自己欣赏的唐伯虎。华夫人跟唐家有怨，因此二人便开始斗法。怎料宁王跟夺命书生再次上门，华夫人不是对手，幸得唐伯虎出手，华夫人也答应把秋香许配给唐伯虎。",
+      "score": "9.5",
+      "categories": [
+        "喜剧",
+        "爱情",
+        "古装"
+      ],
+      "id": 6
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "霸王别姬",
+      "name_en": "Farewell My Concubine",
+      "categories": [
+        "剧情",
+        "爱情"
+      ],
+      "regions": [
+        "中国内地",
+        "中国香港"
+      ],
+      "duration": "171 分钟",
+      "published_at": "1993-07-26",
+      "score": 9.5,
+      "cover": "https://p0.meituan.net/movie/ce4da3e03e655b5b88ed31b5cd7896cf62472.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/1"
+    },
+    {
+      "id": 2,
+      "name": "这个杀手不太冷",
+      "name_en": "Léon",
+      "categories": [
+        "剧情",
+        "动作",
+        "犯罪"
+      ],
+      "regions": [
+        "法国"
+      ],
+      "duration": "110 分钟",
+      "published_at": "1994-09-14",
+      "score": 9.5,
+      "cover": "https://p1.meituan.net/movie/6bea9af4524dfbd0b668eaa7e187c3df767253.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/2"
+    },
+    {
+      "id": 3,
+      "name": "肖申克的救赎",
+      "name_en": "The Shawshank Redemption",
+      "categories": [
+        "剧情",
+        "犯罪"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "142 分钟",
+      "published_at": "1994-09-10",
+      "score": 9.5,
+      "cover": "https://p0.meituan.net/movie/283292171619cdfd5b240c8fd093f1eb255670.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/3"
+    },
+    {
+      "id": 4,
+      "name": "泰坦尼克号",
+      "name_en": "Titanic",
+      "categories": [
+        "剧情",
+        "爱情",
+        "灾难"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "194 分钟",
+      "published_at": "1998-04-03",
+      "score": 9.5,
+      "cover": "https://p1.meituan.net/movie/b607fba7513e7f15eab170aac1e1400d878112.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/4"
+    },
+    {
+      "id": 5,
+      "name": "罗马假日",
+      "name_en": "Roman Holiday",
+      "categories": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "118 分钟",
+      "published_at": "1953-08-20",
+      "score": 9.5,
+      "cover": "https://p0.meituan.net/movie/289f98ceaa8a0ae737d3dc01cd05ab052213631.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/5"
+    },
+    {
+      "id": 6,
+      "name": "唐伯虎点秋香",
+      "name_en": "Flirting Scholar",
+      "categories": [
+        "喜剧",
+        "爱情",
+        "古装"
+      ],
+      "regions": [
+        "中国香港"
+      ],
+      "duration": "102 分钟",
+      "published_at": "1993-07-01",
+      "score": 9.5,
+      "cover": "https://p0.meituan.net/movie/da64660f82b98cdc1b8a3804e69609e041108.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/6"
+    },
+    {
+      "id": 7,
+      "name": "乱世佳人",
+      "name_en": "Gone with the Wind",
+      "categories": [
+        "剧情",
+        "爱情",
+        "历史",
+        "战争"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "238 分钟",
+      "published_at": "1939-12-15",
+      "score": 9.5,
+      "cover": "https://p0.meituan.net/movie/223c3e186db3ab4ea3bb14508c709400427933.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/7"
+    },
+    {
+      "id": 8,
+      "name": "喜剧之王",
+      "name_en": "The King of Comedy",
+      "categories": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "regions": [
+        "中国香港"
+      ],
+      "duration": "85 分钟",
+      "published_at": "1999-02-13",
+      "score": 9.5,
+      "cover": "https://p0.meituan.net/movie/1f0d671f6a37f9d7b015e4682b8b113e174332.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/8"
+    },
+    {
+      "id": 9,
+      "name": "楚门的世界",
+      "name_en": "The Truman Show",
+      "categories": [
+        "剧情",
+        "科幻"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "103 分钟",
+      "published_at": "",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/8959888ee0c399b0fe53a714bc8a5a17460048.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/9"
+    },
+    {
+      "id": 10,
+      "name": "狮子王",
+      "name_en": "The Lion King",
+      "categories": [
+        "动画",
+        "歌舞",
+        "冒险"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "89 分钟",
+      "published_at": "1995-07-15",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/27b76fe6cf3903f3d74963f70786001e1438406.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/10"
+    },
+    {
+      "id": 11,
+      "name": "V字仇杀队",
+      "name_en": "V for Vendetta",
+      "categories": [
+        "剧情",
+        "动作",
+        "科幻",
+        "惊悚"
+      ],
+      "regions": [
+        "美国",
+        "英国",
+        "德国"
+      ],
+      "duration": "132 分钟",
+      "published_at": "2005-12-11",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/06ec3c1c647942b1e40bca84036014e9490863.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/11"
+    },
+    {
+      "id": 12,
+      "name": "少年派的奇幻漂流",
+      "name_en": "Life of Pi",
+      "categories": [
+        "剧情",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "美国",
+        "中国台湾",
+        "英国",
+        "加拿大"
+      ],
+      "duration": "127 分钟",
+      "published_at": "2012-11-22",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/34998e31c6d07475f1add6b8b16fd21d192579.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/12"
+    },
+    {
+      "id": 13,
+      "name": "美丽心灵",
+      "name_en": "A Beautiful Mind",
+      "categories": [
+        "剧情",
+        "传记"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "135 分钟",
+      "published_at": "2001-12-13",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/7b7d1f8aa36d7a15463ce6942708a1a7265296.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/13"
+    },
+    {
+      "id": 14,
+      "name": "初恋这件小事",
+      "name_en": "สิ่งเล็กเล็กที่เรียกว่า...รัก",
+      "categories": [
+        "喜剧",
+        "爱情"
+      ],
+      "regions": [
+        "泰国"
+      ],
+      "duration": "118 分钟",
+      "published_at": "2012-06-05",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/05bc2f0ccf97aacfa64fcac4f237cf8082385.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/14"
+    },
+    {
+      "id": 15,
+      "name": "借东西的小人阿莉埃蒂",
+      "name_en": "借りぐらしのアリエッティ",
+      "categories": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "日本"
+      ],
+      "duration": "94 分钟",
+      "published_at": "2010-07-17",
+      "score": 8.8,
+      "cover": "https://p1.meituan.net/movie/640cc32445df972b066c9a04b194da141104515.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/15"
+    },
+    {
+      "id": 16,
+      "name": "一一",
+      "name_en": "Yi yi: A One and a Two",
+      "categories": [
+        "剧情",
+        "爱情",
+        "家庭"
+      ],
+      "regions": [
+        "中国台湾",
+        "日本"
+      ],
+      "duration": "173 分钟",
+      "published_at": "2000-05-15",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/6cb23356f9d8e0b506349561c633310d102189.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/16"
+    },
+    {
+      "id": 17,
+      "name": "美丽人生",
+      "name_en": "La vita è bella",
+      "categories": [
+        "战争",
+        "剧情",
+        "爱情"
+      ],
+      "regions": [
+        "意大利"
+      ],
+      "duration": "116 分钟",
+      "published_at": "2020-01-03",
+      "score": 9.1,
+      "cover": "https://p1.meituan.net/movie/580d81a2c78bf204f45323ddb4244b6c6821175.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/17"
+    },
+    {
+      "id": 18,
+      "name": "海上钢琴师",
+      "name_en": "La leggenda del pianista sull'oceano",
+      "categories": [
+        "剧情",
+        "爱情",
+        "音乐"
+      ],
+      "regions": [
+        "意大利"
+      ],
+      "duration": "126 分钟",
+      "published_at": "2019-11-15",
+      "score": 9.1,
+      "cover": "https://p0.meituan.net/movie/609e45bd40346eb8b927381be8fb27a61760914.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/18"
+    },
+    {
+      "id": 19,
+      "name": "千与千寻",
+      "name_en": "千と千尋の神隠し",
+      "categories": [
+        "动画",
+        "冒险",
+        "奇幻",
+        "家庭"
+      ],
+      "regions": [
+        "日本"
+      ],
+      "duration": "125 分钟",
+      "published_at": "2019-06-21",
+      "score": 9.1,
+      "cover": "https://p0.meituan.net/movie/30b20139e68c46d02e0893277d633b701292458.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/19"
+    },
+    {
+      "id": 20,
+      "name": "迁徙的鸟",
+      "name_en": "The Travelling Birds",
+      "categories": [
+        "纪录片"
+      ],
+      "regions": [
+        "法国",
+        "德国",
+        "意大利",
+        "西班牙",
+        "瑞士"
+      ],
+      "duration": "98 分钟",
+      "published_at": "2001-12-12",
+      "score": 9.1,
+      "cover": "https://p1.meituan.net/movie/a1634f4e49c8517ae0a3e4adcac6b0dc43994.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/20"
+    },
+    {
+      "id": 21,
+      "name": "黄金三镖客",
+      "name_en": "Il buono, il brutto, il cattivo.",
+      "categories": [
+        "西部",
+        "冒险"
+      ],
+      "regions": [
+        "意大利",
+        "西班牙",
+        "西德"
+      ],
+      "duration": "161 分钟",
+      "published_at": "1966-12-23",
+      "score": 9.1,
+      "cover": "https://p0.meituan.net/movie/cd18ed2c5cda9e71e17e5e6ef61ced172912303.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/21"
+    },
+    {
+      "id": 22,
+      "name": "海洋",
+      "name_en": "Océans",
+      "categories": [
+        "纪录片"
+      ],
+      "regions": [
+        "法国",
+        "瑞士",
+        "西班牙",
+        "美国",
+        "阿联酋"
+      ],
+      "duration": "104 分钟",
+      "published_at": "2011-08-12",
+      "score": 9.1,
+      "cover": "https://p1.meituan.net/movie/a19a7f64a10e133b68de87d2f3bc46f3111417.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/22"
+    },
+    {
+      "id": 23,
+      "name": "我爱你",
+      "name_en": "그대를 사랑합니다",
+      "categories": [
+        "剧情",
+        "爱情"
+      ],
+      "regions": [
+        "韩国"
+      ],
+      "duration": "118 分钟",
+      "published_at": "2011-02-17",
+      "score": 9.1,
+      "cover": "https://p1.meituan.net/movie/ed50b58bf636d207c56989872a91f4cf305138.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/23"
+    },
+    {
+      "id": 24,
+      "name": "阿飞正传",
+      "name_en": "Days of Being Wild",
+      "categories": [
+        "剧情",
+        "爱情",
+        "犯罪"
+      ],
+      "regions": [
+        "中国香港"
+      ],
+      "duration": "94 分钟",
+      "published_at": "2018-06-25",
+      "score": 9.1,
+      "cover": "https://p0.meituan.net/movie/85215b28d568ea8e2c97766edd95f890210522.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/24"
+    },
+    {
+      "id": 36,
+      "name": "7号房的礼物",
+      "name_en": "7번방의 선물",
+      "categories": [
+        "剧情",
+        "喜剧",
+        "家庭"
+      ],
+      "regions": [
+        "韩国"
+      ],
+      "duration": "127 分钟",
+      "published_at": "2013-01-23",
+      "score": 8.8,
+      "cover": "https://p1.meituan.net/movie/a53a0200eba15ba483c905c872db9bf4331099.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/36"
+    },
+    {
+      "id": 25,
+      "name": "爱·回家",
+      "name_en": "집으로...",
+      "categories": [
+        "剧情",
+        "家庭"
+      ],
+      "regions": [
+        "韩国"
+      ],
+      "duration": "80 分钟",
+      "published_at": "2002-04-05",
+      "score": 9.1,
+      "cover": "https://p0.meituan.net/movie/de1142a5dceb901eb939eb0bcfc2f88470909.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/25"
+    },
+    {
+      "id": 26,
+      "name": "龙猫",
+      "name_en": "となりのトトロ",
+      "categories": [
+        "动画",
+        "冒险",
+        "奇幻",
+        "家庭"
+      ],
+      "regions": [
+        "日本"
+      ],
+      "duration": "86 分钟",
+      "published_at": "2018-12-14",
+      "score": 9.1,
+      "cover": "https://p0.meituan.net/movie/c304c687e287c7c2f9e22cf78257872d277201.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/26"
+    },
+    {
+      "id": 27,
+      "name": "七武士",
+      "name_en": "七人の侍",
+      "categories": [
+        "剧情",
+        "动作",
+        "冒险"
+      ],
+      "regions": [
+        "日本"
+      ],
+      "duration": "207 分钟",
+      "published_at": "1954-04-26",
+      "score": 8.8,
+      "cover": "https://p1.meituan.net/movie/4ffca83fd972f71e291f8ea8d78a4b58594878.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/27"
+    },
+    {
+      "id": 28,
+      "name": "美国往事",
+      "name_en": "Once Upon a Time in America",
+      "categories": [
+        "剧情",
+        "犯罪"
+      ],
+      "regions": [
+        "意大利",
+        "美国"
+      ],
+      "duration": "229 分钟",
+      "published_at": "2015-04-23",
+      "score": 8.8,
+      "cover": "https://p1.meituan.net/movie/92198a6fc8c3f5d13aa1bdf203572c0f99438.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/28"
+    },
+    {
+      "id": 29,
+      "name": "完美的世界",
+      "name_en": "A Perfect World",
+      "categories": [
+        "剧情",
+        "犯罪"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "138 分钟",
+      "published_at": "1993-11-24",
+      "score": 8.8,
+      "cover": "https://p1.meituan.net/movie/30310858fdab34c7a17cfd7ec8ad8bfc112201.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/29"
+    },
+    {
+      "id": 30,
+      "name": "上帝之城",
+      "name_en": "Cidade de Deus",
+      "categories": [
+        "剧情",
+        "犯罪"
+      ],
+      "regions": [
+        "巴西",
+        "法国"
+      ],
+      "duration": "130 分钟",
+      "published_at": "",
+      "score": 8.8,
+      "cover": "https://p1.meituan.net/movie/b553d13f30100db731ab6cf45668e52d94703.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/30"
+    },
+    {
+      "id": 31,
+      "name": "辩护人",
+      "name_en": "변호인",
+      "categories": [
+        "剧情"
+      ],
+      "regions": [
+        "韩国"
+      ],
+      "duration": "127 分钟",
+      "published_at": "2013-12-18",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/1433d81b10d116239dbbf02a06ac3c19265682.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/31"
+    },
+    {
+      "id": 32,
+      "name": "忠犬八公物语",
+      "name_en": "ハチ公物語",
+      "categories": [
+        "剧情"
+      ],
+      "regions": [
+        "日本"
+      ],
+      "duration": "107 分钟",
+      "published_at": "1987-08-01",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/2d42e00d7ee59ff5bd574f93b8558aa726665.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/32"
+    },
+    {
+      "id": 33,
+      "name": "海豚湾",
+      "name_en": "The Cove",
+      "categories": [
+        "纪录片"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "92 分钟",
+      "published_at": "2009-07-31",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/eb2ea56996f21e7fb47b1a0736c7f177258901.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/33"
+    },
+    {
+      "id": 34,
+      "name": "英雄本色",
+      "name_en": "A Better Tomorrow",
+      "categories": [
+        "剧情",
+        "动作",
+        "犯罪"
+      ],
+      "regions": [
+        "中国香港"
+      ],
+      "duration": "95 分钟",
+      "published_at": "2017-11-17",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/3e5f5f3aa4b7e5576521e26c2c7c894d253975.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/34"
+    },
+    {
+      "id": 35,
+      "name": "恐怖直播",
+      "name_en": "더 테러 라이브",
+      "categories": [
+        "剧情",
+        "悬疑",
+        "犯罪"
+      ],
+      "regions": [
+        "韩国"
+      ],
+      "duration": "97 分钟",
+      "published_at": "2013-07-31",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/1da0af2570fe697d38c4a37fdfded19b254936.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/35"
+    },
+    {
+      "id": 37,
+      "name": "窃听风暴",
+      "name_en": "Das Leben der Anderen",
+      "categories": [
+        "剧情",
+        "悬疑"
+      ],
+      "regions": [
+        "德国"
+      ],
+      "duration": "137 分钟",
+      "published_at": "2006-03-23",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/3985eaf3858bea0f2a3d966bf7ee2103178217.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/37"
+    },
+    {
+      "id": 38,
+      "name": "时空恋旅人",
+      "name_en": "About Time",
+      "categories": [
+        "喜剧",
+        "爱情",
+        "奇幻"
+      ],
+      "regions": [
+        "英国"
+      ],
+      "duration": "123 分钟",
+      "published_at": "2013-09-04",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/6d8491386d07cda91967a6fbbd0d0788294693.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/38"
+    },
+    {
+      "id": 39,
+      "name": "穿条纹睡衣的男孩",
+      "name_en": "The Boy in the Striped Pajamas",
+      "categories": [
+        "剧情",
+        "战争"
+      ],
+      "regions": [
+        "英国",
+        "美国"
+      ],
+      "duration": "94 分钟",
+      "published_at": "2008-08-28",
+      "score": 8.8,
+      "cover": "https://p1.meituan.net/movie/d5970e36c8868a4b746c80f3b3f8a404174615.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/39"
+    },
+    {
+      "id": 40,
+      "name": "教父",
+      "name_en": "The Godfather",
+      "categories": [
+        "剧情",
+        "犯罪"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "175 分钟",
+      "published_at": "2015-04-18",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/1199dc6273680f175fd9b06c9c36d08a219658.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/40"
+    },
+    {
+      "id": 41,
+      "name": "萤火之森",
+      "name_en": "蛍火の杜へ",
+      "categories": [
+        "剧情",
+        "爱情",
+        "动画",
+        "奇幻"
+      ],
+      "regions": [
+        "日本"
+      ],
+      "duration": "45 分钟",
+      "published_at": "2011-09-17",
+      "score": 8.8,
+      "cover": "https://p1.meituan.net/movie/4c55f3bf5fa9660db3cb7014651a0950267034.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/41"
+    },
+    {
+      "id": 42,
+      "name": "素媛",
+      "name_en": "소원",
+      "categories": [
+        "剧情"
+      ],
+      "regions": [
+        "韩国"
+      ],
+      "duration": "123 分钟",
+      "published_at": "2013-10-02",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/19653e8af59cf473cd40f9ccc0658d93692304.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/42"
+    },
+    {
+      "id": 43,
+      "name": "小鞋子",
+      "name_en": "بچههای آسمان",
+      "categories": [
+        "剧情",
+        "家庭"
+      ],
+      "regions": [
+        "伊朗"
+      ],
+      "duration": "89 分钟",
+      "published_at": "",
+      "score": 8.8,
+      "cover": "https://p1.meituan.net/movie/135c612860fae899df2220149664d97a173555.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/43"
+    },
+    {
+      "id": 44,
+      "name": "熔炉",
+      "name_en": "도가니",
+      "categories": [
+        "剧情"
+      ],
+      "regions": [
+        "韩国"
+      ],
+      "duration": "125 分钟",
+      "published_at": "2011-09-22",
+      "score": 8.8,
+      "cover": "https://p1.meituan.net/movie/2a0783b4fd95566568f24adfad2181bb5392280.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/44"
+    },
+    {
+      "id": 45,
+      "name": "大话西游之大圣娶亲",
+      "name_en": "A Chinese Odyssey Part Two - Cinderella",
+      "categories": [
+        "喜剧",
+        "爱情",
+        "奇幻"
+      ],
+      "regions": [
+        "中国香港",
+        "中国大陆"
+      ],
+      "duration": "110 分钟",
+      "published_at": "2014-10-24",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/moviemachine/508056769092059fe43a611b949f27d14863831.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/45"
+    },
+    {
+      "id": 46,
+      "name": "新龙门客栈",
+      "name_en": "New Dragon Gate Inn",
+      "categories": [
+        "动作",
+        "爱情",
+        "武侠",
+        "古装"
+      ],
+      "regions": [
+        "中国香港",
+        "中国大陆"
+      ],
+      "duration": "88 分钟",
+      "published_at": "2012-02-24",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/7833126c8c21a11571bb52fbdece0acb811449.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/46"
+    },
+    {
+      "id": 47,
+      "name": "触不可及",
+      "name_en": "Intouchables",
+      "categories": [
+        "剧情",
+        "喜剧"
+      ],
+      "regions": [
+        "法国"
+      ],
+      "duration": "112 分钟",
+      "published_at": "2011-11-02",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/1e700e53e4fe29dd5942381bb353c8532239179.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/47"
+    },
+    {
+      "id": 48,
+      "name": "钢琴家",
+      "name_en": "The Pianist",
+      "categories": [
+        "剧情",
+        "音乐",
+        "传记",
+        "历史",
+        "战争"
+      ],
+      "regions": [
+        "法国",
+        "德国",
+        "英国",
+        "波兰"
+      ],
+      "duration": "150 分钟",
+      "published_at": "2002-05-24",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/bcbe59fc51580317adf94537a61a1a26142090.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/48"
+    },
+    {
+      "id": 49,
+      "name": "本杰明·巴顿奇事",
+      "name_en": "The Curious Case of Benjamin Button",
+      "categories": [
+        "剧情",
+        "爱情",
+        "奇幻"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "166 分钟",
+      "published_at": "2008-12-25",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/2526f77c650bf7cf3d5ee2dccdeac332244951.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/49"
+    },
+    {
+      "id": 50,
+      "name": "倩女幽魂",
+      "name_en": "A Chinese Ghost Story",
+      "categories": [
+        "爱情",
+        "奇幻",
+        "武侠",
+        "古装"
+      ],
+      "regions": [
+        "中国香港"
+      ],
+      "duration": "98 分钟",
+      "published_at": "2011-04-30",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/96d98200d2afb4b87ff189f9c15b6545568339.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/50"
+    },
+    {
+      "id": 51,
+      "name": "哈利·波特与死亡圣器（下）",
+      "name_en": "Harry Potter and the Deathly Hallows: Part 2",
+      "categories": [
+        "剧情",
+        "悬疑",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "英国",
+        "美国"
+      ],
+      "duration": "130 分钟",
+      "published_at": "2011-08-04",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/bb0eca029cd25329776a4549b3fbe262924727.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/51"
+    },
+    {
+      "id": 52,
+      "name": "甜蜜蜜",
+      "name_en": "Comrades: Almost a Love Story",
+      "categories": [
+        "剧情",
+        "爱情"
+      ],
+      "regions": [
+        "中国香港"
+      ],
+      "duration": "118 分钟",
+      "published_at": "2015-02-13",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/0b0d45b58946078dd24d4945dd6be3b51329411.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/52"
+    },
+    {
+      "id": 53,
+      "name": "蝙蝠侠：黑暗骑士崛起",
+      "name_en": "The Dark Knight Rises",
+      "categories": [
+        "剧情",
+        "动作",
+        "科幻",
+        "惊悚",
+        "犯罪"
+      ],
+      "regions": [
+        "美国",
+        "英国"
+      ],
+      "duration": "165 分钟",
+      "published_at": "2012-08-27",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/f7f4b4099773268f8290ed033f49dc01377512.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/53"
+    },
+    {
+      "id": 54,
+      "name": "鬼子来了",
+      "name_en": "Devils on the Doorstep",
+      "categories": [
+        "剧情",
+        "战争"
+      ],
+      "regions": [
+        "中国大陆"
+      ],
+      "duration": "139 分钟",
+      "published_at": "2000-05-13",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/34f9202c5e823f490ffec4c69d5d0028137395.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/54"
+    },
+    {
+      "id": 55,
+      "name": "无敌破坏王",
+      "name_en": "Wreck-It Ralph",
+      "categories": [
+        "喜剧",
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "101 分钟",
+      "published_at": "2012-11-06",
+      "score": 8.8,
+      "cover": "https://p1.meituan.net/movie/70a574550c4bb928dcc6a40641294785150838.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/55"
+    },
+    {
+      "id": 56,
+      "name": "致命魔术",
+      "name_en": "The Prestige",
+      "categories": [
+        "剧情",
+        "悬疑",
+        "惊悚"
+      ],
+      "regions": [
+        "美国",
+        "英国"
+      ],
+      "duration": "130 分钟",
+      "published_at": "2006-10-17",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/83df1c541e6e0696e67ce7da81cb1e1a251258.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/56"
+    },
+    {
+      "id": 57,
+      "name": "神偷奶爸",
+      "name_en": "Despicable Me",
+      "categories": [
+        "喜剧",
+        "动画",
+        "冒险"
+      ],
+      "regions": [
+        "美国",
+        "法国"
+      ],
+      "duration": "95 分钟",
+      "published_at": "2010-06-20",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/85c2bfba6025bfbfb53291ae5924c215308805.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/57"
+    },
+    {
+      "id": 58,
+      "name": "断背山",
+      "name_en": "Brokeback Mountain",
+      "categories": [
+        "剧情",
+        "爱情",
+        "家庭"
+      ],
+      "regions": [
+        "美国",
+        "加拿大"
+      ],
+      "duration": "134 分钟",
+      "published_at": "2005-09-02",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/e71affe126eeb4f8bfcc738cbddeebc8288766.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/58"
+    },
+    {
+      "id": 59,
+      "name": "怦然心动",
+      "name_en": "Flipped",
+      "categories": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "90 分钟",
+      "published_at": "2010-07-26",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/15f1ac49b6d1ff7b71207672993ed6901536456.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/59"
+    },
+    {
+      "id": 60,
+      "name": "驯龙高手",
+      "name_en": "How to Train Your Dragon",
+      "categories": [
+        "喜剧",
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "98 分钟",
+      "published_at": "2010-05-14",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/b0d97e4158b47d653d7a81d66f7dd3092146907.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/60"
+    },
+    {
+      "id": 61,
+      "name": "飞屋环游记",
+      "name_en": "Up",
+      "categories": [
+        "剧情",
+        "喜剧",
+        "动画",
+        "冒险"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "96 分钟",
+      "published_at": "2009-08-04",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/f9356a376358f1576da3263d998eca7a94624.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/61"
+    },
+    {
+      "id": 62,
+      "name": "黑客帝国3：矩阵革命",
+      "name_en": "The Matrix Revolutions",
+      "categories": [
+        "动作",
+        "科幻"
+      ],
+      "regions": [
+        "美国",
+        "澳大利亚"
+      ],
+      "duration": "129 分钟",
+      "published_at": "2003-11-05",
+      "score": 8.8,
+      "cover": "https://p0.meituan.net/movie/2e383b5f5f306f10f9f26d9f1c28cf1d825537.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/62"
+    },
+    {
+      "id": 63,
+      "name": "速度与激情5",
+      "name_en": "Fast Five",
+      "categories": [
+        "动作",
+        "犯罪"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "130 分钟",
+      "published_at": "2011-05-12",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/845ce32778a1b3f258de089f91a3979b5766154.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/63"
+    },
+    {
+      "id": 64,
+      "name": "勇敢的心",
+      "name_en": "Braveheart",
+      "categories": [
+        "剧情",
+        "动作",
+        "传记",
+        "历史",
+        "战争"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "177 分钟",
+      "published_at": "1995-05-18",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/f8e9d5a90224746d15dfdbd53d4fae3d209420.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/64"
+    },
+    {
+      "id": 65,
+      "name": "三傻大闹宝莱坞",
+      "name_en": "3 Idiots",
+      "categories": [
+        "剧情",
+        "喜剧",
+        "爱情",
+        "歌舞"
+      ],
+      "regions": [
+        "印度"
+      ],
+      "duration": "171 分钟",
+      "published_at": "2011-12-08",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/ca4a128a5a54d5b5e35ceba622636c831810197.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/65"
+    },
+    {
+      "id": 66,
+      "name": "闻香识女人",
+      "name_en": "Scent of a Woman",
+      "categories": [
+        "剧情"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "157 分钟",
+      "published_at": "1992-12-23",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/8d7b0b902afd4ec1a3dd7a9c6149463c187734.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/66"
+    },
+    {
+      "id": 67,
+      "name": "末代皇帝",
+      "name_en": "The Last Emperor",
+      "categories": [
+        "剧情",
+        "传记",
+        "历史"
+      ],
+      "regions": [
+        "英国",
+        "意大利",
+        "中国大陆",
+        "法国",
+        "美国"
+      ],
+      "duration": "163 分钟",
+      "published_at": "1987-10-23",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/21b9211eb1094af360842472018db634286646.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/67"
+    },
+    {
+      "id": 68,
+      "name": "风之谷",
+      "name_en": "風の谷のナウシカ",
+      "categories": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "日本"
+      ],
+      "duration": "117 分钟",
+      "published_at": "",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/4f9638ba234c3fb673f23a09968db875371576.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/68"
+    },
+    {
+      "id": 69,
+      "name": "大话西游之月光宝盒",
+      "name_en": "A Chinese Odyssey",
+      "categories": [
+        "喜剧",
+        "爱情",
+        "奇幻",
+        "古装"
+      ],
+      "regions": [
+        "中国香港",
+        "中国大陆"
+      ],
+      "duration": "87 分钟",
+      "published_at": "2014-10-24",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/396266d8b711958841b3536a3fa7b868211445.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/69"
+    },
+    {
+      "id": 70,
+      "name": "放牛班的春天",
+      "name_en": "Les choristes",
+      "categories": [
+        "剧情",
+        "音乐"
+      ],
+      "regions": [
+        "法国",
+        "德国",
+        "瑞士"
+      ],
+      "duration": "97 分钟",
+      "published_at": "2004-10-16",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/70de97ebb6b5251ecb7c3f6d7a782a7f189340.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/70"
+    },
+    {
+      "id": 71,
+      "name": "当幸福来敲门",
+      "name_en": "The Pursuit of Happyness",
+      "categories": [
+        "剧情",
+        "家庭",
+        "传记"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "117 分钟",
+      "published_at": "2008-01-17",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/7d1d85610651dbe1c8687781a87d1008184950.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/71"
+    },
+    {
+      "id": 72,
+      "name": "幽灵公主",
+      "name_en": "もののけ姫",
+      "categories": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "日本"
+      ],
+      "duration": "134 分钟",
+      "published_at": "1998-05-01",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/a08f65e6cb50fab32df5da69ff116f593095363.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/72"
+    },
+    {
+      "id": 73,
+      "name": "十二怒汉",
+      "name_en": "12 Angry Men",
+      "categories": [
+        "剧情"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "96 分钟",
+      "published_at": "1957-04-13",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/df15efd261060d3094a73ef679888d4f238149.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/73"
+    },
+    {
+      "id": 74,
+      "name": "搏击俱乐部",
+      "name_en": "Fight Club",
+      "categories": [
+        "剧情",
+        "动作",
+        "悬疑",
+        "惊悚"
+      ],
+      "regions": [
+        "美国",
+        "德国"
+      ],
+      "duration": "139 分钟",
+      "published_at": "1999-09-10",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/b3defc07dfaa1b6f5b74852ce38a3f8f242792.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/74"
+    },
+    {
+      "id": 75,
+      "name": "疯狂原始人",
+      "name_en": "The Croods",
+      "categories": [
+        "喜剧",
+        "动画",
+        "冒险"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "98 分钟",
+      "published_at": "2013-04-20",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/bc022b86345c643ca21d759166f77a553679589.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/75"
+    },
+    {
+      "id": 76,
+      "name": "阿凡达",
+      "name_en": "Avatar",
+      "categories": [
+        "动作",
+        "科幻",
+        "冒险"
+      ],
+      "regions": [
+        "美国",
+        "英国"
+      ],
+      "duration": "162 分钟",
+      "published_at": "2010-01-04",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/e540384dc6c9f63bdb27cc554588a77f44305.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/76"
+    },
+    {
+      "id": 77,
+      "name": "哈尔的移动城堡",
+      "name_en": "ハウルの動く城",
+      "categories": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "日本"
+      ],
+      "duration": "119 分钟",
+      "published_at": "2004-09-05",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/0127b451d5b8f0679c6f81c8ed414bb2432442.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/77"
+    },
+    {
+      "id": 78,
+      "name": "盗梦空间",
+      "name_en": "Inception",
+      "categories": [
+        "剧情",
+        "科幻",
+        "悬疑",
+        "冒险"
+      ],
+      "regions": [
+        "美国",
+        "英国"
+      ],
+      "duration": "148 分钟",
+      "published_at": "2010-09-01",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/d40efe1183f29d5900f5c60be3c8a89d339225.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/78"
+    },
+    {
+      "id": 79,
+      "name": "忠犬八公的故事",
+      "name_en": "Hachi: A Dog's Tale",
+      "categories": [
+        "剧情"
+      ],
+      "regions": [
+        "美国",
+        "英国"
+      ],
+      "duration": "93 分钟",
+      "published_at": "2009-06-13",
+      "score": 8.9,
+      "cover": "https://p0.meituan.net/movie/5f0a709378d6b567807aa9685610f818282136.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/79"
+    },
+    {
+      "id": 80,
+      "name": "拯救大兵瑞恩",
+      "name_en": "Saving Private Ryan",
+      "categories": [
+        "剧情",
+        "历史",
+        "战争"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "169 分钟",
+      "published_at": "1998-11-13",
+      "score": 8.9,
+      "cover": "https://p1.meituan.net/movie/a2a287c77415dc1f85b04d288f7d63ab1089754.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/80"
+    },
+    {
+      "id": 81,
+      "name": "活着",
+      "name_en": "To Live",
+      "categories": [
+        "剧情",
+        "家庭",
+        "历史"
+      ],
+      "regions": [
+        "中国大陆",
+        "中国香港"
+      ],
+      "duration": "132 分钟",
+      "published_at": "1994-05-17",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/4c41068ef7608c1d4fbfbe6016e589f7204391.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/81"
+    },
+    {
+      "id": 82,
+      "name": "机器人总动员",
+      "name_en": "WALL·E",
+      "categories": [
+        "喜剧",
+        "科幻",
+        "动画"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "98 分钟",
+      "published_at": "2008-06-27",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/267dd2483f0fb57081474c00fbea38451415571.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/82"
+    },
+    {
+      "id": 83,
+      "name": "天堂电影院",
+      "name_en": "Nuovo Cinema Paradiso",
+      "categories": [
+        "剧情",
+        "爱情"
+      ],
+      "regions": [
+        "意大利",
+        "法国"
+      ],
+      "duration": "155 分钟",
+      "published_at": "1988-11-17",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/76fc92cfa6c8f2959431b8aa604ef7ae126414.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/83"
+    },
+    {
+      "id": 84,
+      "name": "指环王2：双塔奇兵",
+      "name_en": "The Lord of the Rings: The Two Towers",
+      "categories": [
+        "剧情",
+        "动作",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "美国",
+        "新西兰"
+      ],
+      "duration": "179 分钟",
+      "published_at": "2003-04-25",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/02bb9fd161c05bad6089133098efcdb5546589.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/84"
+    },
+    {
+      "id": 85,
+      "name": "指环王1：护戒使者",
+      "name_en": "The Lord of the Rings: The Fellowship of the Ring",
+      "categories": [
+        "剧情",
+        "动作",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "新西兰",
+        "美国"
+      ],
+      "duration": "178 分钟",
+      "published_at": "2002-04-04",
+      "score": 9.0,
+      "cover": "https://p1.meituan.net/movie/dd08154878aac7c8c649fe3eeb8ccd0a2498277.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/85"
+    },
+    {
+      "id": 86,
+      "name": "射雕英雄传之东成西就",
+      "name_en": "The Eagle Shooting Heroes",
+      "categories": [
+        "喜剧",
+        "奇幻",
+        "武侠",
+        "古装"
+      ],
+      "regions": [
+        "中国香港"
+      ],
+      "duration": "113 分钟",
+      "published_at": "1993-02-05",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/86c5190ba1d1236093c13f2fe9ed8dd4150050.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/86"
+    },
+    {
+      "id": 87,
+      "name": "蝙蝠侠：黑暗骑士",
+      "name_en": "The Dark Knight",
+      "categories": [
+        "剧情",
+        "动作",
+        "科幻",
+        "惊悚",
+        "犯罪"
+      ],
+      "regions": [
+        "美国",
+        "英国"
+      ],
+      "duration": "152 分钟",
+      "published_at": "2008-07-14",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/09658109acfea0e248a63932337d8e6a4268980.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/87"
+    },
+    {
+      "id": 88,
+      "name": "无间道",
+      "name_en": "Infernal Affairs",
+      "categories": [
+        "剧情",
+        "悬疑",
+        "犯罪"
+      ],
+      "regions": [
+        "中国香港"
+      ],
+      "duration": "101 分钟",
+      "published_at": "2003-09-05",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/606de8f394d40dbcbb9b87943fec71a2130408.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/88"
+    },
+    {
+      "id": 89,
+      "name": "教父2",
+      "name_en": "The Godfather: Part Ⅱ",
+      "categories": [
+        "剧情",
+        "犯罪"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "202 分钟",
+      "published_at": "1974-12-12",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/bb1dee5e0b25889a2410211c1d5010ae190824.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/89"
+    },
+    {
+      "id": 90,
+      "name": "加勒比海盗",
+      "name_en": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "categories": [
+        "动作",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "143 分钟",
+      "published_at": "2003-11-21",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/b05b94b28eca53f325ae8d807fcd4ce01798036.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/90"
+    },
+    {
+      "id": 91,
+      "name": "哈利·波特与魔法石",
+      "name_en": "Harry Potter and the Sorcerer's Stone",
+      "categories": [
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "美国",
+        "英国"
+      ],
+      "duration": "152 分钟",
+      "published_at": "2002-01-26",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/d66b56b77b55aa3da5987b68948444c9106742.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/91"
+    },
+    {
+      "id": 92,
+      "name": "指环王3：王者无敌",
+      "name_en": "The Lord of the Rings: The Return of the King",
+      "categories": [
+        "剧情",
+        "动作",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "美国",
+        "新西兰"
+      ],
+      "duration": "201 分钟",
+      "published_at": "2004-03-15",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/932bdfbef5be3543e6b136246aeb99b8123736.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/92"
+    },
+    {
+      "id": 93,
+      "name": "黑客帝国",
+      "name_en": "The Matrix",
+      "categories": [
+        "动作",
+        "科幻"
+      ],
+      "regions": [
+        "美国",
+        "澳大利亚"
+      ],
+      "duration": "136 分钟",
+      "published_at": "2000-01-14",
+      "score": 9.0,
+      "cover": "https://p1.meituan.net/movie/ad974d3527879f00be2eec29135118163728582.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/93"
+    },
+    {
+      "id": 94,
+      "name": "剪刀手爱德华",
+      "name_en": "Edward Scissorhands",
+      "categories": [
+        "剧情",
+        "爱情",
+        "奇幻"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "105 分钟",
+      "published_at": "1990-12-06",
+      "score": 9.0,
+      "cover": "https://p1.meituan.net/movie/6a964e9cee699267053bd6a4bf6f2671195394.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/94"
+    },
+    {
+      "id": 95,
+      "name": "春光乍泄",
+      "name_en": "Happy Together",
+      "categories": [
+        "剧情",
+        "爱情"
+      ],
+      "regions": [
+        "中国香港",
+        "日本",
+        "韩国"
+      ],
+      "duration": "96 分钟",
+      "published_at": "1997-05-17",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/ae7245920d95c03765fe1615f3a1fe3865785.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/95"
+    },
+    {
+      "id": 96,
+      "name": "大闹天宫",
+      "name_en": "The Monkey King",
+      "categories": [
+        "动画",
+        "奇幻"
+      ],
+      "regions": [
+        "中国大陆"
+      ],
+      "duration": "114 分钟",
+      "published_at": "1965-12-31",
+      "score": 9.0,
+      "cover": "https://p1.meituan.net/movie/14a7b337e8063e3ce05a5993ed80176b74208.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/96"
+    },
+    {
+      "id": 97,
+      "name": "天空之城",
+      "name_en": "天空の城ラピュタ",
+      "categories": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "regions": [
+        "日本"
+      ],
+      "duration": "125 分钟",
+      "published_at": "1992-05-01",
+      "score": 9.0,
+      "cover": "https://p1.meituan.net/movie/ba1ed511668402605ed369350ab779d6319397.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/97"
+    },
+    {
+      "id": 98,
+      "name": "音乐之声",
+      "name_en": "The Sound of Music",
+      "categories": [
+        "剧情",
+        "爱情",
+        "歌舞",
+        "传记"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "174 分钟",
+      "published_at": "1965-03-02",
+      "score": 9.0,
+      "cover": "https://p0.meituan.net/movie/ef6d7e040278f3d727306745e8df1af5246411.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/98"
+    },
+    {
+      "id": 99,
+      "name": "辛德勒的名单",
+      "name_en": "Schindler's List",
+      "categories": [
+        "剧情",
+        "历史",
+        "战争"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "195 分钟",
+      "published_at": "1993-11-30",
+      "score": 9.5,
+      "cover": "https://p0.meituan.net/movie/b0d986a8bf89278afbb19f6abaef70f31206570.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/99"
+    },
+    {
+      "id": 100,
+      "name": "魂断蓝桥",
+      "name_en": "Waterloo Bridge",
+      "categories": [
+        "剧情",
+        "爱情",
+        "战争"
+      ],
+      "regions": [
+        "美国"
+      ],
+      "duration": "108 分钟",
+      "published_at": "1940-05-17",
+      "score": 9.5,
+      "cover": "https://p0.meituan.net/movie/58782fa5439c25d764713f711ebecd1e201941.jpg@464w_644h_1e_1c",
+      "detail_url": "/detail/100"
+    }
+  ]
+}

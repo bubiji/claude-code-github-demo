@@ -1,0 +1,133 @@
+{
+  "source": "https://antispider6.scrape.center",
+  "issue": 8,
+  "case": "antispider6",
+  "probe": "受控限流探测（一次性账号，正式 admin 账号不参与）",
+  "limit_declared": "限制单个账号访问频率 5 分钟最多 10 次，如果过多则会暂停访问 10 分钟。",
+  "account": {
+    "username": "probe_fp8zbzni",
+    "disposable": true
+  },
+  "params": {
+    "gap_s": 3.0,
+    "max_requests": 14
+  },
+  "measured": {
+    "finished_at": "2026-08-23 20:11:54",
+    "blocked_at_request": 12,
+    "requests_before_block": 11,
+    "window_span_s": 48.8,
+    "recovery_s": 602.7,
+    "recovery_min": 10.0
+  },
+  "items": [
+    {
+      "n": 1,
+      "t_since_start_s": 0.0,
+      "status": 200,
+      "verdict": "ok",
+      "bytes": 42612,
+      "elapsed_s": 1.491,
+      "retry_after": null
+    },
+    {
+      "n": 2,
+      "t_since_start_s": 4.6,
+      "status": 200,
+      "verdict": "ok",
+      "bytes": 42612,
+      "elapsed_s": 1.072,
+      "retry_after": null
+    },
+    {
+      "n": 3,
+      "t_since_start_s": 8.8,
+      "status": 200,
+      "verdict": "ok",
+      "bytes": 42612,
+      "elapsed_s": 1.215,
+      "retry_after": null
+    },
+    {
+      "n": 4,
+      "t_since_start_s": 13.2,
+      "status": 200,
+      "verdict": "ok",
+      "bytes": 42612,
+      "elapsed_s": 1.928,
+      "retry_after": null
+    },
+    {
+      "n": 5,
+      "t_since_start_s": 18.2,
+      "status": 200,
+      "verdict": "ok",
+      "bytes": 42612,
+      "elapsed_s": 1.597,
+      "retry_after": null
+    },
+    {
+      "n": 6,
+      "t_since_start_s": 23.0,
+      "status": 200,
+      "verdict": "ok",
+      "bytes": 42612,
+      "elapsed_s": 1.254,
+      "retry_after": null
+    },
+    {
+      "n": 7,
+      "t_since_start_s": 27.4,
+      "status": 200,
+      "verdict": "ok",
+      "bytes": 42612,
+      "elapsed_s": 1.133,
+      "retry_after": null
+    },
+    {
+      "n": 8,
+      "t_since_start_s": 31.6,
+      "status": 200,
+      "verdict": "ok",
+      "bytes": 42612,
+      "elapsed_s": 0.971,
+      "retry_after": null
+    },
+    {
+      "n": 9,
+      "t_since_start_s": 35.7,
+      "status": 200,
+      "verdict": "ok",
+      "bytes": 42612,
+      "elapsed_s": 1.178,
+      "retry_after": null
+    },
+    {
+      "n": 10,
+      "t_since_start_s": 40.0,
+      "status": 200,
+      "verdict": "ok",
+      "bytes": 42612,
+      "elapsed_s": 1.259,
+      "retry_after": null
+    },
+    {
+      "n": 11,
+      "t_since_start_s": 44.4,
+      "status": 200,
+      "verdict": "ok",
+      "bytes": 42612,
+      "elapsed_s": 1.28,
+      "retry_after": null
+    },
+    {
+      "n": 12,
+      "t_since_start_s": 48.8,
+      "status": 403,
+      "verdict": "HTTP 403",
+      "bytes": 22,
+      "elapsed_s": 0.195,
+      "retry_after": null
+    }
+  ]
+}

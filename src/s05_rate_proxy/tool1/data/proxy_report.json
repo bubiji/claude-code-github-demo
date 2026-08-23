@@ -1,0 +1,325 @@
+{
+  "source": "https://proxypool.scrape.center/random",
+  "issue": 8,
+  "case": "tool1",
+  "description": "代理池 API 网站，访问即可获取随机可用公开代理，源代码来自 https://github.com/Python3WebSpider/ProxyPool",
+  "run": {
+    "finished_at": "2026-08-23 19:57:24",
+    "elapsed_s": 102.9,
+    "timeout_s": 8.0,
+    "api_calls": 240,
+    "unique_candidates": 26,
+    "duplicate_rate": 0.8917
+  },
+  "funnel": {
+    "fetched_unique": 26,
+    "alive_http": 11,
+    "alive_https": 3,
+    "alive_target_antispider5": 2,
+    "rate_http": 0.4231,
+    "rate_https": 0.1154,
+    "rate_target": 0.0769
+  },
+  "dropped_after_target_check": 1,
+  "surviving_proxies": [
+    "43.160.242.118:3128",
+    "43.153.82.179:8888"
+  ],
+  "pool_state": {
+    "api": "https://proxypool.scrape.center/random",
+    "probe_url": "https://httpbin.org/ip",
+    "timeout_s": 8.0,
+    "fetched": 240,
+    "unique": 26,
+    "checked": 26,
+    "alive": 3,
+    "dropped": 1,
+    "alive_rate": 0.1154,
+    "alive_now": [
+      "43.160.242.118:3128",
+      "43.153.82.179:8888"
+    ]
+  },
+  "items": [
+    {
+      "proxy": "175.136.239.174:8181",
+      "ok": false,
+      "reason": "HTTP 503",
+      "status": 503,
+      "latency_s": 1.53
+    },
+    {
+      "proxy": "95.211.174.135:3128",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 0.58
+    },
+    {
+      "proxy": "86.53.111.249:8080",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 4.23
+    },
+    {
+      "proxy": "181.39.25.196:8118",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 1.88
+    },
+    {
+      "proxy": "103.237.102.191:11111",
+      "ok": false,
+      "reason": "HTTP 503",
+      "status": 503,
+      "latency_s": 0.67
+    },
+    {
+      "proxy": "186.33.42.171:999",
+      "ok": false,
+      "reason": "ProxyError",
+      "status": null,
+      "latency_s": 8.01
+    },
+    {
+      "proxy": "202.166.220.40:8080",
+      "ok": false,
+      "reason": "ProxyError",
+      "status": null,
+      "latency_s": 8.01
+    },
+    {
+      "proxy": "64.176.171.202:2001",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 8.35
+    },
+    {
+      "proxy": "160.191.173.53:8080",
+      "ok": false,
+      "reason": "ProxyError",
+      "status": null,
+      "latency_s": 8.01
+    },
+    {
+      "proxy": "131.222.252.181:8080",
+      "ok": false,
+      "reason": "ProxyError",
+      "status": null,
+      "latency_s": 8.0
+    },
+    {
+      "proxy": "61.155.3.26:3128",
+      "ok": false,
+      "reason": "ReadTimeout",
+      "status": null,
+      "latency_s": 9.23
+    },
+    {
+      "proxy": "95.3.69.222:8080",
+      "ok": false,
+      "reason": "HTTP 503",
+      "status": 503,
+      "latency_s": 1.03
+    },
+    {
+      "proxy": "43.160.242.118:3128",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 2.9
+    },
+    {
+      "proxy": "43.153.82.179:8888",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 4.82
+    },
+    {
+      "proxy": "35.245.216.241:443",
+      "ok": false,
+      "reason": "ProxyError",
+      "status": null,
+      "latency_s": 8.01
+    },
+    {
+      "proxy": "8.213.128.6:800",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 11.04
+    },
+    {
+      "proxy": "47.251.74.38:50",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 2.25
+    },
+    {
+      "proxy": "123.57.213.24:3539",
+      "ok": false,
+      "reason": "ReadTimeout",
+      "status": null,
+      "latency_s": 11.24
+    },
+    {
+      "proxy": "152.42.167.241:3128",
+      "ok": false,
+      "reason": "HTTP 503",
+      "status": 503,
+      "latency_s": 0.43
+    },
+    {
+      "proxy": "114.236.137.41:21000",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 2.2
+    },
+    {
+      "proxy": "8.141.121.115:13126",
+      "ok": false,
+      "reason": "ProxyError",
+      "status": null,
+      "latency_s": 0.45
+    },
+    {
+      "proxy": "8.138.217.152:21001",
+      "ok": false,
+      "reason": "HTTP 503",
+      "status": 503,
+      "latency_s": 0.84
+    },
+    {
+      "proxy": "47.119.19.221:3128",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 3.03
+    },
+    {
+      "proxy": "59.36.172.219:5004",
+      "ok": false,
+      "reason": "ReadTimeout",
+      "status": null,
+      "latency_s": 12.28
+    },
+    {
+      "proxy": "39.102.208.189:8081",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 2.47
+    },
+    {
+      "proxy": "1.231.81.166:3128",
+      "ok": false,
+      "reason": "HTTP 503",
+      "status": 503,
+      "latency_s": 0.29
+    },
+    {
+      "proxy": "95.211.174.135:3128",
+      "ok": false,
+      "reason": "HTTP 503",
+      "status": 503,
+      "latency_s": 1.59
+    },
+    {
+      "proxy": "86.53.111.249:8080",
+      "ok": false,
+      "reason": "HTTP 503",
+      "status": 503,
+      "latency_s": 3.16
+    },
+    {
+      "proxy": "181.39.25.196:8118",
+      "ok": false,
+      "reason": "HTTP 503",
+      "status": 503,
+      "latency_s": 1.58
+    },
+    {
+      "proxy": "64.176.171.202:2001",
+      "ok": false,
+      "reason": "ReadTimeout",
+      "status": null,
+      "latency_s": 8.31
+    },
+    {
+      "proxy": "43.160.242.118:3128",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 2.64
+    },
+    {
+      "proxy": "43.153.82.179:8888",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 5.37
+    },
+    {
+      "proxy": "8.213.128.6:800",
+      "ok": false,
+      "reason": "ConnectionError",
+      "status": null,
+      "latency_s": 0.11
+    },
+    {
+      "proxy": "47.251.74.38:50",
+      "ok": false,
+      "reason": "ConnectionError",
+      "status": null,
+      "latency_s": 0.25
+    },
+    {
+      "proxy": "114.236.137.41:21000",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 10.73
+    },
+    {
+      "proxy": "47.119.19.221:3128",
+      "ok": false,
+      "reason": "SSLError",
+      "status": null,
+      "latency_s": 6.27
+    },
+    {
+      "proxy": "39.102.208.189:8081",
+      "ok": false,
+      "reason": "ConnectionError",
+      "status": null,
+      "latency_s": 0.45
+    },
+    {
+      "proxy": "43.160.242.118:3128",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 15.76
+    },
+    {
+      "proxy": "43.153.82.179:8888",
+      "ok": true,
+      "reason": null,
+      "status": 200,
+      "latency_s": 4.45
+    },
+    {
+      "proxy": "114.236.137.41:21000",
+      "ok": false,
+      "reason": "ReadTimeout",
+      "status": null,
+      "latency_s": 15.24
+    }
+  ]
+}
