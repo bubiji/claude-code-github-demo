@@ -1,0 +1,281 @@
+[
+  {
+    "group": "HTTP 客户端默认",
+    "ua": null,
+    "ua_sent": "python-requests/2.34.2",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "python-requests/2.34.2",
+    "ua_sent": "python-requests/2.34.2",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "python-requests/2.0",
+    "ua_sent": "python-requests/2.0",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "Python-urllib/3.14",
+    "ua_sent": "Python-urllib/3.14",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "urllib3/2.7.0",
+    "ua_sent": "urllib3/2.7.0",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "curl/8.7.1",
+    "ua_sent": "curl/8.7.1",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "Wget/1.21.4",
+    "ua_sent": "Wget/1.21.4",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "Scrapy/2.11 (+https://scrapy.org)",
+    "ua_sent": "Scrapy/2.11 (+https://scrapy.org)",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "okhttp/4.9",
+    "ua_sent": "okhttp/4.9",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "Go-http-client/1.1",
+    "ua_sent": "Go-http-client/1.1",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "httpx/0.28.1",
+    "ua_sent": "httpx/0.28.1",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "PostmanRuntime/7.36",
+    "ua_sent": "PostmanRuntime/7.36",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "Java/17",
+    "ua_sent": "Java/17",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "HTTP 客户端默认",
+    "ua": "aiohttp/3.9",
+    "ua_sent": "aiohttp/3.9",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "裸关键词",
+    "ua": "python",
+    "ua_sent": "python",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "裸关键词",
+    "ua": "requests",
+    "ua_sent": "requests",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "裸关键词",
+    "ua": "spider",
+    "ua_sent": "spider",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "裸关键词",
+    "ua": "bot",
+    "ua_sent": "bot",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "裸关键词",
+    "ua": "crawler",
+    "ua_sent": "crawler",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "搜索引擎",
+    "ua": "Googlebot/2.1 (+http://www.google.com/bot.html)",
+    "ua_sent": "Googlebot/2.1 (+http://www.google.com/bot.html)",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "搜索引擎",
+    "ua": "Baiduspider",
+    "ua_sent": "Baiduspider",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "搜索引擎",
+    "ua": "bingbot/2.0",
+    "ua_sent": "bingbot/2.0",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "无意义串",
+    "ua": "",
+    "ua_sent": "",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "无意义串",
+    "ua": "x",
+    "ua_sent": "x",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "无意义串",
+    "ua": "-",
+    "ua_sent": "-",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "无意义串",
+    "ua": "Mozilla/5.0",
+    "ua_sent": "Mozilla/5.0",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "浏览器",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "ua_sent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "浏览器",
+    "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/120.0.0.0 Safari/537.36",
+    "ua_sent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/120.0.0.0 Safari/537.36",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "浏览器",
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+    "ua_sent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  },
+  {
+    "group": "混搭",
+    "ua": "Mozilla/5.0 python-requests/2.34.2",
+    "ua_sent": "Mozilla/5.0 python-requests/2.34.2",
+    "status": 403,
+    "bytes": 135,
+    "snippet": "<!doctype html> <html lang=\"en\"> <head> <title>403 Forbidden</title> </head> <body> <h1>403 Forbidden</h1><p></p> <",
+    "passed": false
+  },
+  {
+    "group": "混搭",
+    "ua": "Chrome/120.0.0.0 spider",
+    "ua_sent": "Chrome/120.0.0.0 spider",
+    "status": 200,
+    "bytes": 41654,
+    "snippet": "<html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name",
+    "passed": true
+  }
+]

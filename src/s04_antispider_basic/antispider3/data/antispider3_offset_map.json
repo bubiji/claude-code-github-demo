@@ -1,0 +1,920 @@
+{
+  "char_width_px": 16,
+  "css": ".item .bottom .name .char{display:inline-block;position:absolute}",
+  "rule": "真实下标 = round(left / 16)；所见顺序 = 按 left 升序",
+  "stats": {
+    "offset_names": 36,
+    "actually_shuffled": 29,
+    "restored_match_api": 36
+  },
+  "records": [
+    {
+      "id": "7916054",
+      "api_name": "清白家风",
+      "source_order": "风清白家",
+      "offsets_px": [
+        48,
+        0,
+        16,
+        32
+      ],
+      "source_index_to_true_index": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "rendered_order": "清白家风",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7698729",
+      "api_name": "法老的宠妃 终结篇（上下册）",
+      "source_order": "结 下（宠篇上终册）法妃的老",
+      "offsets_px": [
+        112,
+        80,
+        176,
+        144,
+        48,
+        128,
+        160,
+        96,
+        192,
+        208,
+        0,
+        64,
+        32,
+        16
+      ],
+      "source_index_to_true_index": [
+        7,
+        5,
+        11,
+        9,
+        3,
+        8,
+        10,
+        6,
+        12,
+        13,
+        0,
+        4,
+        2,
+        1
+      ],
+      "rendered_order": "法老的宠妃 终结篇（上下册）",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7658805",
+      "api_name": "士为知己（全二册）",
+      "source_order": "二）册士己为（知全",
+      "offsets_px": [
+        96,
+        128,
+        112,
+        0,
+        48,
+        16,
+        64,
+        32,
+        80
+      ],
+      "source_index_to_true_index": [
+        6,
+        8,
+        7,
+        0,
+        3,
+        1,
+        4,
+        2,
+        5
+      ],
+      "rendered_order": "士为知己（全二册）",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7564736",
+      "api_name": "那些年，我们一起追的女孩",
+      "source_order": "那些孩年女我的追们，起一",
+      "offsets_px": [
+        0,
+        16,
+        176,
+        32,
+        160,
+        64,
+        144,
+        128,
+        80,
+        48,
+        112,
+        96
+      ],
+      "source_index_to_true_index": [
+        0,
+        1,
+        11,
+        2,
+        10,
+        4,
+        9,
+        8,
+        5,
+        3,
+        7,
+        6
+      ],
+      "rendered_order": "那些年，我们一起追的女孩",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7440370",
+      "api_name": "非我倾城（全三册）",
+      "source_order": "城全三非（册）我倾",
+      "offsets_px": [
+        48,
+        80,
+        96,
+        0,
+        64,
+        112,
+        128,
+        16,
+        32
+      ],
+      "source_index_to_true_index": [
+        3,
+        5,
+        6,
+        0,
+        4,
+        7,
+        8,
+        1,
+        2
+      ],
+      "rendered_order": "非我倾城（全三册）",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7163250",
+      "api_name": "明朝那些事儿",
+      "source_order": "些事明儿朝那",
+      "offsets_px": [
+        48,
+        64,
+        0,
+        80,
+        16,
+        32
+      ],
+      "source_index_to_true_index": [
+        3,
+        4,
+        0,
+        5,
+        1,
+        2
+      ],
+      "rendered_order": "明朝那些事儿",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7154825",
+      "api_name": "我和你的笑忘书",
+      "source_order": "你和笑的书我忘",
+      "offsets_px": [
+        32,
+        16,
+        64,
+        48,
+        96,
+        0,
+        80
+      ],
+      "source_index_to_true_index": [
+        2,
+        1,
+        4,
+        3,
+        6,
+        0,
+        5
+      ],
+      "rendered_order": "我和你的笑忘书",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7154690",
+      "api_name": "王小波全集 第一卷",
+      "source_order": "王一 全第集波卷小",
+      "offsets_px": [
+        0,
+        112,
+        80,
+        48,
+        96,
+        64,
+        32,
+        128,
+        16
+      ],
+      "source_index_to_true_index": [
+        0,
+        7,
+        5,
+        3,
+        6,
+        4,
+        2,
+        8,
+        1
+      ],
+      "rendered_order": "王小波全集 第一卷",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7154675",
+      "api_name": "怦然心动",
+      "source_order": "然怦动心",
+      "offsets_px": [
+        16,
+        0,
+        48,
+        32
+      ],
+      "source_index_to_true_index": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "rendered_order": "怦然心动",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7067986",
+      "api_name": "龙枪传奇（全三册）",
+      "source_order": "枪全（）龙奇传册三",
+      "offsets_px": [
+        16,
+        80,
+        64,
+        128,
+        0,
+        48,
+        32,
+        112,
+        96
+      ],
+      "source_index_to_true_index": [
+        1,
+        5,
+        4,
+        8,
+        0,
+        3,
+        2,
+        7,
+        6
+      ],
+      "rendered_order": "龙枪传奇（全三册）",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7067983",
+      "api_name": "黎明之街",
+      "source_order": "明街黎之",
+      "offsets_px": [
+        16,
+        48,
+        0,
+        32
+      ],
+      "source_index_to_true_index": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "rendered_order": "黎明之街",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7067149",
+      "api_name": "认知心理学及其启示",
+      "source_order": "知认启示学其心理及",
+      "offsets_px": [
+        16,
+        0,
+        112,
+        128,
+        64,
+        96,
+        32,
+        48,
+        80
+      ],
+      "source_index_to_true_index": [
+        1,
+        0,
+        7,
+        8,
+        4,
+        6,
+        2,
+        3,
+        5
+      ],
+      "rendered_order": "认知心理学及其启示",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7065521",
+      "api_name": "银河帝国：基地",
+      "source_order": "河：基国帝地银",
+      "offsets_px": [
+        16,
+        64,
+        80,
+        48,
+        32,
+        96,
+        0
+      ],
+      "source_index_to_true_index": [
+        1,
+        4,
+        5,
+        3,
+        2,
+        6,
+        0
+      ],
+      "rendered_order": "银河帝国：基地",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7063979",
+      "api_name": "小学教材全解-四年级语文下",
+      "source_order": "材语级四小全学教-年解文下",
+      "offsets_px": [
+        48,
+        160,
+        144,
+        112,
+        0,
+        64,
+        16,
+        32,
+        96,
+        128,
+        80,
+        176,
+        192
+      ],
+      "source_index_to_true_index": [
+        3,
+        10,
+        9,
+        7,
+        0,
+        4,
+        1,
+        2,
+        6,
+        8,
+        5,
+        11,
+        12
+      ],
+      "rendered_order": "小学教材全解-四年级语文下",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7062628",
+      "api_name": "许子东讲稿-张爱玲.郁达夫.香港文学-卷二",
+      "source_order": "玲郁爱文二学香.夫东港许子-张-讲.稿达卷",
+      "offsets_px": [
+        128,
+        160,
+        112,
+        256,
+        320,
+        272,
+        224,
+        144,
+        192,
+        32,
+        240,
+        0,
+        16,
+        80,
+        96,
+        288,
+        48,
+        208,
+        64,
+        176,
+        304
+      ],
+      "source_index_to_true_index": [
+        8,
+        10,
+        7,
+        16,
+        20,
+        17,
+        14,
+        9,
+        12,
+        2,
+        15,
+        0,
+        1,
+        5,
+        6,
+        18,
+        3,
+        13,
+        4,
+        11,
+        19
+      ],
+      "rendered_order": "许子东讲稿-张爱玲.郁达夫.香港文学-卷二",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7059909",
+      "api_name": "南音 （上）",
+      "source_order": "） 音上（南",
+      "offsets_px": [
+        80,
+        32,
+        16,
+        64,
+        48,
+        0
+      ],
+      "source_index_to_true_index": [
+        5,
+        2,
+        1,
+        4,
+        3,
+        0
+      ],
+      "rendered_order": "南音 （上）",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7058461",
+      "api_name": "手绢上的花田",
+      "source_order": "手绢的花上田",
+      "offsets_px": [
+        0,
+        16,
+        48,
+        64,
+        32,
+        80
+      ],
+      "source_index_to_true_index": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        5
+      ],
+      "rendered_order": "手绢上的花田",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7057385",
+      "api_name": "听幾米唱歌",
+      "source_order": "听幾米唱歌",
+      "offsets_px": [
+        0,
+        16,
+        32,
+        48,
+        64
+      ],
+      "source_index_to_true_index": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rendered_order": "听幾米唱歌",
+      "shuffled": false,
+      "match_api": true
+    },
+    {
+      "id": "7057187",
+      "api_name": "陶庵梦忆",
+      "source_order": "陶梦忆庵",
+      "offsets_px": [
+        0,
+        32,
+        48,
+        16
+      ],
+      "source_index_to_true_index": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "rendered_order": "陶庵梦忆",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7056685",
+      "api_name": "天黑以后",
+      "source_order": "以天黑后",
+      "offsets_px": [
+        32,
+        0,
+        16,
+        48
+      ],
+      "source_index_to_true_index": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "rendered_order": "天黑以后",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7056649",
+      "api_name": "歧路",
+      "source_order": "歧路",
+      "offsets_px": [
+        0,
+        16
+      ],
+      "source_index_to_true_index": [
+        0,
+        1
+      ],
+      "rendered_order": "歧路",
+      "shuffled": false,
+      "match_api": true
+    },
+    {
+      "id": "7015296",
+      "api_name": "最美遇见你",
+      "source_order": "见你最遇美",
+      "offsets_px": [
+        48,
+        64,
+        0,
+        32,
+        16
+      ],
+      "source_index_to_true_index": [
+        3,
+        4,
+        0,
+        2,
+        1
+      ],
+      "rendered_order": "最美遇见你",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "7007774",
+      "api_name": "没有意义就没有摇摆",
+      "source_order": "有意义摆有摇没没就",
+      "offsets_px": [
+        16,
+        32,
+        48,
+        128,
+        96,
+        112,
+        0,
+        80,
+        64
+      ],
+      "source_index_to_true_index": [
+        1,
+        2,
+        3,
+        8,
+        6,
+        7,
+        0,
+        5,
+        4
+      ],
+      "rendered_order": "没有意义就没有摇摆",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "6991335",
+      "api_name": "艳阳天",
+      "source_order": "阳艳天",
+      "offsets_px": [
+        16,
+        0,
+        32
+      ],
+      "source_index_to_true_index": [
+        1,
+        0,
+        2
+      ],
+      "rendered_order": "艳阳天",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "6977666",
+      "api_name": "天才魔妃",
+      "source_order": "天才魔妃",
+      "offsets_px": [
+        0,
+        16,
+        32,
+        48
+      ],
+      "source_index_to_true_index": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rendered_order": "天才魔妃",
+      "shuffled": false,
+      "match_api": true
+    },
+    {
+      "id": "6975925",
+      "api_name": "设计诗",
+      "source_order": "设计诗",
+      "offsets_px": [
+        0,
+        16,
+        32
+      ],
+      "source_index_to_true_index": [
+        0,
+        1,
+        2
+      ],
+      "rendered_order": "设计诗",
+      "shuffled": false,
+      "match_api": true
+    },
+    {
+      "id": "6974582",
+      "api_name": "股票作手回忆录",
+      "source_order": "股票忆作回手录",
+      "offsets_px": [
+        0,
+        16,
+        80,
+        32,
+        64,
+        48,
+        96
+      ],
+      "source_index_to_true_index": [
+        0,
+        1,
+        5,
+        2,
+        4,
+        3,
+        6
+      ],
+      "rendered_order": "股票作手回忆录",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "6974199",
+      "api_name": "小毛驴与我",
+      "source_order": "与我小驴毛",
+      "offsets_px": [
+        48,
+        64,
+        0,
+        32,
+        16
+      ],
+      "source_index_to_true_index": [
+        3,
+        4,
+        0,
+        2,
+        1
+      ],
+      "rendered_order": "小毛驴与我",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "6973970",
+      "api_name": "人间失格",
+      "source_order": "人间失格",
+      "offsets_px": [
+        0,
+        16,
+        32,
+        48
+      ],
+      "source_index_to_true_index": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rendered_order": "人间失格",
+      "shuffled": false,
+      "match_api": true
+    },
+    {
+      "id": "6973831",
+      "api_name": "十九分钟",
+      "source_order": "九分钟十",
+      "offsets_px": [
+        16,
+        32,
+        48,
+        0
+      ],
+      "source_index_to_true_index": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "rendered_order": "十九分钟",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "6973805",
+      "api_name": "冰与火之歌（卷一）",
+      "source_order": "之冰（）火一与歌卷",
+      "offsets_px": [
+        48,
+        0,
+        80,
+        128,
+        32,
+        112,
+        16,
+        64,
+        96
+      ],
+      "source_index_to_true_index": [
+        3,
+        0,
+        5,
+        8,
+        2,
+        7,
+        1,
+        4,
+        6
+      ],
+      "rendered_order": "冰与火之歌（卷一）",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "6969098",
+      "api_name": "碧血剑",
+      "source_order": "剑碧血",
+      "offsets_px": [
+        32,
+        0,
+        16
+      ],
+      "source_index_to_true_index": [
+        2,
+        0,
+        1
+      ],
+      "rendered_order": "碧血剑",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "6969097",
+      "api_name": "雪山飞狐",
+      "source_order": "山雪飞狐",
+      "offsets_px": [
+        16,
+        0,
+        32,
+        48
+      ],
+      "source_index_to_true_index": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "rendered_order": "雪山飞狐",
+      "shuffled": true,
+      "match_api": true
+    },
+    {
+      "id": "6969096",
+      "api_name": "连城诀",
+      "source_order": "连城诀",
+      "offsets_px": [
+        0,
+        16,
+        32
+      ],
+      "source_index_to_true_index": [
+        0,
+        1,
+        2
+      ],
+      "rendered_order": "连城诀",
+      "shuffled": false,
+      "match_api": true
+    },
+    {
+      "id": "6969090",
+      "api_name": "飞狐外传",
+      "source_order": "飞狐外传",
+      "offsets_px": [
+        0,
+        16,
+        32,
+        48
+      ],
+      "source_index_to_true_index": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rendered_order": "飞狐外传",
+      "shuffled": false,
+      "match_api": true
+    },
+    {
+      "id": "6969061",
+      "api_name": "侠客行（上下）",
+      "source_order": "客上）（侠行下",
+      "offsets_px": [
+        16,
+        64,
+        96,
+        48,
+        0,
+        32,
+        80
+      ],
+      "source_index_to_true_index": [
+        1,
+        4,
+        6,
+        3,
+        0,
+        2,
+        5
+      ],
+      "rendered_order": "侠客行（上下）",
+      "shuffled": true,
+      "match_api": true
+    }
+  ]
+}

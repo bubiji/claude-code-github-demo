@@ -1,0 +1,2004 @@
+{
+  "font_url": "https://antispider4.scrape.center/fonts/scrape.4f15ef91.ttf",
+  "num_glyphs": 457,
+  "glyph_order_head": [
+    ".notdef",
+    "Eth",
+    "eth",
+    "Lslash",
+    "lslash",
+    "Yacute",
+    "yacute",
+    "onehalf",
+    "onequarter",
+    "onesuperior",
+    "threequarters",
+    "threesuperior",
+    "twosuperior",
+    "brokenbar",
+    "minus",
+    "exclam",
+    "quotedbl",
+    "numbersign",
+    "dollar",
+    "percent",
+    "ampersand",
+    "quotesingle",
+    "parenleft",
+    "parenright",
+    "asterisk",
+    "plus",
+    "comma",
+    "hyphen",
+    "period",
+    "slash",
+    "zero",
+    "one",
+    "two",
+    "three",
+    "four",
+    "five",
+    "six",
+    "seven",
+    "eight",
+    "nine"
+  ],
+  "cmap": {
+    "U+0021": {
+      "char": "!",
+      "glyph": "exclam"
+    },
+    "U+0022": {
+      "char": "\"",
+      "glyph": "quotedbl"
+    },
+    "U+0023": {
+      "char": "#",
+      "glyph": "numbersign"
+    },
+    "U+0024": {
+      "char": "$",
+      "glyph": "dollar"
+    },
+    "U+0025": {
+      "char": "%",
+      "glyph": "percent"
+    },
+    "U+0026": {
+      "char": "&",
+      "glyph": "ampersand"
+    },
+    "U+0027": {
+      "char": "'",
+      "glyph": "quotesingle"
+    },
+    "U+0028": {
+      "char": "(",
+      "glyph": "parenleft"
+    },
+    "U+0029": {
+      "char": ")",
+      "glyph": "parenright"
+    },
+    "U+002A": {
+      "char": "*",
+      "glyph": "asterisk"
+    },
+    "U+002B": {
+      "char": "+",
+      "glyph": "plus"
+    },
+    "U+002C": {
+      "char": ",",
+      "glyph": "comma"
+    },
+    "U+002D": {
+      "char": "-",
+      "glyph": "hyphen"
+    },
+    "U+002E": {
+      "char": ".",
+      "glyph": "period"
+    },
+    "U+002F": {
+      "char": "/",
+      "glyph": "slash"
+    },
+    "U+0030": {
+      "char": "0",
+      "glyph": "zero"
+    },
+    "U+0031": {
+      "char": "1",
+      "glyph": "one"
+    },
+    "U+0032": {
+      "char": "2",
+      "glyph": "two"
+    },
+    "U+0033": {
+      "char": "3",
+      "glyph": "three"
+    },
+    "U+0034": {
+      "char": "4",
+      "glyph": "four"
+    },
+    "U+0035": {
+      "char": "5",
+      "glyph": "five"
+    },
+    "U+0036": {
+      "char": "6",
+      "glyph": "six"
+    },
+    "U+0037": {
+      "char": "7",
+      "glyph": "seven"
+    },
+    "U+0038": {
+      "char": "8",
+      "glyph": "eight"
+    },
+    "U+0039": {
+      "char": "9",
+      "glyph": "nine"
+    },
+    "U+003A": {
+      "char": ":",
+      "glyph": "colon"
+    },
+    "U+003B": {
+      "char": ";",
+      "glyph": "semicolon"
+    },
+    "U+003C": {
+      "char": "<",
+      "glyph": "less"
+    },
+    "U+003D": {
+      "char": "=",
+      "glyph": "equal"
+    },
+    "U+003E": {
+      "char": ">",
+      "glyph": "greater"
+    },
+    "U+003F": {
+      "char": "?",
+      "glyph": "question"
+    },
+    "U+0040": {
+      "char": "@",
+      "glyph": "at"
+    },
+    "U+0041": {
+      "char": "A",
+      "glyph": "A"
+    },
+    "U+0042": {
+      "char": "B",
+      "glyph": "B"
+    },
+    "U+0043": {
+      "char": "C",
+      "glyph": "C"
+    },
+    "U+0044": {
+      "char": "D",
+      "glyph": "D"
+    },
+    "U+0045": {
+      "char": "E",
+      "glyph": "E"
+    },
+    "U+0046": {
+      "char": "F",
+      "glyph": "F"
+    },
+    "U+0047": {
+      "char": "G",
+      "glyph": "G"
+    },
+    "U+0048": {
+      "char": "H",
+      "glyph": "H"
+    },
+    "U+0049": {
+      "char": "I",
+      "glyph": "I"
+    },
+    "U+004A": {
+      "char": "J",
+      "glyph": "J"
+    },
+    "U+004B": {
+      "char": "K",
+      "glyph": "K"
+    },
+    "U+004C": {
+      "char": "L",
+      "glyph": "L"
+    },
+    "U+004D": {
+      "char": "M",
+      "glyph": "M"
+    },
+    "U+004E": {
+      "char": "N",
+      "glyph": "N"
+    },
+    "U+004F": {
+      "char": "O",
+      "glyph": "O"
+    },
+    "U+0050": {
+      "char": "P",
+      "glyph": "P"
+    },
+    "U+0051": {
+      "char": "Q",
+      "glyph": "Q"
+    },
+    "U+0052": {
+      "char": "R",
+      "glyph": "R"
+    },
+    "U+0053": {
+      "char": "S",
+      "glyph": "S"
+    },
+    "U+0054": {
+      "char": "T",
+      "glyph": "T"
+    },
+    "U+0055": {
+      "char": "U",
+      "glyph": "U"
+    },
+    "U+0056": {
+      "char": "V",
+      "glyph": "V"
+    },
+    "U+0057": {
+      "char": "W",
+      "glyph": "W"
+    },
+    "U+0058": {
+      "char": "X",
+      "glyph": "X"
+    },
+    "U+0059": {
+      "char": "Y",
+      "glyph": "Y"
+    },
+    "U+005A": {
+      "char": "Z",
+      "glyph": "Z"
+    },
+    "U+005B": {
+      "char": "[",
+      "glyph": "bracketleft"
+    },
+    "U+005C": {
+      "char": "\\",
+      "glyph": "backslash"
+    },
+    "U+005D": {
+      "char": "]",
+      "glyph": "bracketright"
+    },
+    "U+005E": {
+      "char": "^",
+      "glyph": "asciicircum"
+    },
+    "U+005F": {
+      "char": "_",
+      "glyph": "underscore"
+    },
+    "U+0060": {
+      "char": "`",
+      "glyph": "grave"
+    },
+    "U+0061": {
+      "char": "a",
+      "glyph": "a"
+    },
+    "U+0062": {
+      "char": "b",
+      "glyph": "b"
+    },
+    "U+0063": {
+      "char": "c",
+      "glyph": "c"
+    },
+    "U+0064": {
+      "char": "d",
+      "glyph": "d"
+    },
+    "U+0065": {
+      "char": "e",
+      "glyph": "e"
+    },
+    "U+0066": {
+      "char": "f",
+      "glyph": "f"
+    },
+    "U+0067": {
+      "char": "g",
+      "glyph": "g"
+    },
+    "U+0068": {
+      "char": "h",
+      "glyph": "h"
+    },
+    "U+0069": {
+      "char": "i",
+      "glyph": "i"
+    },
+    "U+006A": {
+      "char": "j",
+      "glyph": "j"
+    },
+    "U+006B": {
+      "char": "k",
+      "glyph": "k"
+    },
+    "U+006C": {
+      "char": "l",
+      "glyph": "l"
+    },
+    "U+006D": {
+      "char": "m",
+      "glyph": "m"
+    },
+    "U+006E": {
+      "char": "n",
+      "glyph": "n"
+    },
+    "U+006F": {
+      "char": "o",
+      "glyph": "o"
+    },
+    "U+0070": {
+      "char": "p",
+      "glyph": "p"
+    },
+    "U+0071": {
+      "char": "q",
+      "glyph": "q"
+    },
+    "U+0072": {
+      "char": "r",
+      "glyph": "r"
+    },
+    "U+0073": {
+      "char": "s",
+      "glyph": "s"
+    },
+    "U+0074": {
+      "char": "t",
+      "glyph": "t"
+    },
+    "U+0075": {
+      "char": "u",
+      "glyph": "u"
+    },
+    "U+0076": {
+      "char": "v",
+      "glyph": "v"
+    },
+    "U+0077": {
+      "char": "w",
+      "glyph": "w"
+    },
+    "U+0078": {
+      "char": "x",
+      "glyph": "x"
+    },
+    "U+0079": {
+      "char": "y",
+      "glyph": "y"
+    },
+    "U+007A": {
+      "char": "z",
+      "glyph": "z"
+    },
+    "U+007B": {
+      "char": "{",
+      "glyph": "braceleft"
+    },
+    "U+007C": {
+      "char": "|",
+      "glyph": "bar"
+    },
+    "U+007D": {
+      "char": "}",
+      "glyph": "braceright"
+    },
+    "U+007E": {
+      "char": "~",
+      "glyph": "asciitilde"
+    },
+    "U+0080": {
+      "char": "",
+      "glyph": "Adieresis"
+    },
+    "U+0081": {
+      "char": "",
+      "glyph": "Aring"
+    },
+    "U+0082": {
+      "char": "",
+      "glyph": "Ccedilla"
+    },
+    "U+0083": {
+      "char": "",
+      "glyph": "Eacute"
+    },
+    "U+0084": {
+      "char": "",
+      "glyph": "Ntilde"
+    },
+    "U+0085": {
+      "char": "",
+      "glyph": "Odieresis"
+    },
+    "U+0086": {
+      "char": "",
+      "glyph": "Udieresis"
+    },
+    "U+0087": {
+      "char": "",
+      "glyph": "aacute"
+    },
+    "U+0088": {
+      "char": "",
+      "glyph": "agrave"
+    },
+    "U+0089": {
+      "char": "",
+      "glyph": "acircumflex"
+    },
+    "U+008A": {
+      "char": "",
+      "glyph": "adieresis"
+    },
+    "U+008B": {
+      "char": "",
+      "glyph": "atilde"
+    },
+    "U+008C": {
+      "char": "",
+      "glyph": "aring"
+    },
+    "U+008D": {
+      "char": "",
+      "glyph": "ccedilla"
+    },
+    "U+008E": {
+      "char": "",
+      "glyph": "eacute"
+    },
+    "U+008F": {
+      "char": "",
+      "glyph": "egrave"
+    },
+    "U+0090": {
+      "char": "",
+      "glyph": "ecircumflex"
+    },
+    "U+0091": {
+      "char": "",
+      "glyph": "edieresis"
+    },
+    "U+0092": {
+      "char": "",
+      "glyph": "iacute"
+    },
+    "U+0093": {
+      "char": "",
+      "glyph": "igrave"
+    },
+    "U+0094": {
+      "char": "",
+      "glyph": "icircumflex"
+    },
+    "U+0095": {
+      "char": "",
+      "glyph": "idieresis"
+    },
+    "U+0096": {
+      "char": "",
+      "glyph": "ntilde"
+    },
+    "U+0097": {
+      "char": "",
+      "glyph": "oacute"
+    },
+    "U+0098": {
+      "char": "",
+      "glyph": "ograve"
+    },
+    "U+0099": {
+      "char": "",
+      "glyph": "ocircumflex"
+    },
+    "U+009A": {
+      "char": "",
+      "glyph": "odieresis"
+    },
+    "U+009B": {
+      "char": "",
+      "glyph": "otilde"
+    },
+    "U+009C": {
+      "char": "",
+      "glyph": "uacute"
+    },
+    "U+009D": {
+      "char": "",
+      "glyph": "ugrave"
+    },
+    "U+009E": {
+      "char": "",
+      "glyph": "ucircumflex"
+    },
+    "U+009F": {
+      "char": "",
+      "glyph": "udieresis"
+    },
+    "U+00A1": {
+      "char": "¡",
+      "glyph": "exclamdown"
+    },
+    "U+00A2": {
+      "char": "¢",
+      "glyph": "cent"
+    },
+    "U+00A3": {
+      "char": "£",
+      "glyph": "sterling"
+    },
+    "U+00A4": {
+      "char": "¤",
+      "glyph": "currency"
+    },
+    "U+00A5": {
+      "char": "¥",
+      "glyph": "yen"
+    },
+    "U+00A6": {
+      "char": "¦",
+      "glyph": "brokenbar"
+    },
+    "U+00A7": {
+      "char": "§",
+      "glyph": "section"
+    },
+    "U+00A8": {
+      "char": "¨",
+      "glyph": "dieresis"
+    },
+    "U+00A9": {
+      "char": "©",
+      "glyph": "copyright"
+    },
+    "U+00AA": {
+      "char": "ª",
+      "glyph": "ordfeminine"
+    },
+    "U+00AB": {
+      "char": "«",
+      "glyph": "guillemotleft"
+    },
+    "U+00AC": {
+      "char": "¬",
+      "glyph": "logicalnot"
+    },
+    "U+00AD": {
+      "char": "­",
+      "glyph": "notequal"
+    },
+    "U+00AE": {
+      "char": "®",
+      "glyph": "registered"
+    },
+    "U+00AF": {
+      "char": "¯",
+      "glyph": "macron"
+    },
+    "U+00B0": {
+      "char": "°",
+      "glyph": "degree"
+    },
+    "U+00B1": {
+      "char": "±",
+      "glyph": "plusminus"
+    },
+    "U+00B2": {
+      "char": "²",
+      "glyph": "twosuperior"
+    },
+    "U+00B3": {
+      "char": "³",
+      "glyph": "threesuperior"
+    },
+    "U+00B4": {
+      "char": "´",
+      "glyph": "acute"
+    },
+    "U+00B5": {
+      "char": "µ",
+      "glyph": "mu"
+    },
+    "U+00B6": {
+      "char": "¶",
+      "glyph": "paragraph"
+    },
+    "U+00B7": {
+      "char": "·",
+      "glyph": "periodcentered"
+    },
+    "U+00B8": {
+      "char": "¸",
+      "glyph": "cedilla"
+    },
+    "U+00B9": {
+      "char": "¹",
+      "glyph": "onesuperior"
+    },
+    "U+00BA": {
+      "char": "º",
+      "glyph": "ordmasculine"
+    },
+    "U+00BB": {
+      "char": "»",
+      "glyph": "guillemotright"
+    },
+    "U+00BC": {
+      "char": "¼",
+      "glyph": "onequarter"
+    },
+    "U+00BD": {
+      "char": "½",
+      "glyph": "onehalf"
+    },
+    "U+00BE": {
+      "char": "¾",
+      "glyph": "threequarters"
+    },
+    "U+00BF": {
+      "char": "¿",
+      "glyph": "questiondown"
+    },
+    "U+00C0": {
+      "char": "À",
+      "glyph": "Agrave"
+    },
+    "U+00C1": {
+      "char": "Á",
+      "glyph": "Aacute"
+    },
+    "U+00C2": {
+      "char": "Â",
+      "glyph": "Acircumflex"
+    },
+    "U+00C3": {
+      "char": "Ã",
+      "glyph": "Atilde"
+    },
+    "U+00C4": {
+      "char": "Ä",
+      "glyph": "Adieresis"
+    },
+    "U+00C5": {
+      "char": "Å",
+      "glyph": "Aring"
+    },
+    "U+00C6": {
+      "char": "Æ",
+      "glyph": "AE"
+    },
+    "U+00C7": {
+      "char": "Ç",
+      "glyph": "Ccedilla"
+    },
+    "U+00C8": {
+      "char": "È",
+      "glyph": "Egrave"
+    },
+    "U+00C9": {
+      "char": "É",
+      "glyph": "Eacute"
+    },
+    "U+00CA": {
+      "char": "Ê",
+      "glyph": "Ecircumflex"
+    },
+    "U+00CB": {
+      "char": "Ë",
+      "glyph": "Edieresis"
+    },
+    "U+00CC": {
+      "char": "Ì",
+      "glyph": "Igrave"
+    },
+    "U+00CD": {
+      "char": "Í",
+      "glyph": "Iacute"
+    },
+    "U+00CE": {
+      "char": "Î",
+      "glyph": "Icircumflex"
+    },
+    "U+00CF": {
+      "char": "Ï",
+      "glyph": "Idieresis"
+    },
+    "U+00D0": {
+      "char": "Ð",
+      "glyph": "Eth"
+    },
+    "U+00D1": {
+      "char": "Ñ",
+      "glyph": "Ntilde"
+    },
+    "U+00D2": {
+      "char": "Ò",
+      "glyph": "Ograve"
+    },
+    "U+00D3": {
+      "char": "Ó",
+      "glyph": "Oacute"
+    },
+    "U+00D4": {
+      "char": "Ô",
+      "glyph": "Ocircumflex"
+    },
+    "U+00D5": {
+      "char": "Õ",
+      "glyph": "Otilde"
+    },
+    "U+00D6": {
+      "char": "Ö",
+      "glyph": "Odieresis"
+    },
+    "U+00D7": {
+      "char": "×",
+      "glyph": "multiply"
+    },
+    "U+00D8": {
+      "char": "Ø",
+      "glyph": "Oslash"
+    },
+    "U+00D9": {
+      "char": "Ù",
+      "glyph": "Ugrave"
+    },
+    "U+00DA": {
+      "char": "Ú",
+      "glyph": "Uacute"
+    },
+    "U+00DB": {
+      "char": "Û",
+      "glyph": "Ucircumflex"
+    },
+    "U+00DC": {
+      "char": "Ü",
+      "glyph": "Udieresis"
+    },
+    "U+00DD": {
+      "char": "Ý",
+      "glyph": "Yacute"
+    },
+    "U+00DE": {
+      "char": "Þ",
+      "glyph": "Thorn"
+    },
+    "U+00DF": {
+      "char": "ß",
+      "glyph": "germandbls"
+    },
+    "U+00E0": {
+      "char": "à",
+      "glyph": "agrave"
+    },
+    "U+00E1": {
+      "char": "á",
+      "glyph": "aacute"
+    },
+    "U+00E2": {
+      "char": "â",
+      "glyph": "acircumflex"
+    },
+    "U+00E3": {
+      "char": "ã",
+      "glyph": "atilde"
+    },
+    "U+00E4": {
+      "char": "ä",
+      "glyph": "adieresis"
+    },
+    "U+00E5": {
+      "char": "å",
+      "glyph": "aring"
+    },
+    "U+00E6": {
+      "char": "æ",
+      "glyph": "ae"
+    },
+    "U+00E7": {
+      "char": "ç",
+      "glyph": "ccedilla"
+    },
+    "U+00E8": {
+      "char": "è",
+      "glyph": "egrave"
+    },
+    "U+00E9": {
+      "char": "é",
+      "glyph": "eacute"
+    },
+    "U+00EA": {
+      "char": "ê",
+      "glyph": "ecircumflex"
+    },
+    "U+00EB": {
+      "char": "ë",
+      "glyph": "edieresis"
+    },
+    "U+00EC": {
+      "char": "ì",
+      "glyph": "igrave"
+    },
+    "U+00ED": {
+      "char": "í",
+      "glyph": "iacute"
+    },
+    "U+00EE": {
+      "char": "î",
+      "glyph": "icircumflex"
+    },
+    "U+00EF": {
+      "char": "ï",
+      "glyph": "idieresis"
+    },
+    "U+00F0": {
+      "char": "ð",
+      "glyph": "eth"
+    },
+    "U+00F1": {
+      "char": "ñ",
+      "glyph": "ntilde"
+    },
+    "U+00F2": {
+      "char": "ò",
+      "glyph": "ograve"
+    },
+    "U+00F3": {
+      "char": "ó",
+      "glyph": "oacute"
+    },
+    "U+00F4": {
+      "char": "ô",
+      "glyph": "ocircumflex"
+    },
+    "U+00F5": {
+      "char": "õ",
+      "glyph": "otilde"
+    },
+    "U+00F6": {
+      "char": "ö",
+      "glyph": "odieresis"
+    },
+    "U+00F7": {
+      "char": "÷",
+      "glyph": "divide"
+    },
+    "U+00F8": {
+      "char": "ø",
+      "glyph": "oslash"
+    },
+    "U+00F9": {
+      "char": "ù",
+      "glyph": "ugrave"
+    },
+    "U+00FA": {
+      "char": "ú",
+      "glyph": "uacute"
+    },
+    "U+00FB": {
+      "char": "û",
+      "glyph": "ucircumflex"
+    },
+    "U+00FC": {
+      "char": "ü",
+      "glyph": "udieresis"
+    },
+    "U+00FD": {
+      "char": "ý",
+      "glyph": "yacute"
+    },
+    "U+00FE": {
+      "char": "þ",
+      "glyph": "thorn"
+    },
+    "U+00FF": {
+      "char": "ÿ",
+      "glyph": "ydieresis"
+    },
+    "U+0100": {
+      "char": "Ā",
+      "glyph": "Amacron"
+    },
+    "U+0101": {
+      "char": "ā",
+      "glyph": "amacron"
+    },
+    "U+0102": {
+      "char": "Ă",
+      "glyph": "Abreve"
+    },
+    "U+0103": {
+      "char": "ă",
+      "glyph": "abreve"
+    },
+    "U+0104": {
+      "char": "Ą",
+      "glyph": "Aogonek"
+    },
+    "U+0105": {
+      "char": "ą",
+      "glyph": "aogonek"
+    },
+    "U+0106": {
+      "char": "Ć",
+      "glyph": "Cacute"
+    },
+    "U+0107": {
+      "char": "ć",
+      "glyph": "cacute"
+    },
+    "U+0108": {
+      "char": "Ĉ",
+      "glyph": "Ccircumflex"
+    },
+    "U+0109": {
+      "char": "ĉ",
+      "glyph": "ccircumflex"
+    },
+    "U+010A": {
+      "char": "Ċ",
+      "glyph": "Cdotaccent"
+    },
+    "U+010B": {
+      "char": "ċ",
+      "glyph": "cdotaccent"
+    },
+    "U+010C": {
+      "char": "Č",
+      "glyph": "Ccaron"
+    },
+    "U+010D": {
+      "char": "č",
+      "glyph": "ccaron"
+    },
+    "U+010E": {
+      "char": "Ď",
+      "glyph": "Dcaron"
+    },
+    "U+010F": {
+      "char": "ď",
+      "glyph": "dcaron"
+    },
+    "U+0110": {
+      "char": "Đ",
+      "glyph": "Dcroat"
+    },
+    "U+0111": {
+      "char": "đ",
+      "glyph": "dcroat"
+    },
+    "U+0112": {
+      "char": "Ē",
+      "glyph": "Emacron"
+    },
+    "U+0113": {
+      "char": "ē",
+      "glyph": "emacron"
+    },
+    "U+0114": {
+      "char": "Ĕ",
+      "glyph": "Ebreve"
+    },
+    "U+0115": {
+      "char": "ĕ",
+      "glyph": "ebreve"
+    },
+    "U+0116": {
+      "char": "Ė",
+      "glyph": "Edotaccent"
+    },
+    "U+0117": {
+      "char": "ė",
+      "glyph": "edotaccent"
+    },
+    "U+0118": {
+      "char": "Ę",
+      "glyph": "Eogonek"
+    },
+    "U+0119": {
+      "char": "ę",
+      "glyph": "eogonek"
+    },
+    "U+011A": {
+      "char": "Ě",
+      "glyph": "Ecaron"
+    },
+    "U+011B": {
+      "char": "ě",
+      "glyph": "ecaron"
+    },
+    "U+011C": {
+      "char": "Ĝ",
+      "glyph": "Gcircumflex"
+    },
+    "U+011D": {
+      "char": "ĝ",
+      "glyph": "gcircumflex"
+    },
+    "U+011E": {
+      "char": "Ğ",
+      "glyph": "Gbreve"
+    },
+    "U+011F": {
+      "char": "ğ",
+      "glyph": "gbreve"
+    },
+    "U+0120": {
+      "char": "Ġ",
+      "glyph": "Gdotaccent"
+    },
+    "U+0121": {
+      "char": "ġ",
+      "glyph": "gdotaccent"
+    },
+    "U+0122": {
+      "char": "Ģ",
+      "glyph": "Gcommaaccent"
+    },
+    "U+0123": {
+      "char": "ģ",
+      "glyph": "gcommaaccent"
+    },
+    "U+0124": {
+      "char": "Ĥ",
+      "glyph": "Hcircumflex"
+    },
+    "U+0125": {
+      "char": "ĥ",
+      "glyph": "hcircumflex"
+    },
+    "U+0126": {
+      "char": "Ħ",
+      "glyph": "Hbar"
+    },
+    "U+0127": {
+      "char": "ħ",
+      "glyph": "hbar"
+    },
+    "U+0128": {
+      "char": "Ĩ",
+      "glyph": "Itilde"
+    },
+    "U+0129": {
+      "char": "ĩ",
+      "glyph": "itilde"
+    },
+    "U+012A": {
+      "char": "Ī",
+      "glyph": "Imacron"
+    },
+    "U+012B": {
+      "char": "ī",
+      "glyph": "imacron"
+    },
+    "U+012C": {
+      "char": "Ĭ",
+      "glyph": "Ibreve"
+    },
+    "U+012D": {
+      "char": "ĭ",
+      "glyph": "ibreve"
+    },
+    "U+012E": {
+      "char": "Į",
+      "glyph": "Iogonek"
+    },
+    "U+012F": {
+      "char": "į",
+      "glyph": "iogonek"
+    },
+    "U+0130": {
+      "char": "İ",
+      "glyph": "Idotaccent"
+    },
+    "U+0131": {
+      "char": "ı",
+      "glyph": "dotlessi"
+    },
+    "U+0132": {
+      "char": "Ĳ",
+      "glyph": "IJ"
+    },
+    "U+0133": {
+      "char": "ĳ",
+      "glyph": "ij"
+    },
+    "U+0134": {
+      "char": "Ĵ",
+      "glyph": "Jcircumflex"
+    },
+    "U+0135": {
+      "char": "ĵ",
+      "glyph": "jcircumflex"
+    },
+    "U+0136": {
+      "char": "Ķ",
+      "glyph": "Kcommaaccent"
+    },
+    "U+0137": {
+      "char": "ķ",
+      "glyph": "kcommaaccent"
+    },
+    "U+0138": {
+      "char": "ĸ",
+      "glyph": "kgreenlandic"
+    },
+    "U+0139": {
+      "char": "Ĺ",
+      "glyph": "Lacute"
+    },
+    "U+013A": {
+      "char": "ĺ",
+      "glyph": "lacute"
+    },
+    "U+013B": {
+      "char": "Ļ",
+      "glyph": "Lcommaaccent"
+    },
+    "U+013C": {
+      "char": "ļ",
+      "glyph": "lcommaaccent"
+    },
+    "U+013D": {
+      "char": "Ľ",
+      "glyph": "Lcaron"
+    },
+    "U+013E": {
+      "char": "ľ",
+      "glyph": "lcaron"
+    },
+    "U+013F": {
+      "char": "Ŀ",
+      "glyph": "Ldot"
+    },
+    "U+0140": {
+      "char": "ŀ",
+      "glyph": "ldot"
+    },
+    "U+0141": {
+      "char": "Ł",
+      "glyph": "Lslash"
+    },
+    "U+0142": {
+      "char": "ł",
+      "glyph": "lslash"
+    },
+    "U+0143": {
+      "char": "Ń",
+      "glyph": "Nacute"
+    },
+    "U+0144": {
+      "char": "ń",
+      "glyph": "nacute"
+    },
+    "U+0145": {
+      "char": "Ņ",
+      "glyph": "Ncommaaccent"
+    },
+    "U+0146": {
+      "char": "ņ",
+      "glyph": "ncommaaccent"
+    },
+    "U+0147": {
+      "char": "Ň",
+      "glyph": "Ncaron"
+    },
+    "U+0148": {
+      "char": "ň",
+      "glyph": "ncaron"
+    },
+    "U+0149": {
+      "char": "ŉ",
+      "glyph": "napostrophe"
+    },
+    "U+014A": {
+      "char": "Ŋ",
+      "glyph": "Eng"
+    },
+    "U+014B": {
+      "char": "ŋ",
+      "glyph": "eng"
+    },
+    "U+014C": {
+      "char": "Ō",
+      "glyph": "Omacron"
+    },
+    "U+014D": {
+      "char": "ō",
+      "glyph": "omacron"
+    },
+    "U+014E": {
+      "char": "Ŏ",
+      "glyph": "Obreve"
+    },
+    "U+014F": {
+      "char": "ŏ",
+      "glyph": "obreve"
+    },
+    "U+0150": {
+      "char": "Ő",
+      "glyph": "Ohungarumlaut"
+    },
+    "U+0151": {
+      "char": "ő",
+      "glyph": "ohungarumlaut"
+    },
+    "U+0152": {
+      "char": "Œ",
+      "glyph": "OE"
+    },
+    "U+0153": {
+      "char": "œ",
+      "glyph": "oe"
+    },
+    "U+0154": {
+      "char": "Ŕ",
+      "glyph": "Racute"
+    },
+    "U+0155": {
+      "char": "ŕ",
+      "glyph": "racute"
+    },
+    "U+0156": {
+      "char": "Ŗ",
+      "glyph": "Rcommaaccent"
+    },
+    "U+0157": {
+      "char": "ŗ",
+      "glyph": "rcommaaccent"
+    },
+    "U+0158": {
+      "char": "Ř",
+      "glyph": "Rcaron"
+    },
+    "U+0159": {
+      "char": "ř",
+      "glyph": "rcaron"
+    },
+    "U+015A": {
+      "char": "Ś",
+      "glyph": "Sacute"
+    },
+    "U+015B": {
+      "char": "ś",
+      "glyph": "sacute"
+    },
+    "U+015C": {
+      "char": "Ŝ",
+      "glyph": "Scircumflex"
+    },
+    "U+015D": {
+      "char": "ŝ",
+      "glyph": "scircumflex"
+    },
+    "U+015E": {
+      "char": "Ş",
+      "glyph": "Scedilla"
+    },
+    "U+015F": {
+      "char": "ş",
+      "glyph": "scedilla"
+    },
+    "U+0160": {
+      "char": "Š",
+      "glyph": "Scaron"
+    },
+    "U+0161": {
+      "char": "š",
+      "glyph": "scaron"
+    },
+    "U+0162": {
+      "char": "Ţ",
+      "glyph": "Tcommaaccent"
+    },
+    "U+0163": {
+      "char": "ţ",
+      "glyph": "tcommaaccent"
+    },
+    "U+0164": {
+      "char": "Ť",
+      "glyph": "Tcaron"
+    },
+    "U+0165": {
+      "char": "ť",
+      "glyph": "tcaron"
+    },
+    "U+0166": {
+      "char": "Ŧ",
+      "glyph": "Tbar"
+    },
+    "U+0167": {
+      "char": "ŧ",
+      "glyph": "tbar"
+    },
+    "U+0168": {
+      "char": "Ũ",
+      "glyph": "Utilde"
+    },
+    "U+0169": {
+      "char": "ũ",
+      "glyph": "utilde"
+    },
+    "U+016A": {
+      "char": "Ū",
+      "glyph": "Umacron"
+    },
+    "U+016B": {
+      "char": "ū",
+      "glyph": "umacron"
+    },
+    "U+016C": {
+      "char": "Ŭ",
+      "glyph": "Ubreve"
+    },
+    "U+016D": {
+      "char": "ŭ",
+      "glyph": "ubreve"
+    },
+    "U+016E": {
+      "char": "Ů",
+      "glyph": "Uring"
+    },
+    "U+016F": {
+      "char": "ů",
+      "glyph": "uring"
+    },
+    "U+0170": {
+      "char": "Ű",
+      "glyph": "Uhungarumlaut"
+    },
+    "U+0171": {
+      "char": "ű",
+      "glyph": "uhungarumlaut"
+    },
+    "U+0172": {
+      "char": "Ų",
+      "glyph": "Uogonek"
+    },
+    "U+0173": {
+      "char": "ų",
+      "glyph": "uogonek"
+    },
+    "U+0174": {
+      "char": "Ŵ",
+      "glyph": "Wcircumflex"
+    },
+    "U+0175": {
+      "char": "ŵ",
+      "glyph": "wcircumflex"
+    },
+    "U+0176": {
+      "char": "Ŷ",
+      "glyph": "Ycircumflex"
+    },
+    "U+0177": {
+      "char": "ŷ",
+      "glyph": "ycircumflex"
+    },
+    "U+0178": {
+      "char": "Ÿ",
+      "glyph": "Ydieresis"
+    },
+    "U+0179": {
+      "char": "Ź",
+      "glyph": "Zacute"
+    },
+    "U+017A": {
+      "char": "ź",
+      "glyph": "zacute"
+    },
+    "U+017B": {
+      "char": "Ż",
+      "glyph": "Zdotaccent"
+    },
+    "U+017C": {
+      "char": "ż",
+      "glyph": "zdotaccent"
+    },
+    "U+017D": {
+      "char": "Ž",
+      "glyph": "Zcaron"
+    },
+    "U+017E": {
+      "char": "ž",
+      "glyph": "zcaron"
+    },
+    "U+017F": {
+      "char": "ſ",
+      "glyph": "longs"
+    },
+    "U+0192": {
+      "char": "ƒ",
+      "glyph": "florin"
+    },
+    "U+0218": {
+      "char": "Ș",
+      "glyph": "Scommaaccent"
+    },
+    "U+0219": {
+      "char": "ș",
+      "glyph": "scommaaccent"
+    },
+    "U+02C6": {
+      "char": "ˆ",
+      "glyph": "circumflex"
+    },
+    "U+02C7": {
+      "char": "ˇ",
+      "glyph": "caron"
+    },
+    "U+02D8": {
+      "char": "˘",
+      "glyph": "breve"
+    },
+    "U+02D9": {
+      "char": "˙",
+      "glyph": "dotaccent"
+    },
+    "U+02DA": {
+      "char": "˚",
+      "glyph": "ring"
+    },
+    "U+02DB": {
+      "char": "˛",
+      "glyph": "ogonek"
+    },
+    "U+02DC": {
+      "char": "˜",
+      "glyph": "tilde"
+    },
+    "U+02DD": {
+      "char": "˝",
+      "glyph": "hungarumlaut"
+    },
+    "U+03C0": {
+      "char": "π",
+      "glyph": "pi"
+    },
+    "U+0401": {
+      "char": "Ё",
+      "glyph": "afii10023"
+    },
+    "U+0402": {
+      "char": "Ђ",
+      "glyph": "afii10051"
+    },
+    "U+0403": {
+      "char": "Ѓ",
+      "glyph": "afii10052"
+    },
+    "U+0404": {
+      "char": "Є",
+      "glyph": "afii10053"
+    },
+    "U+0405": {
+      "char": "Ѕ",
+      "glyph": "afii10054"
+    },
+    "U+0406": {
+      "char": "І",
+      "glyph": "afii10055"
+    },
+    "U+0407": {
+      "char": "Ї",
+      "glyph": "afii10056"
+    },
+    "U+0408": {
+      "char": "Ј",
+      "glyph": "afii10057"
+    },
+    "U+0409": {
+      "char": "Љ",
+      "glyph": "afii10058"
+    },
+    "U+040A": {
+      "char": "Њ",
+      "glyph": "afii10059"
+    },
+    "U+040B": {
+      "char": "Ћ",
+      "glyph": "afii10060"
+    },
+    "U+040C": {
+      "char": "Ќ",
+      "glyph": "afii10061"
+    },
+    "U+040E": {
+      "char": "Ў",
+      "glyph": "afii10062"
+    },
+    "U+040F": {
+      "char": "Џ",
+      "glyph": "afii10145"
+    },
+    "U+0410": {
+      "char": "А",
+      "glyph": "afii10017"
+    },
+    "U+0411": {
+      "char": "Б",
+      "glyph": "afii10018"
+    },
+    "U+0412": {
+      "char": "В",
+      "glyph": "afii10019"
+    },
+    "U+0413": {
+      "char": "Г",
+      "glyph": "afii10020"
+    },
+    "U+0414": {
+      "char": "Д",
+      "glyph": "afii10021"
+    },
+    "U+0415": {
+      "char": "Е",
+      "glyph": "afii10022"
+    },
+    "U+0416": {
+      "char": "Ж",
+      "glyph": "afii10024"
+    },
+    "U+0417": {
+      "char": "З",
+      "glyph": "afii10025"
+    },
+    "U+0418": {
+      "char": "И",
+      "glyph": "afii10026"
+    },
+    "U+0419": {
+      "char": "Й",
+      "glyph": "afii10027"
+    },
+    "U+041A": {
+      "char": "К",
+      "glyph": "afii10028"
+    },
+    "U+041B": {
+      "char": "Л",
+      "glyph": "afii10029"
+    },
+    "U+041C": {
+      "char": "М",
+      "glyph": "afii10030"
+    },
+    "U+041D": {
+      "char": "Н",
+      "glyph": "afii10031"
+    },
+    "U+041E": {
+      "char": "О",
+      "glyph": "afii10032"
+    },
+    "U+041F": {
+      "char": "П",
+      "glyph": "afii10033"
+    },
+    "U+0420": {
+      "char": "Р",
+      "glyph": "afii10034"
+    },
+    "U+0421": {
+      "char": "С",
+      "glyph": "afii10035"
+    },
+    "U+0422": {
+      "char": "Т",
+      "glyph": "afii10036"
+    },
+    "U+0423": {
+      "char": "У",
+      "glyph": "afii10037"
+    },
+    "U+0424": {
+      "char": "Ф",
+      "glyph": "afii10038"
+    },
+    "U+0425": {
+      "char": "Х",
+      "glyph": "afii10039"
+    },
+    "U+0426": {
+      "char": "Ц",
+      "glyph": "afii10040"
+    },
+    "U+0427": {
+      "char": "Ч",
+      "glyph": "afii10041"
+    },
+    "U+0428": {
+      "char": "Ш",
+      "glyph": "afii10042"
+    },
+    "U+0429": {
+      "char": "Щ",
+      "glyph": "afii10043"
+    },
+    "U+042A": {
+      "char": "Ъ",
+      "glyph": "afii10044"
+    },
+    "U+042B": {
+      "char": "Ы",
+      "glyph": "afii10045"
+    },
+    "U+042C": {
+      "char": "Ь",
+      "glyph": "afii10046"
+    },
+    "U+042D": {
+      "char": "Э",
+      "glyph": "afii10047"
+    },
+    "U+042E": {
+      "char": "Ю",
+      "glyph": "afii10048"
+    },
+    "U+042F": {
+      "char": "Я",
+      "glyph": "afii10049"
+    },
+    "U+0430": {
+      "char": "а",
+      "glyph": "afii10065"
+    },
+    "U+0431": {
+      "char": "б",
+      "glyph": "afii10066"
+    },
+    "U+0432": {
+      "char": "в",
+      "glyph": "afii10067"
+    },
+    "U+0433": {
+      "char": "г",
+      "glyph": "afii10068"
+    },
+    "U+0434": {
+      "char": "д",
+      "glyph": "afii10069"
+    },
+    "U+0435": {
+      "char": "е",
+      "glyph": "afii10070"
+    },
+    "U+0436": {
+      "char": "ж",
+      "glyph": "afii10072"
+    },
+    "U+0437": {
+      "char": "з",
+      "glyph": "afii10073"
+    },
+    "U+0438": {
+      "char": "и",
+      "glyph": "afii10074"
+    },
+    "U+0439": {
+      "char": "й",
+      "glyph": "afii10075"
+    },
+    "U+043A": {
+      "char": "к",
+      "glyph": "afii10076"
+    },
+    "U+043B": {
+      "char": "л",
+      "glyph": "afii10077"
+    },
+    "U+043C": {
+      "char": "м",
+      "glyph": "afii10078"
+    },
+    "U+043D": {
+      "char": "н",
+      "glyph": "afii10079"
+    },
+    "U+043E": {
+      "char": "о",
+      "glyph": "afii10080"
+    },
+    "U+043F": {
+      "char": "п",
+      "glyph": "afii10081"
+    },
+    "U+0440": {
+      "char": "р",
+      "glyph": "afii10082"
+    },
+    "U+0441": {
+      "char": "с",
+      "glyph": "afii10083"
+    },
+    "U+0442": {
+      "char": "т",
+      "glyph": "afii10084"
+    },
+    "U+0443": {
+      "char": "у",
+      "glyph": "afii10085"
+    },
+    "U+0444": {
+      "char": "ф",
+      "glyph": "afii10086"
+    },
+    "U+0445": {
+      "char": "х",
+      "glyph": "afii10087"
+    },
+    "U+0446": {
+      "char": "ц",
+      "glyph": "afii10088"
+    },
+    "U+0447": {
+      "char": "ч",
+      "glyph": "afii10089"
+    },
+    "U+0448": {
+      "char": "ш",
+      "glyph": "afii10090"
+    },
+    "U+0449": {
+      "char": "щ",
+      "glyph": "afii10091"
+    },
+    "U+044A": {
+      "char": "ъ",
+      "glyph": "afii10092"
+    },
+    "U+044B": {
+      "char": "ы",
+      "glyph": "afii10093"
+    },
+    "U+044C": {
+      "char": "ь",
+      "glyph": "afii10094"
+    },
+    "U+044D": {
+      "char": "э",
+      "glyph": "afii10095"
+    },
+    "U+044E": {
+      "char": "ю",
+      "glyph": "afii10096"
+    },
+    "U+044F": {
+      "char": "я",
+      "glyph": "afii10097"
+    },
+    "U+0451": {
+      "char": "ё",
+      "glyph": "afii10071"
+    },
+    "U+0452": {
+      "char": "ђ",
+      "glyph": "afii10099"
+    },
+    "U+0453": {
+      "char": "ѓ",
+      "glyph": "afii10100"
+    },
+    "U+0454": {
+      "char": "є",
+      "glyph": "afii10101"
+    },
+    "U+0455": {
+      "char": "ѕ",
+      "glyph": "afii10102"
+    },
+    "U+0456": {
+      "char": "і",
+      "glyph": "afii10103"
+    },
+    "U+0457": {
+      "char": "ї",
+      "glyph": "afii10104"
+    },
+    "U+0458": {
+      "char": "ј",
+      "glyph": "afii10105"
+    },
+    "U+0459": {
+      "char": "љ",
+      "glyph": "afii10106"
+    },
+    "U+045A": {
+      "char": "њ",
+      "glyph": "afii10107"
+    },
+    "U+045B": {
+      "char": "ћ",
+      "glyph": "afii10108"
+    },
+    "U+045C": {
+      "char": "ќ",
+      "glyph": "afii10109"
+    },
+    "U+045E": {
+      "char": "ў",
+      "glyph": "afii10110"
+    },
+    "U+045F": {
+      "char": "џ",
+      "glyph": "afii10193"
+    },
+    "U+0490": {
+      "char": "Ґ",
+      "glyph": "afii10050"
+    },
+    "U+0491": {
+      "char": "ґ",
+      "glyph": "afii10098"
+    },
+    "U+2013": {
+      "char": "–",
+      "glyph": "endash"
+    },
+    "U+2014": {
+      "char": "—",
+      "glyph": "emdash"
+    },
+    "U+2018": {
+      "char": "‘",
+      "glyph": "quoteleft"
+    },
+    "U+2019": {
+      "char": "’",
+      "glyph": "quoteright"
+    },
+    "U+201A": {
+      "char": "‚",
+      "glyph": "quotesinglbase"
+    },
+    "U+201C": {
+      "char": "“",
+      "glyph": "quotedblleft"
+    },
+    "U+201D": {
+      "char": "”",
+      "glyph": "quotedblright"
+    },
+    "U+201E": {
+      "char": "„",
+      "glyph": "quotedblbase"
+    },
+    "U+2020": {
+      "char": "†",
+      "glyph": "dagger"
+    },
+    "U+2021": {
+      "char": "‡",
+      "glyph": "daggerdbl"
+    },
+    "U+2022": {
+      "char": "•",
+      "glyph": "bullet"
+    },
+    "U+2026": {
+      "char": "…",
+      "glyph": "ellipsis"
+    },
+    "U+2030": {
+      "char": "‰",
+      "glyph": "perthousand"
+    },
+    "U+2039": {
+      "char": "‹",
+      "glyph": "guilsinglleft"
+    },
+    "U+203A": {
+      "char": "›",
+      "glyph": "guilsinglright"
+    },
+    "U+20AC": {
+      "char": "€",
+      "glyph": "Euro"
+    },
+    "U+2116": {
+      "char": "№",
+      "glyph": "afii61352"
+    },
+    "U+2122": {
+      "char": "™",
+      "glyph": "trademark"
+    },
+    "U+2126": {
+      "char": "Ω",
+      "glyph": "Omega"
+    },
+    "U+2202": {
+      "char": "∂",
+      "glyph": "partialdiff"
+    },
+    "U+2206": {
+      "char": "∆",
+      "glyph": "Delta"
+    },
+    "U+220F": {
+      "char": "∏",
+      "glyph": "product"
+    },
+    "U+2211": {
+      "char": "∑",
+      "glyph": "summation"
+    },
+    "U+2212": {
+      "char": "−",
+      "glyph": "minus"
+    },
+    "U+221A": {
+      "char": "√",
+      "glyph": "radical"
+    },
+    "U+221E": {
+      "char": "∞",
+      "glyph": "infinity"
+    },
+    "U+222B": {
+      "char": "∫",
+      "glyph": "integral"
+    },
+    "U+2248": {
+      "char": "≈",
+      "glyph": "approxequal"
+    },
+    "U+2260": {
+      "char": "≠",
+      "glyph": "notequal"
+    },
+    "U+2264": {
+      "char": "≤",
+      "glyph": "lessequal"
+    },
+    "U+2265": {
+      "char": "≥",
+      "glyph": "greaterequal"
+    },
+    "U+25CA": {
+      "char": "◊",
+      "glyph": "lozenge"
+    },
+    "U+FB01": {
+      "char": "ﬁ",
+      "glyph": "fi"
+    },
+    "U+FB02": {
+      "char": "ﬂ",
+      "glyph": "fl"
+    }
+  }
+}
