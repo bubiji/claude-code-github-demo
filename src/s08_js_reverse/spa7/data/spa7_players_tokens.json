@@ -1,0 +1,177 @@
+{
+  "run_at": "2026-08-23T20:07:11+09:00",
+  "source": "https://spa7.scrape.center/js/main.js",
+  "api_probe": [
+    {
+      "path": "/api/player",
+      "status": 200,
+      "bytes": 2088,
+      "content_type": "text/html"
+    },
+    {
+      "path": "/api/players",
+      "status": 200,
+      "bytes": 2088,
+      "content_type": "text/html"
+    },
+    {
+      "path": "/api/nba",
+      "status": 200,
+      "bytes": 2088,
+      "content_type": "text/html"
+    },
+    {
+      "path": "/api/token",
+      "status": 200,
+      "bytes": 2088,
+      "content_type": "text/html"
+    },
+    {
+      "path": "/api",
+      "status": 200,
+      "bytes": 2088,
+      "content_type": "text/html"
+    },
+    {
+      "path": "/api/movie",
+      "status": 200,
+      "bytes": 2088,
+      "content_type": "text/html"
+    }
+  ],
+  "algorithm": "base64( DES-ECB-PKCS7( base64(name)+birthday+height+weight, key[:8] ) )",
+  "key": "fipFfVsZsTda94hJNKJfLoaqyqMZFFimwLt",
+  "key_bytes_used": "fipFfVsZ",
+  "node_cross_check_matched": 16,
+  "count": 16,
+  "players": [
+    {
+      "name": "凯文-杜兰特",
+      "image": "durant.png",
+      "birthday": "1988-09-29",
+      "height": "208cm",
+      "weight": "108.9KG",
+      "token": "DG1uMMq1M7OeHhds71HlSMHOoI2tFpWCB4ApP00cVFqptmlFKjFu9RluHo2w3mUw"
+    },
+    {
+      "name": "勒布朗-詹姆斯",
+      "image": "james.png",
+      "birthday": "1984-12-30",
+      "height": "206cm",
+      "weight": "113.4KG",
+      "token": "3oimklW/W/ngYkFCAre5DPS4f/d4s9wsxAx+vxTeWY7Ab9AneJtN7AJr9elx7PLpSpxFUXsd0t0="
+    },
+    {
+      "name": "斯蒂芬-库里",
+      "image": "curry.png",
+      "birthday": "1988-03-14",
+      "height": "191cm",
+      "weight": "83.9KG",
+      "token": "sZkeRg+OqU4406ZO5EhpRUqsg9QS9dz4BANdNgmpsFVYJjNWn0k61E3lrj05r5EC"
+    },
+    {
+      "name": "詹姆斯-哈登",
+      "image": "harden.png",
+      "birthday": "1989-08-26",
+      "height": "196cm",
+      "weight": "99.8KG",
+      "token": "evDiDnPBGwIxe3cjYPXB22oKj049pxLL3RfgIp5P9hT+tOtrsevTx29K9aaBj2Ds"
+    },
+    {
+      "name": "扬尼斯-安特托昆博",
+      "image": "antetokounmpo.png",
+      "birthday": "1994-12-06",
+      "height": "211cm",
+      "weight": "109.8KG",
+      "token": "o6vkqk+dSV8jKFxlrQPB6S9GITUH4Fx8Kf4EI49OrTgM6c2ehRvua4osLn6iczH/IDcOr0DuFV9KnEVRex3S3Q=="
+    },
+    {
+      "name": "拉塞尔-威斯布鲁克",
+      "image": "westbrook.png",
+      "birthday": "1988-11-12",
+      "height": "191cm",
+      "weight": "90.7KG",
+      "token": "rR95BGefawHYyhz4VPfk6bkheavfgJcELQbGSxEWhB2Sna9EyCwZXhYyvHpf0X7NW3p0MRuPhYdE3KC6Bu3I5A=="
+    },
+    {
+      "name": "凯里-欧文",
+      "image": "irving.png",
+      "birthday": "1992-03-23",
+      "height": "188cm",
+      "weight": "88.5KG",
+      "token": "nTinqg2MTz6HPcn5po2mvK2hFB6CtN1VNYo3b7BUgrO7cZU7JmI4KETcoLoG7cjk"
+    },
+    {
+      "name": "安东尼-戴维斯",
+      "image": "davis.png",
+      "birthday": "1993-03-11",
+      "height": "208cm",
+      "weight": "114.8KG",
+      "token": "SZrUq97bIKMT8A8+5poINKp4LvkMho6D22h7QAQdeaVt7lwUBMrzbKGsn4CWgWISSpxFUXsd0t0="
+    },
+    {
+      "name": "乔尔-恩比德",
+      "image": "embiid.png",
+      "birthday": "1994-03-16",
+      "height": "213cm",
+      "weight": "127.0KG",
+      "token": "jM2AMHWEGR7XPzcS9TXbFvWk3egklebrLpy4PGOJ2Dgp6gEMy+K7RC1pQBjov5z5"
+    },
+    {
+      "name": "克雷-汤普森",
+      "image": "thompson.png",
+      "birthday": "1990-02-08",
+      "height": "198cm",
+      "weight": "97.5KG",
+      "token": "ZbCyikQGss8IGCV14Utz07yC+ltW38oRRtagvPsNby+W5le06WT0SiAI79ae3rHi"
+    },
+    {
+      "name": "考瓦伊-莱昂纳德",
+      "image": "leonard.png",
+      "birthday": "1991-06-29",
+      "height": "201cm",
+      "weight": "102.1KG",
+      "token": "4QkDpTPjrgZdr6Mru2jvaxxik7n7Hs3GqA5xX/nVNMnpMvNi8r7WyLUe5gqPTte0+S7G053mkfc="
+    },
+    {
+      "name": "达米安-利拉德",
+      "image": "lillard.png",
+      "birthday": "1990-07-15",
+      "height": "188cm",
+      "weight": "88.5KG",
+      "token": "LpC7uqNRalkxczZr61omV8D/Czy6GJR/0N56qHW8addmWsnr1LQ0VrtxlTsmYjgoRNygugbtyOQ="
+    },
+    {
+      "name": "卡梅罗-安东尼",
+      "image": "anthony.png",
+      "birthday": "1984-05-29",
+      "height": "203cm",
+      "weight": "108KG",
+      "token": "RsRBspJvKRto1876nMhHgh3Z6/9buixxfJZedby46Ydoywsc1boyIK4crMvnVmS2OS/I7URLXdw="
+    },
+    {
+      "name": "尼科拉-约基奇",
+      "image": "jokic.png",
+      "birthday": "1995-02-19",
+      "height": "213cm",
+      "weight": "128.8KG",
+      "token": "OMHyOG8pDj5TH2yMM3zYJtdXdArhLFhp0ArpmcdGlYm87BsE44L1EOVOWatR++TjSpxFUXsd0t0="
+    },
+    {
+      "name": "卡尔-安东尼-唐斯",
+      "image": "towns.png",
+      "birthday": "1995-11-15",
+      "height": "211cm",
+      "weight": "112.5KG",
+      "token": "6C03P2Jzlff3i0amcVIMM/TdZLftH7b1xUuVHeeTaFlpMOkB0yHNHBbu7Z8EMDtMUVOJ3gkHn5I="
+    },
+    {
+      "name": "克里斯-保罗",
+      "image": "paul.png",
+      "birthday": "1985-05-06",
+      "height": "185cm",
+      "weight": "79.4KG",
+      "token": "TtulIkS1gMCQiGTImQtOZbPg/A766KPWnRe4RhZ6YxITyudvx3kTgiR0UGwcAEzr"
+    }
+  ]
+}

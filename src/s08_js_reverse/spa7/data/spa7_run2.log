@@ -1,0 +1,15 @@
+[2026-08-23T20:07:11+09:00] GET https://spa7.scrape.center/js/main.js
+  解析到 16 名球员，DES 密钥 'fipFfVsZsTda94hJNKJfLoaqyqMZFFimwLt'（长度 35，DES 实际只用前 8 字节 'fipFfVsZ'）
+  纯 Python DES 生成 16 个 Token，首个：凯文-杜兰特 -> DG1uMMq1M7OeHhds71HlSMHOoI2tFpWCB4ApP00cVFqptmlFKjFu9RluHo2w3mUw
+  与站点自带 crypto-js（Node 执行）比对：16/16 完全一致
+
+[有没有接口] 探几个常见路径
+  /api/player   HTTP 200  2088 字节  text/html
+  /api/players  HTTP 200  2088 字节  text/html
+  /api/nba      HTTP 200  2088 字节  text/html
+  /api/token    HTTP 200  2088 字节  text/html
+  /api          HTTP 200  2088 字节  text/html
+  /api/movie    HTTP 200  2088 字节  text/html
+  → 6 个路径返回 1 种响应体大小 {2088}；确认没有数据接口，数据只在 main.js 里
+  落盘 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-a00ad613fb85dc4c2/src/s08_js_reverse/spa7/data/spa7_players_tokens.json（5098 字节）
+  本次为第 2 次运行，记录追加到 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-a00ad613fb85dc4c2/src/s08_js_reverse/spa7/data/spa7_runs.json
