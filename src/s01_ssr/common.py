@@ -376,7 +376,7 @@ def save_dataset(outdir: Path, name: str, records: list[dict], summary: dict,
 
 
 def report(name: str, records: list[dict], stats: CrawlStats, saved: dict,
-           log: Callable[[str], None] = print) -> None:
+           log: Callable[[str], None] = print, workers: int = 1) -> None:
     log("")
     log(f"[{name}] 抓取完成")
     log(f"  记录数     : {len(records)}（列表页 {stats.pages} 页 / 详情页 {stats.details} 个）")
@@ -384,8 +384,12 @@ def report(name: str, records: list[dict], stats: CrawlStats, saved: dict,
     log(f"  单请求均值 : {stats.avg_request:.2f}s")
     log(f"  总耗时     : {stats.elapsed:.2f}s"
         f"（列表 {stats.elapsed_pages:.2f}s + 详情 {stats.elapsed_details:.2f}s）")
-    log(f"  串行预估   : {stats.serial_estimate:.2f}s"
-        f"（{stats.requests} 请求 × 均值 {stats.avg_request:.2f}s）")
+    if workers <= 1:
+        # 并发跑时这个均值里含排队等待，拿它外推串行耗时会离谱地高（ssr4 实测
+        # 均值 11.17s 而无排队单请求只要 5.93s），所以只在串行时报这一行；
+        # 并发下的串行对照由各案例自己用「无排队基线 × 请求数」给（见 ssr4）。
+        log(f"  串行预估   : {stats.serial_estimate:.2f}s"
+            f"（{stats.requests} 请求 × 均值 {stats.avg_request:.2f}s）")
     csv_part = (f"{name}.csv {saved['csv_bytes'] / 1024:.1f}KB / "
                 if saved.get("csv_bytes") else "")
     log(f"  落盘       : {name}.json {saved['json_bytes'] / 1024:.1f}KB / "
