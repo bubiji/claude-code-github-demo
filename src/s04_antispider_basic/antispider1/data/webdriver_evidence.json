@@ -1,0 +1,25 @@
+[
+  {
+    "trial": "A · 纯 HTTP（requests）",
+    "status": 200,
+    "bytes": 952,
+    "app_div": true,
+    "contains_forbidden": false,
+    "note": "服务端返回的是空壳 SPA，HTML 里既没有电影数据也没有 Forbidden 字样"
+  },
+  {
+    "trial": "B · Playwright 未处理",
+    "navigator.webdriver": "true",
+    "app_inner_text": "Webdriver Forbidden.",
+    "movie_cards": 0,
+    "blocked": true
+  },
+  {
+    "trial": "C · Playwright 隐藏 webdriver 特征",
+    "init_script": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});",
+    "navigator.webdriver": "undefined",
+    "app_inner_text_head": "Scrape\n霸王别姬 - Farewell My Concubine\n剧情爱情\n中国内地、中国香港 / 171 分钟\n1993-07-26 上映\n\n9.5\n\n",
+    "movie_cards": 10,
+    "blocked": false
+  }
+]
