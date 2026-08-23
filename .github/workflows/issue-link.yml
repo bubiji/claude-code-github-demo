@@ -1,0 +1,20 @@
+name: issue-link
+
+# 校验 rule 一：任何代码提交必须关联 issue（CLAUDE.md 第一章）
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: 校验 PR 正文与 commit 的 issue 关联
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: python3 src/tools/check_issue_link.py

@@ -10,3 +10,6 @@ __pycache__/
 *.pyc
 node_modules/
 .env
+
+# 生成物
+build/
