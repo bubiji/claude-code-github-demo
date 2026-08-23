@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "key": "ZWYzNCN0ZXVxMGJ0dWEjKC01N3cxcTVvNS0takA5OHh5Z2ltbHlmeHMqLSFpLTAtbWIx",
+    "name": "霸王别姬",
+    "score": 9.5,
+    "published_at": "1993-07-26",
+    "directors": [
+      "陈凯歌"
+    ]
+  },
+  {
+    "id": 2,
+    "key": "ZWYzNCN0ZXVxMGJ0dWEjKC01N3cxcTVvNS0takA5OHh5Z2ltbHlmeHMqLSFpLTAtbWIy",
+    "name": "这个杀手不太冷",
+    "score": 9.5,
+    "published_at": "1994-09-14",
+    "directors": [
+      "吕克·贝松"
+    ]
+  },
+  {
+    "id": 3,
+    "key": "ZWYzNCN0ZXVxMGJ0dWEjKC01N3cxcTVvNS0takA5OHh5Z2ltbHlmeHMqLSFpLTAtbWIz",
+    "name": "肖申克的救赎",
+    "score": 9.5,
+    "published_at": "1994-09-10",
+    "directors": [
+      "弗兰克·德拉邦特"
+    ]
+  },
+  {
+    "id": 4,
+    "key": "ZWYzNCN0ZXVxMGJ0dWEjKC01N3cxcTVvNS0takA5OHh5Z2ltbHlmeHMqLSFpLTAtbWI0",
+    "name": "泰坦尼克号",
+    "score": 9.5,
+    "published_at": "1998-04-03",
+    "directors": [
+      "詹姆斯·卡梅隆"
+    ]
+  },
+  {
+    "id": 5,
+    "key": "ZWYzNCN0ZXVxMGJ0dWEjKC01N3cxcTVvNS0takA5OHh5Z2ltbHlmeHMqLSFpLTAtbWI1",
+    "name": "罗马假日",
+    "score": 9.5,
+    "published_at": "1953-08-20",
+    "directors": [
+      "威廉·惠勒"
+    ]
+  }
+]
