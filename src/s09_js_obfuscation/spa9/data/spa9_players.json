@@ -1,0 +1,141 @@
+{
+  "site": "spa9",
+  "site_key": "NAhwcEVLEnRoJA7acv6eZGvXWjtijppyHXh",
+  "generated_at": "2026-08-23 20:11:11 +0900",
+  "count": 16,
+  "players": [
+    {
+      "name": "凯文-杜兰特",
+      "image": "durant.png",
+      "birthday": "1988-09-29",
+      "height": "208cm",
+      "weight": "108.9KG",
+      "token": "Q6y/xjEY2DrGuOVahjRZjHEMrvDLsQjxZ+2aDZ7c99wCgmvCs5Yf/UB1U1Uz0lQq"
+    },
+    {
+      "name": "勒布朗-詹姆斯",
+      "image": "james.png",
+      "birthday": "1984-12-30",
+      "height": "206cm",
+      "weight": "113.4KG",
+      "token": "sRq0gkBRCvgLXx1SKl1p+inaFV3XAUxSf0ZQWpAbEufWqmbSf4QdqLwQGOAqjIC483AwM7bVCm4="
+    },
+    {
+      "name": "斯蒂芬-库里",
+      "image": "curry.png",
+      "birthday": "1988-03-14",
+      "height": "191cm",
+      "weight": "83.9KG",
+      "token": "rktaeE/bSd5zyfiaweVczAzP78E0oybz6KeRS9APRs5qhqHRpg2P1pfW6miWIKFC"
+    },
+    {
+      "name": "詹姆斯-哈登",
+      "image": "harden.png",
+      "birthday": "1989-08-26",
+      "height": "196cm",
+      "weight": "99.8KG",
+      "token": "tiRhDxGx9Ik1zVQ5ULg1u9WuIyHzv1XwoBJQN+mWhNXgaYuwhHOCIuG6L1ifOZWj"
+    },
+    {
+      "name": "扬尼斯-安特托昆博",
+      "image": "antetokounmpo.png",
+      "birthday": "1994-12-06",
+      "height": "211cm",
+      "weight": "109.8KG",
+      "token": "iegnJmtNmP0FNgW/5m5Wjcko6lv0afjjyIZkp0FMRuhp2zcxTpLXXzwUKnyOmikEkt8LDMcNTNLzcDAzttUKbg=="
+    },
+    {
+      "name": "拉塞尔-威斯布鲁克",
+      "image": "westbrook.png",
+      "birthday": "1988-11-12",
+      "height": "191cm",
+      "weight": "90.7KG",
+      "token": "pfg1YXHfkKZImIuwQAw3U6HBaxucqCL3XgeDg2/QbkOdetpw6vv19DbSjw+F8cIMUJzK8iRWlbJD86Vu8XLdwA=="
+    },
+    {
+      "name": "凯里-欧文",
+      "image": "irving.png",
+      "birthday": "1992-03-23",
+      "height": "188cm",
+      "weight": "88.5KG",
+      "token": "yAKsnw4lgrvMawRdAXuUk7Ic9ndoCaT8ij0BPrd+35w6flr/6TAv1EPzpW7xct3A"
+    },
+    {
+      "name": "安东尼-戴维斯",
+      "image": "davis.png",
+      "birthday": "1993-03-11",
+      "height": "208cm",
+      "weight": "114.8KG",
+      "token": "hLI8h+J4CjR+BVssKZ062z95grciEbN8WPjlQorbgyNfqJBRWeGbsHvl+F12X0IC83AwM7bVCm4="
+    },
+    {
+      "name": "乔尔-恩比德",
+      "image": "embiid.png",
+      "birthday": "1994-03-16",
+      "height": "213cm",
+      "weight": "127.0KG",
+      "token": "t2mzx8lzywaBmywwSiaEq9BZTKpKmRH43kRVMM71bD6ct1pj47CZ0fdBiysEtMXT"
+    },
+    {
+      "name": "克雷-汤普森",
+      "image": "thompson.png",
+      "birthday": "1990-02-08",
+      "height": "198cm",
+      "weight": "97.5KG",
+      "token": "nBt12Y5/VhtyHJemZxfqXk6V0a9guE8NUAJAbVAJqKlxJTgVoJgquNu5G2Yd8zrz"
+    },
+    {
+      "name": "考瓦伊-莱昂纳德",
+      "image": "leonard.png",
+      "birthday": "1991-06-29",
+      "height": "201cm",
+      "weight": "102.1KG",
+      "token": "hGCN73Tlawk/5O/AVcikQv+jDoULsXnoHx+fCtYF2Nm6WsnyKcnDftZIDJgO3eptmn8jlv2M0CI="
+    },
+    {
+      "name": "达米安-利拉德",
+      "image": "lillard.png",
+      "birthday": "1990-07-15",
+      "height": "188cm",
+      "weight": "88.5KG",
+      "token": "dPlFDu+ZYQTg5HJPhFu2O7VL5R+m7q5ufdxREqvwkB7Fvm0q55W5wDp+Wv/pMC/UQ/OlbvFy3cA="
+    },
+    {
+      "name": "卡梅罗-安东尼",
+      "image": "anthony.png",
+      "birthday": "1984-05-29",
+      "height": "203cm",
+      "weight": "108KG",
+      "token": "pyGHdT/QIeyuOqROsV9LXSWK8m4Y/3/xe46zP4gonJKO/4mZw9HX8v0DkaQv5BDJf0OeUruoW0g="
+    },
+    {
+      "name": "尼科拉-约基奇",
+      "image": "jokic.png",
+      "birthday": "1995-02-19",
+      "height": "213cm",
+      "weight": "128.8KG",
+      "token": "6PxIkETCRujLYdWwfnDKD7NJgR6BlyhQkEwzKkuhFGtMh0DXg/OEy28Z/aU8ICQc83AwM7bVCm4="
+    },
+    {
+      "name": "卡尔-安东尼-唐斯",
+      "image": "towns.png",
+      "birthday": "1995-11-15",
+      "height": "211cm",
+      "weight": "112.5KG",
+      "token": "FHPIsyJTN4KyHPJpgbsUzLFn79WPjwtka38HCAp4cvRyGYL6A6z+TArQiVa2VnmjYKtNKd/fifE="
+    },
+    {
+      "name": "克里斯-保罗",
+      "image": "paul.png",
+      "birthday": "1985-05-06",
+      "height": "185cm",
+      "weight": "79.4KG",
+      "token": "YLjIQ8DaNoljfBkhGG4iQjqc9AKv1KdU7TNUflUooOfu37ARj1Jck0s5UStf3B56"
+    }
+  ],
+  "obfuscation": "eval 混淆（Dean Edwards packer，p,a,c,k,e,r）",
+  "obfuscated_source": "https://spa9.scrape.center/  （HTML 内联 <script>）",
+  "token_algorithm": "DES/ECB/PKCS7(key=site_key[:8]) over base64(name)+birthday+height+weight, output=base64(ciphertext)",
+  "token_crosscheck_vs_site_cryptojs": "16/16 一致",
+  "browser_used": false
+}

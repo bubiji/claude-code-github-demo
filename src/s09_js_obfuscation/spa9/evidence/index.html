@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link
+      rel="stylesheet"
+      href="css/element-ui.min.css"
+  />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="img/logo.png">
+  <title>Scrape | NBA</title>
+</head>
+<body>
+<div id="app">
+  <el-row id="header">
+    <el-col :span="18" :offset="3" class="container">
+      <el-row>
+        <el-col :span="4" class="logo">
+          <img src="img/logo.png" class="logo-image">
+          <span class="logo-title">Scrape</span>
+        </el-col>
+      </el-row>
+    </el-col>
+  </el-row>
+  <el-row id="players">
+    <el-col :span="18" :offset="3">
+      <el-row :gutter="15">
+        <el-col v-for="player in players" :lg="6" :md="12" :sm="12" :xs="24" :key="player.name">
+          <el-tooltip effect="dark" :content="getToken(player)" placement="top-start">
+            <el-card shadow="hover" class="player">
+              <el-row>
+                <el-col :span="10" :offset="1">
+                  <img :src="'img/' + player.image" class="image">
+                </el-col>
+                <el-col :span="11" :offset="2">
+                  <h3 class="name">
+                    {{ player.name }}
+                  </h3>
+                  <p class="height">
+                    身高：<span>{{ player.height }}</span>
+                  </p>
+                  <p class="weight">
+                    体重：<span>{{ player.weight }}</span>
+                  </p>
+                </el-col>
+              </el-row>
+            </el-card>
+          </el-tooltip>
+        </el-col>
+      </el-row>
+    </el-col>
+  </el-row>
+</div>
+</body>
+<script src="js/vue.min.js"></script>
+<script src="js/element-ui.js"></script>
+<script src="js/crypto-js.min.js"></script>
+<script>eval(function(p,a,c,k,e,r){e=function(c){return(c<62?'':e(parseInt(c/62)))+((c=c%62)>35?String.fromCharCode(c+29):c.toString(36))};if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[0-9a-zA-D]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('g h=[{0:\'凯文-杜兰特\',4:\'durant.5\',1:\'b-09-c\',2:\'i\',3:\'108.j\'},{0:\'勒布朗-詹姆斯\',4:\'james.5\',1:\'k-12-30\',2:\'206cm\',3:\'113.l\'},{0:\'斯蒂芬-库里\',4:\'curry.5\',1:\'b-7-14\',2:\'m\',3:\'83.j\'},{0:\'詹姆斯-哈登\',4:\'harden.5\',1:\'1989-n-26\',2:\'196cm\',3:\'99.8\'},{0:\'扬尼斯-安特托昆博\',4:\'antetokounmpo.5\',1:\'o-12-d\',2:\'p\',3:\'109.8\'},{0:\'拉塞尔-威斯布鲁克\',4:\'westbrook.5\',1:\'b-11-12\',2:\'m\',3:\'90.7KG\'},{0:\'凯里-欧文\',4:\'irving.5\',1:\'1992-7-23\',2:\'q\',3:\'r.9\'},{0:\'安东尼-戴维斯\',4:\'davis.5\',1:\'1993-7-11\',2:\'i\',3:\'114.8\'},{0:\'乔尔-恩比德\',4:\'embiid.5\',1:\'o-7-16\',2:\'s\',3:\'127.0KG\'},{0:\'克雷-汤普森\',4:\'thompson.5\',1:\'t-u-n\',2:\'198cm\',3:\'97.9\'},{0:\'考瓦伊-莱昂纳德\',4:\'leonard.5\',1:\'1991-d-c\',2:\'201cm\',3:\'102.1KG\'},{0:\'达米安-利拉德\',4:\'lillard.5\',1:\'t-07-15\',2:\'q\',3:\'r.9\'},{0:\'卡梅罗-安东尼\',4:\'anthony.5\',1:\'k-v-c\',2:\'203cm\',3:\'108KG\'},{0:\'尼科拉-约基奇\',4:\'jokic.5\',1:\'w-u-19\',2:\'s\',3:\'128.8\'},{0:\'卡尔-安东尼-唐斯\',4:\'towns.5\',1:\'w-11-15\',2:\'p\',3:\'112.9\'},{0:\'克里斯-保罗\',4:\'paul.5\',1:\'1985-v-d\',2:\'185cm\',3:\'79.l\'},];new Vue({el:\'#app\',data:function(){x{h,a:\'NAhwcEVLEnRoJA7acv6eZGvXWjtijppyHXh\'}},methods:{getToken(y){e a=6.f.z.A(this.a);g{0,1,2,3}=y;e B=6.f.Base64.stringify(6.f.z.A(0));e C=6.DES.encrypt(`${B}${1}${2}${3}`,a,{D:6.D.ECB,padding:6.pad.Pkcs7});x C.toString()}}})',[],40,'name|birthday|height|weight|image|png|CryptoJS|03|8KG|5KG|key|1988|29|06|let|enc|const|players|208cm|9KG|1984|4KG|191cm|08|1994|211cm|188cm|88|213cm|1990|02|05|1995|return|player|Utf8|parse|base64Name|encrypted|mode'.split('|'),0,{}))</script>
+</html>

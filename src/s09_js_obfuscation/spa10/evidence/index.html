@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link
+      rel="stylesheet"
+      href="css/element-ui.min.css"
+  />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="img/logo.png">
+  <title>Scrape | NBA</title>
+</head>
+<body>
+<div id="app">
+  <el-row id="header">
+    <el-col :span="18" :offset="3" class="container">
+      <el-row>
+        <el-col :span="4" class="logo">
+          <img src="img/logo.png" class="logo-image">
+          <span class="logo-title">Scrape</span>
+        </el-col>
+      </el-row>
+    </el-col>
+  </el-row>
+  <el-row id="players">
+    <el-col :span="18" :offset="3">
+      <el-row :gutter="15">
+        <el-col v-for="player in players" :lg="6" :md="12" :sm="12" :xs="24" :key="player.name">
+          <el-tooltip effect="dark" :content="getToken(player)" placement="top-start">
+            <el-card shadow="hover" class="player">
+              <el-row>
+                <el-col :span="10" :offset="1">
+                  <img :src="'img/' + player.image" class="image">
+                </el-col>
+                <el-col :span="11" :offset="2">
+                  <h3 class="name">
+                    {{ player.name }}
+                  </h3>
+                  <p class="height">
+                    身高：<span>{{ player.height }}</span>
+                  </p>
+                  <p class="weight">
+                    体重：<span>{{ player.weight }}</span>
+                  </p>
+                </el-col>
+              </el-row>
+            </el-card>
+          </el-tooltip>
+        </el-col>
+      </el-row>
+    </el-col>
+  </el-row>
+</div>
+</body>
+<script src="js/vue.min.js"></script>
+<script src="js/element-ui.js"></script>
+<script src="js/crypto-js.min.js"></script>
+<script src="js/main.js"></script>
+</html>

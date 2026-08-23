@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-08-23 20:11:49 +0900",
+  "间隔秒": 150,
+  "spa8-13（判据：两轮 token 全等）": {
+    "spa8": {
+      "token 条数": 16,
+      "两轮逐字节全等": true,
+      "判定": "PASS（纯函数 token，应当全等）"
+    },
+    "spa9": {
+      "token 条数": 16,
+      "两轮逐字节全等": true,
+      "判定": "PASS（纯函数 token，应当全等）"
+    },
+    "spa10": {
+      "token 条数": 16,
+      "两轮逐字节全等": true,
+      "判定": "PASS（纯函数 token，应当全等）"
+    },
+    "spa11": {
+      "token 条数": 16,
+      "两轮逐字节全等": true,
+      "判定": "PASS（纯函数 token，应当全等）"
+    },
+    "spa12": {
+      "token 条数": 16,
+      "两轮逐字节全等": true,
+      "判定": "PASS（纯函数 token，应当全等）"
+    },
+    "spa13": {
+      "token 条数": 16,
+      "两轮逐字节全等": true,
+      "判定": "PASS（纯函数 token，应当全等）"
+    }
+  },
+  "antispider8（判据：两轮 token 不同且都成功）": {
+    "第 1 轮": {
+      "count": 104,
+      "fetched": 104,
+      "no_token_status": 401,
+      "statuses": [
+        200
+      ],
+      "first_token_head": "NWE1MGQ3MDJmYzBhZDdmZDU2…",
+      "generated_at": "2026-08-23 20:08:38 +0900"
+    },
+    "第 2 轮": {
+      "count": 104,
+      "fetched": 104,
+      "no_token_status": 401,
+      "statuses": [
+        200
+      ],
+      "first_token_head": "NjM0MDU5NzU1MDRkNWJkMDM3…",
+      "generated_at": "2026-08-23 20:11:49 +0900"
+    },
+    "两轮 token 不同": true,
+    "两轮都抓满 104 条且全 200": true,
+    "无 token 时": "HTTP 401",
+    "判定": "PASS（token 现算，非硬编码）"
+  },
+  "六站横向对账（判据：名册全等、key 互异）": {
+    "名册逐字段全等": true,
+    "不一致的站": [],
+    "名册条数": 16,
+    "首位球员": "凯文-杜兰特",
+    "各站 site_key": {
+      "spa8": "qmqTHChqJqiiTDrsRoLQsyR2soxq6knoDPM",
+      "spa9": "NAhwcEVLEnRoJA7acv6eZGvXWjtijppyHXh",
+      "spa10": "VnzXHU3MQzuTXWuzzHXtxM7ifdYdrZVWqbv",
+      "spa11": "nCQ7ywzJVEqGTTxncPFJzXv8juDWwPMrZAr",
+      "spa12": "wUeziGfVEsfgHMpA8mVZcwwM8oNgsGHQFNu",
+      "spa13": "JD8wgBMgVjdQbBUVbMarpZMAadLD7yvfzVV"
+    },
+    "site_key 互不相同": true,
+    "同一球员在各站的 token": {
+      "spa8": "yLFsRfYnFD/3yDZwaJXxZAzhHEq6vGdhotpDZm+nfEXclmb+oNfEQsJ8WQLSaIVk",
+      "spa9": "Q6y/xjEY2DrGuOVahjRZjHEMrvDLsQjxZ+2aDZ7c99wCgmvCs5Yf/UB1U1Uz0lQq",
+      "spa10": "fjGIiI5eDIdpAx/ENrqMABDFo3NR1jI79DYajDkEx+cdNiED8RR/42f4VEej4N9f",
+      "spa11": "+mg0CQz7PF31smJSi/+WX/lJjLfzC7vjAB2kJvd4ZA/VLztQK+USfCHVgZzovz/K",
+      "spa12": "1S0jjNl1WPimYngkDv77W3p1JVmHLEVzHpcm82IhkNOufFJLrkVJvJyh2Jqv6N4O",
+      "spa13": "PuqsOFLeF/Dz5Du1S8xO1EYaQZKX8aKI0pnhdJTjYR4A3knrnPXwBkKDjmVo0tkF"
+    },
+    "token 互不相同（key 不同所致）": true
+  },
+  "全部通过": true,
+  "两轮完整日志": {
+    "第1轮": {
+      "spa8": "[spa8] 无混淆（案例原描述为「JavaScript 代码一行混入 HTML 代码」，实测当前下发为格式化明文，见 README）\n  ① GET https://spa8.scrape.center/ → evidence/index.html (5469 bytes)\n  ① 混淆原件 ← https://spa8.scrape.center/  （HTML 内联 <script>） → evidence/before.js (3374 bytes)\n  ② 还原 → evidence/after.js (3374 bytes)\n     （无需还原：站点当前下发的即为未混淆源码，见本案例 README）\n  ③ 取值：site key = 'qmqTHChqJqiiTDrsRoLQsyR2soxq6knoDPM'，players = 16 人\n  ④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致\n  ⑤ 落盘 → data/spa8_players.json (4639 bytes)",
+      "spa9": "[spa9] eval 混淆（Dean Edwards packer，p,a,c,k,e,r）\n  ① GET https://spa9.scrape.center/ → evidence/index.html (3876 bytes)\n  ① 混淆原件 ← https://spa9.scrape.center/  （HTML 内联 <script>） → evidence/before.js (2100 bytes)\n  ② 还原 → evidence/after.js (2091 bytes)\n     [unwrap] 捕获 1 段代码，入口顺序: [\"eval/1903B\"]\n     [unwrap] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa9/evidence/after.js (1903 bytes)\n  ③ 取值：site key = 'NAhwcEVLEnRoJA7acv6eZGvXWjtijppyHXh'，players = 16 人\n  ④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致\n  ⑤ 落盘 → data/spa9_players.json (4557 bytes)",
+      "spa10": "[spa10] JJEncode\n  ① GET https://spa10.scrape.center/ → evidence/index.html (1793 bytes)\n  ① 混淆原件 ← https://spa10.scrape.center/js/main.js → evidence/before.js (23324 bytes)\n  ② 还原 → evidence/after.js (2092 bytes)\n     [unwrap] 捕获 2 段代码，入口顺序: [\"Function/4253B\",\"Function/1904B\"]\n     [unwrap] payload 执行在 Node 里抛错（预期内，缺 Vue/CryptoJS）: Vue is not defined\n     [unwrap] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa10/evidence/after.js (1904 bytes)\n  ③ 取值：site key = 'VnzXHU3MQzuTXWuzzHXtxM7ifdYdrZVWqbv'，players = 16 人\n  ④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致\n  ⑤ 落盘 → data/spa10_players.json (4499 bytes)",
+      "spa11": "[spa11] AAEncode\n  ① GET https://spa11.scrape.center/ → evidence/index.html (1793 bytes)\n  ① 混淆原件 ← https://spa11.scrape.center/js/main.js → evidence/before.js (134991 bytes)\n  ② 还原 → evidence/after.js (2092 bytes)\n     [unwrap] 捕获 2 段代码，入口顺序: [\"Function/7095B\",\"Function/1904B\"]\n     [unwrap] payload 执行在 Node 里抛错（预期内，缺 Vue/CryptoJS）: Vue is not defined\n     [unwrap] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa11/evidence/after.js (1904 bytes)\n  ③ 取值：site key = 'nCQ7ywzJVEqGTTxncPFJzXv8juDWwPMrZAr'，players = 16 人\n  ④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致\n  ⑤ 落盘 → data/spa11_players.json (4499 bytes)",
+      "spa12": "[spa12] JSFuck\n  ① GET https://spa12.scrape.center/ → evidence/index.html (1793 bytes)\n  ① 混淆原件 ← https://spa12.scrape.center/js/main.js → evidence/before.js (134129 bytes)\n  ② 还原 → evidence/after.js (2485 bytes)\n     [unwrap] 捕获 4 段代码，入口顺序: [\"Function/11B\",\"Function/13B\",\"Function/6291B\",\"eval/2297B\"]\n     [unwrap] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa12/evidence/after.js (2297 bytes)\n  ③ 取值：site key = 'wUeziGfVEsfgHMpA8mVZcwwM8oNgsGHQFNu'，players = 16 人\n  ④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致\n  ⑤ 落盘 → data/spa12_players.json (4497 bytes)",
+      "spa13": "[spa13] JavaScript Obfuscator（字符串数组 + 数组旋转 + 十六进制转义）\n  ① GET https://spa13.scrape.center/ → evidence/index.html (1793 bytes)\n  ① 混淆原件 ← https://spa13.scrape.center/js/main.js → evidence/before.js (8394 bytes)\n  ② 还原 → evidence/after.js (2826 bytes)\n     [strarray] 前言执行完成：数组 _0x4afa（63 项，已旋转），解码器 _0x3431\n     [strarray] 解码器别名 4 个: _0x3431, _0x5e920f, _0x511d2e, _0x3c8dcd\n     [strarray] 替换解码器调用 69 处\n     [strarray] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa13/evidence/after.js (2638 bytes)\n  ③ 取值：site key = 'JD8wgBMgVjdQbBUVbMarpZMAadLD7yvfzVV'，players = 16 人\n  ④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致\n  ⑤ 落盘 → data/spa13_players.json (4569 bytes)",
+      "antispider8": "[antispider8] 开抓（不启动浏览器）\n  · 不带 token: HTTP 401\n  · 列表: 104/104 条，11 次请求全部 200\n  · 详情: 取前 5 部，全部 200\n{\n  \"no_token_status\": 401,\n  \"count\": 104,\n  \"fetched\": 104,\n  \"requests\": 11,\n  \"details\": 5,\n  \"first\": \"霸王别姬\",\n  \"sample_token\": \"NWE1MGQ3MDJmYzBhZDdmZDU2…\"\n}"
+    },
+    "第2轮": {
+      "spa8": "[spa8] 无混淆（案例原描述为「JavaScript 代码一行混入 HTML 代码」，实测当前下发为格式化明文，见 README）\n  ① GET https://spa8.scrape.center/ → evidence/index.html (5469 bytes)\n  ① 混淆原件 ← https://spa8.scrape.center/  （HTML 内联 <script>） → evidence/before.js (3374 bytes)\n  ② 还原 → evidence/after.js (3374 bytes)\n     （无需还原：站点当前下发的即为未混淆源码，见本案例 README）\n  ③ 取值：site key = 'qmqTHChqJqiiTDrsRoLQsyR2soxq6knoDPM'，players = 16 人\n  ④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致\n  ⑤ 落盘 → data/spa8_players.json (4639 bytes)",
+      "spa9": "[spa9] eval 混淆（Dean Edwards packer，p,a,c,k,e,r）\n  ① GET https://spa9.scrape.center/ → evidence/index.html (3876 bytes)\n  ① 混淆原件 ← https://spa9.scrape.center/  （HTML 内联 <script>） → evidence/before.js (2100 bytes)\n  ② 还原 → evidence/after.js (2091 bytes)\n     [unwrap] 捕获 1 段代码，入口顺序: [\"eval/1903B\"]\n     [unwrap] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa9/evidence/after.js (1903 bytes)\n  ③ 取值：site key = 'NAhwcEVLEnRoJA7acv6eZGvXWjtijppyHXh'，players = 16 人\n  ④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致\n  ⑤ 落盘 → data/spa9_players.json (4557 bytes)",
+      "spa10": "[spa10] JJEncode\n  ① GET https://spa10.scrape.center/ → evidence/index.html (1793 bytes)\n  ① 混淆原件 ← https://spa10.scrape.center/js/main.js → evidence/before.js (23324 bytes)\n  ② 还原 → evidence/after.js (2092 bytes)\n     [unwrap] 捕获 2 段代码，入口顺序: [\"Function/4253B\",\"Function/1904B\"]\n     [unwrap] payload 执行在 Node 里抛错（预期内，缺 Vue/CryptoJS）: Vue is not defined\n     [unwrap] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa10/evidence/after.js (1904 bytes)\n  ③ 取值：site key = 'VnzXHU3MQzuTXWuzzHXtxM7ifdYdrZVWqbv'，players = 16 人\n  ④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致\n  ⑤ 落盘 → data/spa10_players.json (4499 bytes)",
+      "spa11": "[spa11] AAEncode\n  ① GET https://spa11.scrape.center/ → evidence/index.html (1793 bytes)\n  ① 混淆原件 ← https://spa11.scrape.center/js/main.js → evidence/before.js (134991 bytes)\n  ② 还原 → evidence/after.js (2092 bytes)\n     [unwrap] 捕获 2 段代码，入口顺序: [\"Function/7095B\",\"Function/1904B\"]\n     [unwrap] payload 执行在 Node 里抛错（预期内，缺 Vue/CryptoJS）: Vue is not defined\n     [unwrap] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa11/evidence/after.js (1904 bytes)\n  ③ 取值：site key = 'nCQ7ywzJVEqGTTxncPFJzXv8juDWwPMrZAr'，players = 16 人\n  ④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致\n  ⑤ 落盘 → data/spa11_players.json (4499 bytes)",
+      "spa12": "[spa12] JSFuck\n  ① GET https://spa12.scrape.center/ → evidence/index.html (1793 bytes)\n  ① 混淆原件 ← https://spa12.scrape.center/js/main.js → evidence/before.js (134129 bytes)\n  ② 还原 → evidence/after.js (2485 bytes)\n     [unwrap] 捕获 4 段代码，入口顺序: [\"Function/11B\",\"Function/13B\",\"Function/6291B\",\"eval/2297B\"]\n     [unwrap] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa12/evidence/after.js (2297 bytes)\n  ③ 取值：site key = 'wUeziGfVEsfgHMpA8mVZcwwM8oNgsGHQFNu'，players = 16 人\n  ④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致\n  ⑤ 落盘 → data/spa12_players.json (4497 bytes)",
+      "spa13": "[spa13] JavaScript Obfuscator（字符串数组 + 数组旋转 + 十六进制转义）\n  ① GET https://spa13.scrape.center/ → evidence/index.html (1793 bytes)\n  ① 混淆原件 ← https://spa13.scrape.center/js/main.js → evidence/before.js (8394 bytes)\n  ② 还原 → evidence/after.js (2826 bytes)\n     [strarray] 前言执行完成：数组 _0x4afa（63 项，已旋转），解码器 _0x3431\n     [strarray] 解码器别名 4 个: _0x3431, _0x5e920f, _0x511d2e, _0x3c8dcd\n     [strarray] 替换解码器调用 69 处\n     [strarray] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa13/evidence/after.js (2638 bytes)\n  ③ 取值：site key = 'JD8wgBMgVjdQbBUVbMarpZMAadLD7yvfzVV'，players = 16 人\n  ④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致\n  ⑤ 落盘 → data/spa13_players.json (4569 bytes)",
+      "antispider8": "[antispider8] 开抓（不启动浏览器）\n  · 不带 token: HTTP 401\n  · 列表: 104/104 条，11 次请求全部 200\n  · 详情: 取前 5 部，全部 200\n{\n  \"no_token_status\": 401,\n  \"count\": 104,\n  \"fetched\": 104,\n  \"requests\": 11,\n  \"details\": 5,\n  \"first\": \"霸王别姬\",\n  \"sample_token\": \"NjM0MDU5NzU1MDRkNWJkMDM3…\"\n}"
+    }
+  }
+}

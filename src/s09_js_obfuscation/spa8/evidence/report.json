@@ -1,0 +1,24 @@
+{
+  "site": "spa8",
+  "obfuscation": "无混淆（案例原描述为「JavaScript 代码一行混入 HTML 代码」，实测当前下发为格式化明文，见 README）",
+  "steps": [
+    "① GET https://spa8.scrape.center/ → evidence/index.html (5469 bytes)",
+    "① 混淆原件 ← https://spa8.scrape.center/  （HTML 内联 <script>） → evidence/before.js (3374 bytes)",
+    "② 还原 → evidence/after.js (3374 bytes)",
+    "   （无需还原：站点当前下发的即为未混淆源码，见本案例 README）",
+    "③ 取值：site key = 'qmqTHChqJqiiTDrsRoLQsyR2soxq6knoDPM'，players = 16 人",
+    "④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致",
+    "⑤ 落盘 → data/spa8_players.json (4639 bytes)"
+  ],
+  "before_bytes": 3374,
+  "origin": "https://spa8.scrape.center/  （HTML 内联 <script>）",
+  "after_bytes": 3374,
+  "deobf_log": "（无需还原：站点当前下发的即为未混淆源码，见本案例 README）",
+  "site_key": "qmqTHChqJqiiTDrsRoLQsyR2soxq6knoDPM",
+  "player_count": 16,
+  "token_crosscheck": {
+    "matched": 16,
+    "total": 16
+  },
+  "mismatch": []
+}

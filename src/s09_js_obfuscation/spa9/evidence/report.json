@@ -1,0 +1,25 @@
+{
+  "site": "spa9",
+  "obfuscation": "eval 混淆（Dean Edwards packer，p,a,c,k,e,r）",
+  "steps": [
+    "① GET https://spa9.scrape.center/ → evidence/index.html (3876 bytes)",
+    "① 混淆原件 ← https://spa9.scrape.center/  （HTML 内联 <script>） → evidence/before.js (2100 bytes)",
+    "② 还原 → evidence/after.js (2091 bytes)",
+    "   [unwrap] 捕获 1 段代码，入口顺序: [\"eval/1903B\"]",
+    "   [unwrap] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa9/evidence/after.js (1903 bytes)",
+    "③ 取值：site key = 'NAhwcEVLEnRoJA7acv6eZGvXWjtijppyHXh'，players = 16 人",
+    "④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致",
+    "⑤ 落盘 → data/spa9_players.json (4557 bytes)"
+  ],
+  "before_bytes": 2100,
+  "origin": "https://spa9.scrape.center/  （HTML 内联 <script>）",
+  "after_bytes": 2091,
+  "deobf_log": "[unwrap] 捕获 1 段代码，入口顺序: [\"eval/1903B\"]\n[unwrap] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa9/evidence/after.js (1903 bytes)",
+  "site_key": "NAhwcEVLEnRoJA7acv6eZGvXWjtijppyHXh",
+  "player_count": 16,
+  "token_crosscheck": {
+    "matched": 16,
+    "total": 16
+  },
+  "mismatch": []
+}

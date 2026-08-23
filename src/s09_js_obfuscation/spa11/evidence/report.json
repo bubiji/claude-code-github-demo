@@ -1,0 +1,26 @@
+{
+  "site": "spa11",
+  "obfuscation": "AAEncode",
+  "steps": [
+    "① GET https://spa11.scrape.center/ → evidence/index.html (1793 bytes)",
+    "① 混淆原件 ← https://spa11.scrape.center/js/main.js → evidence/before.js (134991 bytes)",
+    "② 还原 → evidence/after.js (2092 bytes)",
+    "   [unwrap] 捕获 2 段代码，入口顺序: [\"Function/7095B\",\"Function/1904B\"]",
+    "   [unwrap] payload 执行在 Node 里抛错（预期内，缺 Vue/CryptoJS）: Vue is not defined",
+    "   [unwrap] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa11/evidence/after.js (1904 bytes)",
+    "③ 取值：site key = 'nCQ7ywzJVEqGTTxncPFJzXv8juDWwPMrZAr'，players = 16 人",
+    "④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致",
+    "⑤ 落盘 → data/spa11_players.json (4499 bytes)"
+  ],
+  "before_bytes": 134991,
+  "origin": "https://spa11.scrape.center/js/main.js",
+  "after_bytes": 2092,
+  "deobf_log": "[unwrap] 捕获 2 段代码，入口顺序: [\"Function/7095B\",\"Function/1904B\"]\n[unwrap] payload 执行在 Node 里抛错（预期内，缺 Vue/CryptoJS）: Vue is not defined\n[unwrap] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa11/evidence/after.js (1904 bytes)",
+  "site_key": "nCQ7ywzJVEqGTTxncPFJzXv8juDWwPMrZAr",
+  "player_count": 16,
+  "token_crosscheck": {
+    "matched": 16,
+    "total": 16
+  },
+  "mismatch": []
+}

@@ -1,0 +1,99 @@
+{
+  "site": "https://antispider8.scrape.center",
+  "generated_at": "2026-08-23 20:16:09 +0900",
+  "观察窗口秒": 8.0,
+  "两处 debugger 出处": {
+    "定时循环": "js/app.40192839.js  → setInterval((function(){debugger;console.log(\"debugger\")}),1e3)",
+    "接口处": "js/chunk-51935b2c.7a777070.js (列表) / js/chunk-27855899.741dfe15.js (详情) → onFetchData:function(){var t=this;debugger;...}"
+  },
+  "实验": [
+    {
+      "实验": "E0 对照组·不接调试器",
+      "手段": "什么都不做，headless 直接打开",
+      "Debugger.paused 次数": 0,
+      "渲染出的电影卡片数": 10,
+      "/api/movie 响应码": [
+        301,
+        200
+      ],
+      "改写统计": null,
+      "异常": null
+    },
+    {
+      "实验": "E1 对照组·接调试器",
+      "手段": "CDP Debugger.enable，不做任何对抗",
+      "Debugger.paused 次数": 8,
+      "渲染出的电影卡片数": 10,
+      "/api/movie 响应码": [
+        301,
+        200
+      ],
+      "改写统计": null,
+      "异常": null
+    },
+    {
+      "实验": "E2 中间人改写响应",
+      "手段": "route 拦截 **/js/*.js，把 debugger 语句替换成空语句",
+      "Debugger.paused 次数": 0,
+      "渲染出的电影卡片数": 10,
+      "/api/movie 响应码": [
+        301,
+        200
+      ],
+      "改写统计": {
+        "拦截的 js 请求数": 7,
+        "累计剥掉的 debugger 语句数": 4,
+        "去重后站点里实有的 debugger 语句数": 3,
+        "逐文件": {
+          "app.40192839.js": {
+            "拦截次数": 1,
+            "每次剥掉": 1
+          },
+          "chunk-27855899.741dfe15.js": {
+            "拦截次数": 1,
+            "每次剥掉": 1
+          },
+          "chunk-51935b2c.7a777070.js": {
+            "拦截次数": 2,
+            "每次剥掉": 1
+          },
+          "chunk-4136500c.36dbfdb6.js": {
+            "拦截次数": 2,
+            "每次剥掉": 0
+          },
+          "chunk-vendors.85236b05.js": {
+            "拦截次数": 1,
+            "每次剥掉": 0
+          }
+        }
+      },
+      "异常": null
+    },
+    {
+      "实验": "E3 调试器侧忽略断点",
+      "手段": "CDP Debugger.setSkipAllPauses(true)（= DevTools 的「停用断点/Never pause here」）",
+      "Debugger.paused 次数": 0,
+      "渲染出的电影卡片数": 10,
+      "/api/movie 响应码": [
+        301,
+        200
+      ],
+      "改写统计": null,
+      "异常": null
+    },
+    {
+      "实验": "E4 置换 setInterval",
+      "手段": "addInitScript 抢在业务代码前换掉 setInterval，丢弃带 debugger 的回调",
+      "Debugger.paused 次数": 1,
+      "渲染出的电影卡片数": 10,
+      "/api/movie 响应码": [
+        301,
+        200
+      ],
+      "改写统计": {
+        "被拦截的 setInterval 次数": 1
+      },
+      "异常": null
+    }
+  ]
+}

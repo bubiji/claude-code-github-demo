@@ -1,0 +1,27 @@
+{
+  "site": "spa13",
+  "obfuscation": "JavaScript Obfuscator（字符串数组 + 数组旋转 + 十六进制转义）",
+  "steps": [
+    "① GET https://spa13.scrape.center/ → evidence/index.html (1793 bytes)",
+    "① 混淆原件 ← https://spa13.scrape.center/js/main.js → evidence/before.js (8394 bytes)",
+    "② 还原 → evidence/after.js (2826 bytes)",
+    "   [strarray] 前言执行完成：数组 _0x4afa（63 项，已旋转），解码器 _0x3431",
+    "   [strarray] 解码器别名 4 个: _0x3431, _0x5e920f, _0x511d2e, _0x3c8dcd",
+    "   [strarray] 替换解码器调用 69 处",
+    "   [strarray] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa13/evidence/after.js (2638 bytes)",
+    "③ 取值：site key = 'JD8wgBMgVjdQbBUVbMarpZMAadLD7yvfzVV'，players = 16 人",
+    "④ Python DES ←→ 站点 crypto-js 逐字节比对：16/16 一致",
+    "⑤ 落盘 → data/spa13_players.json (4569 bytes)"
+  ],
+  "before_bytes": 8394,
+  "origin": "https://spa13.scrape.center/js/main.js",
+  "after_bytes": 2826,
+  "deobf_log": "[strarray] 前言执行完成：数组 _0x4afa（63 项，已旋转），解码器 _0x3431\n[strarray] 解码器别名 4 个: _0x3431, _0x5e920f, _0x511d2e, _0x3c8dcd\n[strarray] 替换解码器调用 69 处\n[strarray] 已写出 /Users/deanlee/Documents/Claude/Projects/git_github/.claude/worktrees/agent-aab96f71fbb4b1186/src/s09_js_obfuscation/spa13/evidence/after.js (2638 bytes)",
+  "site_key": "JD8wgBMgVjdQbBUVbMarpZMAadLD7yvfzVV",
+  "player_count": 16,
+  "token_crosscheck": {
+    "matched": 16,
+    "total": 16
+  },
+  "mismatch": []
+}
