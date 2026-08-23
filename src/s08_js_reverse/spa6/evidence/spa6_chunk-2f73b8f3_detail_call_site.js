@@ -1,0 +1,6 @@
+// 原件片段，逐字取自 https://spa6.scrape.center/js/chunk-2f73b8f3.8f2fc3cd.js
+// UTF-8 解码后的字符区间 [14441, 15368)，原文件共 15736 字符 / 15778 字节，SHA-256 d5056175d73f514c5a2a1a7789d9b622e33bfb84b5da08e91eaf133efd33bbf4
+// 重新取件：
+//   curl -s https://spa6.scrape.center/js/chunk-2f73b8f3.8f2fc3cd.js | python3 -c "import sys;print(sys.stdin.read()[14441:15368])"
+// 以下内容为原文，未做任何改写、格式化或换行：
+_0x16e409=[],_0x4bd365=(_0x16e3fa('a481'),_0x16e3fa('7d92')),_0x4e3614=_0x16e3fa('3e22'),_0x100084=_0x16e3fa('1a7b'),_0x531a42={'name':'Detail','data':function(){return{'loading':!0x1,'key':this['$route']['params']['key'],'movie':null};},'mounted':function(){this['onFetchData']();},'computed':{'photos':{'get':function(){return this['movie']['photos']['map'](function(_0x2d5750){return _0x2d5750['replace'](/(.*[(?:jpg)|(?:png)]).*/,'$1');});}}},'methods':{'transfer':_0x4e3614['a'],'onBuy':function(){window['location']='https://maoyan.com/';},'onFetchData':function(){var _0x298f03=this;this['loading']=!0x0;var _0x46db07=_0x100084(this['$store']['state']['url']['detail'],{'key':this['key']}),_0x1f3e51=Object(_0x4bd365['a'])(_0x46db07);this['$axios']['get'](_0x46db07,{'params':{'token':_0x1f3e51}})['then'](function(_0x5d5ef3){var _0x17510c=_0x5d5ef3['data'];_0x298f03['loading']=!0x1,_0x298f03['movie']=_0x17510c;});}}},
