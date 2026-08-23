@@ -1,0 +1,73 @@
+{
+  "captured_at": "2026-08-23T10:19:41.686743+00:00",
+  "client": "httpx/0.28.1",
+  "requests_per_config": 15,
+  "workers": 5,
+  "target": "https://spa16.scrape.center/api/book/",
+  "alpn": {
+    "offer_h2_and_http11": {
+      "offered": [
+        "h2",
+        "http/1.1"
+      ],
+      "selected": "h2",
+      "tls_version": "TLSv1.3",
+      "cipher": "TLS_AES_256_GCM_SHA384"
+    },
+    "offer_http11_only": {
+      "offered": [
+        "http/1.1"
+      ],
+      "selected": "http/1.1",
+      "tls_version": "TLSv1.3",
+      "cipher": "TLS_AES_256_GCM_SHA384"
+    },
+    "offer_h2_only": {
+      "offered": [
+        "h2"
+      ],
+      "selected": "h2",
+      "tls_version": "TLSv1.3",
+      "cipher": "TLS_AES_256_GCM_SHA384"
+    }
+  },
+  "httpx": {
+    "http2_on": {
+      "http2_enabled": true,
+      "ok": true,
+      "status_code": 200,
+      "http_version": "HTTP/2",
+      "elapsed_ms": 562.1,
+      "response_headers": {
+        "date": "Sun, 23 Aug 2026 10:19:42 GMT",
+        "content-type": "application/json",
+        "content-length": "156",
+        "allow": "GET, POST, HEAD, OPTIONS",
+        "x-frame-options": "SAMEORIGIN",
+        "vary": "Cookie",
+        "strict-transport-security": "max-age=15724800; includeSubDomains"
+      }
+    },
+    "http2_off": {
+      "http2_enabled": false,
+      "ok": false,
+      "error_type": "httpx.ReadError",
+      "error": "[Errno 54] Connection reset by peer",
+      "elapsed_ms": 236.9
+    }
+  },
+  "curl": {
+    "http2": {
+      "cmd": "curl -s -o /dev/null --http2 -w http_version=%{http_version} http_code=%{http_code} time_total=%{time_total} https://spa16.scrape.center/api/book/?limit=1&offset=0",
+      "exit_code": 0,
+      "stdout": "http_version=2 http_code=200 time_total=0.535645",
+      "note": "curl 退出码 56 = Recv failure（连接被对端重置）；0 = 正常"
+    },
+    "http1_1": {
+      "cmd": "curl -s -o /dev/null --http1.1 -w http_version=%{http_version} http_code=%{http_code} time_total=%{time_total} https://spa16.scrape.center/api/book/?limit=1&offset=0",
+      "exit_code": 56,
+      "stdout": "http_version=0 http_code=000 time_total=0.228579",
+      "note": "curl 退出码 56 = Recv failure（连接被对端重置）；0 = 正常"
+    }
+  }
+}

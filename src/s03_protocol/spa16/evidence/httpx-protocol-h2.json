@@ -1,0 +1,15 @@
+{
+  "case": "spa16",
+  "issue": 6,
+  "source": "https://spa16.scrape.center",
+  "fetched_at": "2026-08-23T10:19:27.831697+00:00",
+  "client": "httpx/0.28.1",
+  "http2_enabled": true,
+  "http_versions_observed": [
+    "HTTP/2"
+  ],
+  "requests": 8,
+  "elapsed_s": 6.73,
+  "total_books_on_site": 9040,
+  "books_fetched": 90
+}
