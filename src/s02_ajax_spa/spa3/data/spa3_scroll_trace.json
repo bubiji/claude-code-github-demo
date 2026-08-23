@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "case": "spa3",
+    "issue": 5,
+    "mode": "scroll",
+    "api": "https://spa3.scrape.center/api/movie/",
+    "limit": 10,
+    "count_declared": 104,
+    "records_fetched": 104,
+    "total_records": 11
+  },
+  "records": [
+    {
+      "step": 1,
+      "trigger": "首屏 mounted()",
+      "frontend_page": 1,
+      "request": "GET /api/movie/?limit=10&offset=0",
+      "offset_sent": 0,
+      "got": 10,
+      "cumulative": 10,
+      "count_declared": 104,
+      "remaining_after": 94,
+      "has_more": true
+    },
+    {
+      "step": 2,
+      "trigger": "第 1 次下拉到底 → onLoadMore()",
+      "frontend_page": 2,
+      "request": "GET /api/movie/?limit=10&offset=10",
+      "offset_sent": 10,
+      "got": 10,
+      "cumulative": 20,
+      "count_declared": 104,
+      "remaining_after": 84,
+      "has_more": true
+    },
+    {
+      "step": 3,
+      "trigger": "第 2 次下拉到底 → onLoadMore()",
+      "frontend_page": 3,
+      "request": "GET /api/movie/?limit=10&offset=20",
+      "offset_sent": 20,
+      "got": 10,
+      "cumulative": 30,
+      "count_declared": 104,
+      "remaining_after": 74,
+      "has_more": true
+    },
+    {
+      "step": 4,
+      "trigger": "第 3 次下拉到底 → onLoadMore()",
+      "frontend_page": 4,
+      "request": "GET /api/movie/?limit=10&offset=30",
+      "offset_sent": 30,
+      "got": 10,
+      "cumulative": 40,
+      "count_declared": 104,
+      "remaining_after": 64,
+      "has_more": true
+    },
+    {
+      "step": 5,
+      "trigger": "第 4 次下拉到底 → onLoadMore()",
+      "frontend_page": 5,
+      "request": "GET /api/movie/?limit=10&offset=40",
+      "offset_sent": 40,
+      "got": 10,
+      "cumulative": 50,
+      "count_declared": 104,
+      "remaining_after": 54,
+      "has_more": true
+    },
+    {
+      "step": 6,
+      "trigger": "第 5 次下拉到底 → onLoadMore()",
+      "frontend_page": 6,
+      "request": "GET /api/movie/?limit=10&offset=50",
+      "offset_sent": 50,
+      "got": 10,
+      "cumulative": 60,
+      "count_declared": 104,
+      "remaining_after": 44,
+      "has_more": true
+    },
+    {
+      "step": 7,
+      "trigger": "第 6 次下拉到底 → onLoadMore()",
+      "frontend_page": 7,
+      "request": "GET /api/movie/?limit=10&offset=60",
+      "offset_sent": 60,
+      "got": 10,
+      "cumulative": 70,
+      "count_declared": 104,
+      "remaining_after": 34,
+      "has_more": true
+    },
+    {
+      "step": 8,
+      "trigger": "第 7 次下拉到底 → onLoadMore()",
+      "frontend_page": 8,
+      "request": "GET /api/movie/?limit=10&offset=70",
+      "offset_sent": 70,
+      "got": 10,
+      "cumulative": 80,
+      "count_declared": 104,
+      "remaining_after": 24,
+      "has_more": true
+    },
+    {
+      "step": 9,
+      "trigger": "第 8 次下拉到底 → onLoadMore()",
+      "frontend_page": 9,
+      "request": "GET /api/movie/?limit=10&offset=80",
+      "offset_sent": 80,
+      "got": 10,
+      "cumulative": 90,
+      "count_declared": 104,
+      "remaining_after": 14,
+      "has_more": true
+    },
+    {
+      "step": 10,
+      "trigger": "第 9 次下拉到底 → onLoadMore()",
+      "frontend_page": 10,
+      "request": "GET /api/movie/?limit=10&offset=90",
+      "offset_sent": 90,
+      "got": 10,
+      "cumulative": 100,
+      "count_declared": 104,
+      "remaining_after": 4,
+      "has_more": true
+    },
+    {
+      "step": 11,
+      "trigger": "第 10 次下拉到底 → onLoadMore()",
+      "frontend_page": 11,
+      "request": "GET /api/movie/?limit=10&offset=100",
+      "offset_sent": 100,
+      "got": 4,
+      "cumulative": 104,
+      "count_declared": 104,
+      "remaining_after": 0,
+      "has_more": false
+    }
+  ]
+}

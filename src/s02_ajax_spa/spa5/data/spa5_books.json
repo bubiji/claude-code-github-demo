@@ -1,0 +1,1202 @@
+{
+  "meta": {
+    "case": "spa5",
+    "issue": 5,
+    "mode": "api",
+    "api": "https://spa5.scrape.center/api/book/",
+    "limit": 100,
+    "frontend_limit": 18,
+    "requests": 91,
+    "total_records": 9040,
+    "truncated": "完整数据 9040 条超过 500KB 上限，此文件只保留前 100 条 + 统计摘要",
+    "sample_size": 100,
+    "summary": {
+      "n": 9040,
+      "score": {
+        "n": 8697,
+        "min": 4.2,
+        "max": 10.0,
+        "avg": 8.181
+      },
+      "top_authors": {
+        "鲁迅": 281,
+        "[日] 东野圭吾": 147,
+        "新经典文化": 146,
+        "幾米": 127,
+        "[加拿大] 亦舒": 122,
+        "王小波": 115,
+        "[日] 村上春树": 109,
+        "古龙": 106,
+        "金庸": 102,
+        "张爱玲": 102,
+        "[奥地利] 斯蒂芬·茨威格": 101,
+        "三毛": 100,
+        "余华": 93,
+        "韩寒": 80,
+        "余秋雨": 77
+      }
+    }
+  },
+  "records": [
+    {
+      "id": "7952978",
+      "name": "Wonder",
+      "authors": [
+        "R. J. Palacio"
+      ],
+      "score": 8.8,
+      "cover": "https://cdn.scrape.center/book/s27252687.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7916054",
+      "name": "清白家风",
+      "authors": [
+        "董桥",
+        "海豚简装"
+      ],
+      "score": 7.5,
+      "cover": "https://cdn.scrape.center/book/s27250764.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7698729",
+      "name": "法老的宠妃 终结篇（上下册）",
+      "authors": [
+        "悠世",
+        "法老的宠妃"
+      ],
+      "score": 7.2,
+      "cover": "https://cdn.scrape.center/book/s7027218.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7658805",
+      "name": "士为知己（全二册）",
+      "authors": [
+        "蓝色狮"
+      ],
+      "score": 7.7,
+      "cover": "https://cdn.scrape.center/book/s8866404.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7564736",
+      "name": "那些年，我们一起追的女孩",
+      "authors": [
+        "九把刀",
+        "九把刀作品集·现代版"
+      ],
+      "score": 8.2,
+      "cover": "https://cdn.scrape.center/book/s7049425.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7440370",
+      "name": "非我倾城（全三册）",
+      "authors": [
+        "墨舞碧歌"
+      ],
+      "score": 7.8,
+      "cover": "https://cdn.scrape.center/book/s8916163.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7163250",
+      "name": "明朝那些事儿",
+      "authors": [
+        "当年明月"
+      ],
+      "score": 9.2,
+      "cover": "https://cdn.scrape.center/book/s29399938.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7154825",
+      "name": "我和你的笑忘书",
+      "authors": [
+        "夏七夕"
+      ],
+      "score": 6.4,
+      "cover": "https://cdn.scrape.center/book/s7028274.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7154690",
+      "name": "王小波全集 第一卷",
+      "authors": [
+        "王小波",
+        "王小波全集（凤凰壹力2012版）"
+      ],
+      "score": 8.3,
+      "cover": "https://cdn.scrape.center/book/s11315662.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7154675",
+      "name": "怦然心动",
+      "authors": [
+        "[美] 文德琳·范·德拉安南"
+      ],
+      "score": 8.8,
+      "cover": "https://cdn.scrape.center/book/s7026741.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7153409",
+      "name": "龙枪编年史（全3册）",
+      "authors": [
+        "[美] 玛格丽特·魏丝",
+        "[美] 崔西·西克曼"
+      ],
+      "score": 8.8,
+      "cover": "https://cdn.scrape.center/book/s9100391.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7067986",
+      "name": "龙枪传奇（全三册）",
+      "authors": [
+        "玛格丽特·魏丝 崔西·西克曼"
+      ],
+      "score": 9.1,
+      "cover": "https://cdn.scrape.center/book/s10423583.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7067983",
+      "name": "黎明之街",
+      "authors": [
+        "[日] 东野圭吾",
+        "新经典文化",
+        "新经典文库·东野圭吾作品"
+      ],
+      "score": 7.2,
+      "cover": "https://cdn.scrape.center/book/s8871926.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7067149",
+      "name": "认知心理学及其启示",
+      "authors": [
+        "约翰•R•安德森"
+      ],
+      "score": 8.8,
+      "cover": "https://cdn.scrape.center/book/s7059106.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7065529",
+      "name": "银河帝国2：基地与帝国",
+      "authors": [
+        "[美] 艾萨克·阿西莫夫",
+        "读客文化",
+        "银河帝国"
+      ],
+      "score": 9.0,
+      "cover": "https://cdn.scrape.center/book/s9117163.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7065521",
+      "name": "银河帝国：基地",
+      "authors": [
+        "[美] 艾萨克·阿西莫夫",
+        "读客文化",
+        "银河帝国"
+      ],
+      "score": 9.0,
+      "cover": "https://cdn.scrape.center/book/s8973055.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7063979",
+      "name": "小学教材全解-四年级语文下",
+      "authors": [
+        "薛金星"
+      ],
+      "score": 7.3,
+      "cover": "https://cdn.scrape.center/book/s24506696.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7062629",
+      "name": "越界言论（第3卷）",
+      "authors": [
+        "许子东"
+      ],
+      "score": 8.3,
+      "cover": "https://cdn.scrape.center/book/s22696330.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7062628",
+      "name": "许子东讲稿-张爱玲.郁达夫.香港文学-卷二",
+      "authors": [
+        "许子东",
+        "许子东讲稿"
+      ],
+      "score": 8.4,
+      "cover": "https://cdn.scrape.center/book/s7034934.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7060186",
+      "name": "GOTH断掌事件",
+      "authors": [
+        "[日] 乙一",
+        "乐读文库"
+      ],
+      "score": 8.2,
+      "cover": "https://cdn.scrape.center/book/s7656327.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7059909",
+      "name": "南音 （上）",
+      "authors": [
+        "笛安",
+        "“龙城”系列"
+      ],
+      "score": 7.4,
+      "cover": "https://cdn.scrape.center/book/s7035923.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7058564",
+      "name": "第一辩手5·星河的泪痕",
+      "authors": [
+        "双子星罗"
+      ],
+      "score": 6.8,
+      "cover": "https://cdn.scrape.center/book/s7019904.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7058461",
+      "name": "手绢上的花田",
+      "authors": [
+        "(日)安房直子"
+      ],
+      "score": 9.2,
+      "cover": "https://cdn.scrape.center/book/s28798515.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7058064",
+      "name": "銀之匙 01",
+      "authors": [
+        "[日] 荒川弘",
+        "銀之匙"
+      ],
+      "score": 9.3,
+      "cover": "https://cdn.scrape.center/book/s7051564.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7057385",
+      "name": "听幾米唱歌",
+      "authors": [
+        "几米 绘"
+      ],
+      "score": 8.5,
+      "cover": "https://cdn.scrape.center/book/s8857547.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7057187",
+      "name": "陶庵梦忆",
+      "authors": [
+        "张岱"
+      ],
+      "score": 9.5,
+      "cover": "https://cdn.scrape.center/book/s8859312.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7056685",
+      "name": "天黑以后",
+      "authors": [
+        "[日] 村上春树",
+        "新经典文化",
+        "施小炜",
+        "新经典文库·村上春树作品"
+      ],
+      "score": 7.5,
+      "cover": "https://cdn.scrape.center/book/s8913032.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7056649",
+      "name": "歧路",
+      "authors": [
+        "脉脉",
+        "渥丹"
+      ],
+      "score": 8.6,
+      "cover": "https://cdn.scrape.center/book/s7034174.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7055441",
+      "name": "罗马人的故事1",
+      "authors": [
+        "盐野七生"
+      ],
+      "score": 8.8,
+      "cover": "https://cdn.scrape.center/book/s8488837.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7053013",
+      "name": "魔法科高校の劣等生〈3〉",
+      "authors": [
+        "佐島 勤"
+      ],
+      "score": 7.9,
+      "cover": "https://cdn.scrape.center/book/s7046464.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7047308",
+      "name": "查理九世10·最后的古寺神佛",
+      "authors": [
+        "雷欧幻像",
+        "查理九世"
+      ],
+      "score": 7.7,
+      "cover": "https://cdn.scrape.center/book/s8857032.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7047307",
+      "name": "查理九世12·失落的海底城",
+      "authors": [
+        "雷欧幻像",
+        "查理九世"
+      ],
+      "score": 7.8,
+      "cover": "https://cdn.scrape.center/book/s7652904.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7047305",
+      "name": "查理九世11·冥府之船",
+      "authors": [
+        "雷欧幻像",
+        "查理九世"
+      ],
+      "score": 8.5,
+      "cover": "https://cdn.scrape.center/book/s7652905.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7015296",
+      "name": "最美遇见你",
+      "authors": [
+        "顾西爵"
+      ],
+      "score": 7.4,
+      "cover": "https://cdn.scrape.center/book/s8486741.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7008029",
+      "name": "指环王1-3合集(3DVD9院线版)",
+      "authors": [],
+      "score": 9.4,
+      "cover": "https://cdn.scrape.center/book/s33456646.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7007774",
+      "name": "没有意义就没有摇摆",
+      "authors": [
+        "[日] 村上春树",
+        "林少华",
+        "村上春树随笔系列"
+      ],
+      "score": 7.7,
+      "cover": "https://cdn.scrape.center/book/s9012766.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "7004021",
+      "name": "精靈使的劍舞 01",
+      "authors": [
+        "志瑞祐",
+        "桜はんぺん"
+      ],
+      "score": 7.2,
+      "cover": "https://cdn.scrape.center/book/s7047929.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6998404",
+      "name": "艳势番1",
+      "authors": [
+        "韩露",
+        "艳势番"
+      ],
+      "score": 8.5,
+      "cover": "https://cdn.scrape.center/book/s7041705.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6991335",
+      "name": "艳阳天",
+      "authors": [
+        "[加拿大] 亦舒",
+        "亦舒新经典·中妇版"
+      ],
+      "score": 7.7,
+      "cover": "https://cdn.scrape.center/book/s7038844.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6977666",
+      "name": "天才魔妃",
+      "authors": [
+        "安知晓"
+      ],
+      "score": 6.9,
+      "cover": "https://cdn.scrape.center/book/s8485331.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6975925",
+      "name": "设计诗",
+      "authors": [
+        "朱赢椿"
+      ],
+      "score": 7.3,
+      "cover": "https://cdn.scrape.center/book/s6996300.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6974582",
+      "name": "股票作手回忆录",
+      "authors": [
+        "杰西·利弗莫尔"
+      ],
+      "score": 8.8,
+      "cover": "https://cdn.scrape.center/book/s8857282.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6974232",
+      "name": "盗墓笔记8·大结局（上）",
+      "authors": [
+        "南派三叔",
+        "《盗墓笔记》修订版"
+      ],
+      "score": 8.0,
+      "cover": "https://cdn.scrape.center/book/s8485744.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6974199",
+      "name": "小毛驴与我",
+      "authors": [
+        "[西] 胡安·拉蒙·希梅内斯"
+      ],
+      "score": 8.7,
+      "cover": "https://cdn.scrape.center/book/s8856512.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6973970",
+      "name": "人间失格",
+      "authors": [
+        "[日] 太宰治"
+      ],
+      "score": 8.3,
+      "cover": "https://cdn.scrape.center/book/s7003165.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6973831",
+      "name": "十九分钟",
+      "authors": [
+        "[美] 朱迪·皮考特",
+        "新经典文库·朱迪•皮考特系列"
+      ],
+      "score": 8.4,
+      "cover": "https://cdn.scrape.center/book/s9070868.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6973805",
+      "name": "冰与火之歌（卷一）",
+      "authors": [
+        "[美] 乔治·R·R·马丁",
+        "独角兽书系"
+      ],
+      "score": 9.4,
+      "cover": "https://cdn.scrape.center/book/s7651172.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6971390",
+      "name": "小狗钱钱2",
+      "authors": [
+        "[德] 博多·舍费尔"
+      ],
+      "score": 7.3,
+      "cover": "https://cdn.scrape.center/book/s8492295.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6969098",
+      "name": "碧血剑",
+      "authors": [
+        "金庸"
+      ],
+      "score": 7.5,
+      "cover": "https://cdn.scrape.center/book/s24555601.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6969097",
+      "name": "雪山飞狐",
+      "authors": [
+        "金庸"
+      ],
+      "score": 8.1,
+      "cover": "https://cdn.scrape.center/book/s7062692.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6969096",
+      "name": "连城诀",
+      "authors": [
+        "金庸"
+      ],
+      "score": 8.5,
+      "cover": "https://cdn.scrape.center/book/s24935211.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6969090",
+      "name": "飞狐外传",
+      "authors": [
+        "金庸"
+      ],
+      "score": 8.1,
+      "cover": "https://cdn.scrape.center/book/s24544674.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6969061",
+      "name": "侠客行（上下）",
+      "authors": [
+        "金庸",
+        "金庸作品集（朗声旧版）"
+      ],
+      "score": 7.8,
+      "cover": "https://cdn.scrape.center/book/s7062706.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6967939",
+      "name": "The Hobbit",
+      "authors": [
+        "J. R. R. Tolkien"
+      ],
+      "score": 9.2,
+      "cover": "https://cdn.scrape.center/book/s11099856.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6967919",
+      "name": "长歌行 01",
+      "authors": [
+        "夏达",
+        "长歌行"
+      ],
+      "score": 8.7,
+      "cover": "https://cdn.scrape.center/book/s8890377.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6966810",
+      "name": "星空仰望",
+      "authors": [
+        "幾米"
+      ],
+      "score": 8.2,
+      "cover": "https://cdn.scrape.center/book/s8487659.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6965824",
+      "name": "张爱玲 她从海上来",
+      "authors": [
+        "艾嘉"
+      ],
+      "score": 6.5,
+      "cover": "https://cdn.scrape.center/book/s6995755.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6964050",
+      "name": "冰与火之歌·卷一·权力的游戏（全三册）",
+      "authors": [
+        "[美]乔治·R.R.马丁"
+      ],
+      "score": 9.4,
+      "cover": "https://cdn.scrape.center/book/s8484799.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6964047",
+      "name": "冰与火之歌（卷一）",
+      "authors": [
+        "[美] 乔治·R·R·马丁",
+        "独角兽书系"
+      ],
+      "score": 9.4,
+      "cover": "https://cdn.scrape.center/book/s8855217.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6958239",
+      "name": "文学艺术袖珍馆1（全6册）",
+      "authors": [
+        "戴望舒",
+        "郑振铎"
+      ],
+      "score": 7.5,
+      "cover": "https://cdn.scrape.center/book/s8929515.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6957284",
+      "name": "小情歌",
+      "authors": [
+        "徐璐"
+      ],
+      "score": 8.3,
+      "cover": "https://cdn.scrape.center/book/s7651411.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6954088",
+      "name": "鲁迅：中国“温和”的尼采",
+      "authors": [
+        "【澳】张钊贻"
+      ],
+      "score": 8.2,
+      "cover": "https://cdn.scrape.center/book/s7650019.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6952336",
+      "name": "羊男的圣诞节",
+      "authors": [
+        "[日] 村上春树",
+        "林少华",
+        "村上春树文集（新版）"
+      ],
+      "score": 7.5,
+      "cover": "https://cdn.scrape.center/book/s9071301.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6952333",
+      "name": "夜半蜘蛛猴",
+      "authors": [
+        "[日] 村上春树",
+        "林少华",
+        "村上春树文集（新版）"
+      ],
+      "score": 7.4,
+      "cover": "https://cdn.scrape.center/book/s10279583.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6952187",
+      "name": "宵山万华镜",
+      "authors": [
+        "[日] 森见登美彦",
+        "世纪文景",
+        "森见登美彦作品集"
+      ],
+      "score": 8.2,
+      "cover": "https://cdn.scrape.center/book/s7042516.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6952036",
+      "name": "对伪心理学说不",
+      "authors": [
+        "[加拿大] 基思·斯坦诺维奇",
+        "新曲线·心理学丛书"
+      ],
+      "score": 9.1,
+      "cover": "https://cdn.scrape.center/book/s7649177.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6946921",
+      "name": "仰望半月的夜空 07",
+      "authors": [
+        "[日] 桥本纺 著",
+        "[日] 山本启治 绘"
+      ],
+      "score": 8.3,
+      "cover": "https://cdn.scrape.center/book/s6986343.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6946709",
+      "name": "小凰不是仙",
+      "authors": [
+        "蜀客"
+      ],
+      "score": 7.0,
+      "cover": "https://cdn.scrape.center/book/s6980247.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6938838",
+      "name": "碧血劍（全二冊）",
+      "authors": [
+        "金庸"
+      ],
+      "score": 7.4,
+      "cover": "https://cdn.scrape.center/book/s29745309.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6938136",
+      "name": "倚天屠龍記（新修版）（全四册）",
+      "authors": [
+        "金庸"
+      ],
+      "score": 8.6,
+      "cover": "https://cdn.scrape.center/book/s28580183.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6938132",
+      "name": "書劍恩仇錄（新修版）（全二冊）",
+      "authors": [
+        "金庸"
+      ],
+      "score": 7.2,
+      "cover": "https://cdn.scrape.center/book/s6978768.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6938128",
+      "name": "天龙八部（新修版）（全五册）",
+      "authors": [
+        "金庸"
+      ],
+      "score": 9.2,
+      "cover": "https://cdn.scrape.center/book/s6978764.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6938126",
+      "name": "碧血剑（新修版）（全二册）",
+      "authors": [
+        "金庸"
+      ],
+      "score": 6.9,
+      "cover": "https://cdn.scrape.center/book/s6978762.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6937888",
+      "name": "树犹如此",
+      "authors": [
+        "白先勇",
+        "理想国",
+        "理想国·白先勇作品"
+      ],
+      "score": 8.6,
+      "cover": "https://cdn.scrape.center/book/s6986597.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6913343",
+      "name": "理性乐观派",
+      "authors": [
+        "[英] 马特·里德利",
+        "华章经管"
+      ],
+      "score": 8.3,
+      "cover": "https://cdn.scrape.center/book/s6983402.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6904615",
+      "name": "再不相爱就软了",
+      "authors": [
+        "彭浩翔",
+        "铁葫芦·文艺馆"
+      ],
+      "score": 7.0,
+      "cover": "https://cdn.scrape.center/book/s9112483.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6903227",
+      "name": "魔戒（插图珍藏版）",
+      "authors": [
+        "[英] J·R·R·托尔金",
+        "魔戒系列·译林版"
+      ],
+      "score": 9.5,
+      "cover": "https://cdn.scrape.center/book/s7018243.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6902322",
+      "name": "白银时代",
+      "authors": [
+        "王小波",
+        "王小波文集（权威典藏版）"
+      ],
+      "score": 8.3,
+      "cover": "https://cdn.scrape.center/book/s7651449.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6902320",
+      "name": "我的精神家园",
+      "authors": [
+        "王小波",
+        "王小波文集（权威典藏版）"
+      ],
+      "score": 8.8,
+      "cover": "https://cdn.scrape.center/book/s8482807.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6902319",
+      "name": "夜行记",
+      "authors": [
+        "王小波",
+        "王小波文集（权威典藏版）"
+      ],
+      "score": 9.1,
+      "cover": "https://cdn.scrape.center/book/s8482723.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6902318",
+      "name": "黄金时代",
+      "authors": [
+        "王小波",
+        "王小波文集（权威典藏版）"
+      ],
+      "score": 8.8,
+      "cover": "https://cdn.scrape.center/book/s8482629.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6902164",
+      "name": "平行世界·爱情故事",
+      "authors": [
+        "(日)东野圭吾"
+      ],
+      "score": 7.2,
+      "cover": "https://cdn.scrape.center/book/s7662994.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6902155",
+      "name": "凉宫春日的叹息",
+      "authors": [
+        "[日] 谷川流",
+        "绘者 [日] Noizi ITO",
+        "凉宫春日系列 (译文精装)"
+      ],
+      "score": 8.3,
+      "cover": "https://cdn.scrape.center/book/s8166447.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6897140",
+      "name": "The Fault in Our Stars",
+      "authors": [
+        "John Green"
+      ],
+      "score": 8.2,
+      "cover": "https://cdn.scrape.center/book/s10394551.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6896252",
+      "name": "麒麟之兵天血地",
+      "authors": [
+        "桔子树",
+        "麒麟"
+      ],
+      "score": 9.5,
+      "cover": "https://cdn.scrape.center/book/s6972467.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6894127",
+      "name": "張愛玲的文學史意義",
+      "authors": [
+        "許子東"
+      ],
+      "score": 7.3,
+      "cover": "https://cdn.scrape.center/book/s26519602.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6892579",
+      "name": "美国种族简史",
+      "authors": [
+        "[美] 托马斯·索维尔"
+      ],
+      "score": 8.4,
+      "cover": "https://cdn.scrape.center/book/s6996621.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6890671",
+      "name": "一天",
+      "authors": [
+        "[英] 大卫·尼克斯",
+        "新经典文化",
+        "新经典文库·青鸟文丛"
+      ],
+      "score": 8.2,
+      "cover": "https://cdn.scrape.center/book/s7018215.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6890451",
+      "name": "外天楼",
+      "authors": [
+        "石黒正数"
+      ],
+      "score": 9.2,
+      "cover": "https://cdn.scrape.center/book/s6968547.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6889909",
+      "name": "世界别为我担心",
+      "authors": [
+        "幾米",
+        "幾米系列"
+      ],
+      "score": 8.4,
+      "cover": "https://cdn.scrape.center/book/s26008860.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6887522",
+      "name": "花弦月·神魔归位（全二册）",
+      "authors": [
+        "当木当泽"
+      ],
+      "score": 8.0,
+      "cover": "https://cdn.scrape.center/book/s7645214.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6880158",
+      "name": "陆犯焉识",
+      "authors": [
+        "[美] 严歌苓"
+      ],
+      "score": 8.8,
+      "cover": "https://cdn.scrape.center/book/s6987353.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6879356",
+      "name": "孙子兵法",
+      "authors": [
+        "孙武",
+        "中华经典名著全本全注全译丛书"
+      ],
+      "score": 9.5,
+      "cover": "https://cdn.scrape.center/book/s27269441.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6875940",
+      "name": "我为什么要写作",
+      "authors": [
+        "[英] 乔治·奥威尔",
+        "董乐山",
+        "小经典系列"
+      ],
+      "score": 8.6,
+      "cover": "https://cdn.scrape.center/book/s8849320.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6875468",
+      "name": "闲情记美",
+      "authors": [
+        "资中筠",
+        "理想国",
+        "理想国·资中筠作品"
+      ],
+      "score": 7.6,
+      "cover": "https://cdn.scrape.center/book/s6961466.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6872645",
+      "name": "Harry Potter Page to Screen",
+      "authors": [
+        "Bob McCabe"
+      ],
+      "score": 9.9,
+      "cover": "https://cdn.scrape.center/book/s29716939.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6872635",
+      "name": "放学后的秘密花园",
+      "authors": [
+        "神崎貴至"
+      ],
+      "score": 6.3,
+      "cover": "https://cdn.scrape.center/book/s6959400.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6872620",
+      "name": "孔乙己",
+      "authors": [
+        "鲁迅 原著 程十髮 繪畫"
+      ],
+      "score": 9.5,
+      "cover": "https://cdn.scrape.center/book/s7030493.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6870500",
+      "name": "無法觸碰的愛",
+      "authors": [
+        "ヨネダコウ"
+      ],
+      "score": 9.0,
+      "cover": "https://cdn.scrape.center/book/s6957012.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    },
+    {
+      "id": "6869069",
+      "name": "鲁迅读过的书",
+      "authors": [
+        "金纲"
+      ],
+      "score": 8.4,
+      "cover": "https://cdn.scrape.center/book/s6955159.jpg",
+      "source": "spa5-api",
+      "extra": {}
+    }
+  ]
+}

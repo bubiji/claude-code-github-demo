@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "case": "spa5",
+    "issue": 5,
+    "mode": "render",
+    "note": "DOM 由站点自身 render 函数本地重放生成，非抓取所得页面",
+    "total_records": 1
+  },
+  "records": [
+    {
+      "api_total": 9040,
+      "dom_total": 9040,
+      "identical": 8976,
+      "diff": 64,
+      "diff_detail": [
+        {
+          "id": "6084402",
+          "fields": [
+            "authors"
+          ],
+          "api": {
+            "authors": [
+              "[美]劳伦斯·科恩（Lawrence J. Cohen, Ph.D.）"
+            ]
+          },
+          "dom": {
+            "authors": [
+              "[美]劳伦斯·科恩（Lawrence J. Cohen",
+              "Ph.D.）"
+            ]
+          }
+        },
+        {
+          "id": "6017131",
+          "fields": [
+            "authors"
+          ],
+          "api": {
+            "authors": [
+              "郭敬明 / 萧凯茵 / 叶阐 / 卢丽莉 / 陈龙"
+            ]
+          },
+          "dom": {
+            "authors": [
+              "郭敬明",
+              "萧凯茵",
+              "叶阐",
+              "卢丽莉",
+              "陈龙"
+            ]
+          }
+        },
+        {
+          "id": "5349588",
+          "fields": [
+            "authors"
+          ],
+          "api": {
+            "authors": [
+              "郭玉洁",
+              "单向街/单读"
+            ]
+          },
+          "dom": {
+            "authors": [
+              "郭玉洁",
+              "单向街",
+              "单读"
+            ]
+          }
+        },
+        {
+          "id": "3908795",
+          "fields": [
+            "authors"
+          ],
+          "api": {
+            "authors": [
+              "[日] 虚渊玄",
+              "Fate/Zero"
+            ]
+          },
+          "dom": {
+            "authors": [
+              "[日] 虚渊玄",
+              "Fate",
+              "Zero"
+            ]
+          }
+        },
+        {
+          "id": "3866488",
+          "fields": [
+            "authors"
+          ],
+          "api": {
+            "authors": [
+              "Mitchell, David"
+            ]
+          },
+          "dom": {
+            "authors": [
+              "Mitchell",
+              "David"
+            ]
+          }
+        },
+        {
+          "id": "3843960",
+          "fields": [
+            "authors"
+          ],
+          "api": {
+            "authors": [
+              "钟基、李先银、王身刚译注"
+            ]
+          },
+          "dom": {
+            "authors": [
+              "钟基",
+              "李先银",
+              "王身刚译注"
+            ]
+          }
+        },
+        {
+          "id": "3837626",
+          "fields": [
+            "authors"
+          ],
+          "api": {
+            "authors": [
+              "井上堅二",
+              "葉賀唯 (Yui, Haga)"
+            ]
+          },
+          "dom": {
+            "authors": [
+              "井上堅二",
+              "葉賀唯 (Yui",
+              "Haga)"
+            ]
+          }
+        },
+        {
+          "id": "34988265",
+          "fields": [
+            "authors"
+          ],
+          "api": {
+            "authors": [
+              "入間 人間 (著)",
+              "仲谷 鳰 (原著, イラスト)"
+            ]
+          },
+          "dom": {
+            "authors": [
+              "入間 人間 (著)",
+              "仲谷 鳰 (原著",
+              "イラスト)"
+            ]
+          }
+        },
+        {
+          "id": "34893946",
+          "fields": [
+            "authors"
+          ],
+          "api": {
+            "authors": [
+              "[英] 苏菲•海恩/著绘"
+            ]
+          },
+          "dom": {
+            "authors": [
+              "[英] 苏菲•海恩",
+              "著绘"
+            ]
+          }
+        },
+        {
+          "id": "34835543",
+          "fields": [
+            "authors"
+          ],
+          "api": {
+            "authors": [
+              "[日]山村暮鸟/著",
+              "小满/绘"
+            ]
+          },
+          "dom": {
+            "authors": [
+              "[日]山村暮鸟",
+              "著",
+              "小满",
+              "绘"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
