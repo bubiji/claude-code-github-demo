@@ -1,0 +1,177 @@
+{
+  "url": "https://antispider2.scrape.center/",
+  "empty_ua_status": 403,
+  "tokens": [
+    {
+      "token": "python-requests",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "Python-urllib",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "curl",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 200,
+      "upper": 200,
+      "match": "prefix",
+      "case_sensitive": true
+    },
+    {
+      "token": "wget",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "Wget",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "Scrapy",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "okhttp",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "Go-http-client",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "PostmanRuntime",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "Googlebot/",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "Googlebot",
+      "alone": 200,
+      "at_head": 200,
+      "in_middle": 200,
+      "upper": 200,
+      "match": "allowed",
+      "case_sensitive": false
+    },
+    {
+      "token": "Baiduspider",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "bingbot",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "libwww-perl",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "HeadlessChrome",
+      "alone": 403,
+      "at_head": 403,
+      "in_middle": 403,
+      "upper": 200,
+      "match": "substring",
+      "case_sensitive": true
+    },
+    {
+      "token": "aiohttp",
+      "alone": 200,
+      "at_head": 200,
+      "in_middle": 200,
+      "upper": 200,
+      "match": "allowed",
+      "case_sensitive": false
+    },
+    {
+      "token": "httpx",
+      "alone": 200,
+      "at_head": 200,
+      "in_middle": 200,
+      "upper": 200,
+      "match": "allowed",
+      "case_sensitive": false
+    },
+    {
+      "token": "spider",
+      "alone": 200,
+      "at_head": 200,
+      "in_middle": 200,
+      "upper": 200,
+      "match": "allowed",
+      "case_sensitive": false
+    },
+    {
+      "token": "bot",
+      "alone": 200,
+      "at_head": 200,
+      "in_middle": 200,
+      "upper": 200,
+      "match": "allowed",
+      "case_sensitive": false
+    }
+  ]
+}
