@@ -1,0 +1,38 @@
+{
+  "case": "login2",
+  "at": "2026-08-23T10:35:50+00:00",
+  "anonymous": {
+    "status": 302,
+    "location": "/login?next=/"
+  },
+  "forged_sessionid": {
+    "status": 302,
+    "location": "/login?next=/"
+  },
+  "wrong_password": {
+    "status": 200,
+    "set_cookie": false,
+    "location": null
+  },
+  "session_cookie": {
+    "name": "sessionid",
+    "value_masked": "4lzt...i8ei",
+    "value_len": 32,
+    "expires_epoch": 1788690968,
+    "expires_utc": "2026-09-06T10:36:08+00:00",
+    "lifetime_days": 14.0,
+    "attrs": [
+      "expires=Sun, 06 Sep 2026 10:36:08 GMT",
+      "HttpOnly",
+      "Max-Age=1209600",
+      "Path=/",
+      "SameSite=Lax"
+    ],
+    "httponly": true,
+    "secure": false
+  },
+  "reuse_after_logout": {
+    "status": 302,
+    "location": "/login?next=/"
+  }
+}

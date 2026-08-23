@@ -1,0 +1,37 @@
+########## 第 1 段：登录并落盘 cookie（进程 A）##########
+=== login2.py login  pid=76362  2026-08-23T10:35:32+00:00 ===
+[login] GET /login?next=/ -> 200；页面含 csrfmiddlewaretoken: False
+[login] GET 后的 cookie: {}
+[login] POST /login?next=/ -> 302  Location=/
+[login] Set-Cookie（脱敏）: sessionid=rhdu...zwuq; expires=Sun, 06 Sep 2026 10:35:41 GMT; HttpOnly; Max-Age=1209600; Path=/; SameSite=Lax
+[login] cookie 已落盘 -> data/cookies.json
+[cookie] 保存时间: 2026-08-23T10:35:41+00:00  (login as admin)
+[cookie]   sessionid=rhdu...zwuq  domain=login2.scrape.center path=/ expires=2026-09-06T10:35:41+00:00 剩余=14.00 天
+
+[demo] 进程 A 已退出（exit code 0）；磁盘上的 cookie 文件：
+[demo]   data/cookies.json  293 字节
+
+########## 第 2 段：全新进程，只读 cookie（进程 B）##########
+[demo] 注意：下面这条命令里没有任何用户名/密码，login2.py fetch 也不会碰 /login
+=== login2.py fetch  pid=76386  2026-08-23T10:35:41+00:00 ===
+[fetch] 本进程**不做登录**，只加载磁盘上的 cookie：
+[cookie] 保存时间: 2026-08-23T10:35:41+00:00  (login as admin)
+[cookie]   sessionid=rhdu...zwuq  domain=login2.scrape.center path=/ expires=2026-09-06T10:35:41+00:00 剩余=14.00 天
+[fetch] GET / -> 200  解析出 10 条
+[fetch] GET /page/2 -> 200  解析出 10 条
+[fetch] GET /page/3 -> 200  解析出 10 条
+[fetch] 共 30 条 -> data/login2_movies.json (9218 字节)
+[fetch] 样例: 霸王别姬 - Farewell My Concubine | 剧情/爱情 | 9.5
+[fetch] 本进程发出的全部 HTTP 请求：
+[fetch]   GET https://login2.scrape.center/ -> 200
+[fetch]   GET https://login2.scrape.center/page/2 -> 200
+[fetch]   GET https://login2.scrape.center/page/3 -> 200
+[fetch] 其中 path 以 /login 开头的请求数 = 0  → OK：全程未登录，纯 cookie 复用
+
+########## 第 3 段：再起一个进程确认登录态（进程 C）##########
+=== login2.py whoami  pid=76396  2026-08-23T10:35:48+00:00 ===
+[cookie] 保存时间: 2026-08-23T10:35:41+00:00  (login as admin)
+[cookie]   sessionid=rhdu...zwuq  domain=login2.scrape.center path=/ expires=2026-09-06T10:35:41+00:00 剩余=14.00 天
+[whoami] 已登录 —— GET / -> 200，页面顶栏显示: admin
+
+[demo] 三段 PID 各不相同 ⇒ cookie 确实跨进程复用，未重新登录。

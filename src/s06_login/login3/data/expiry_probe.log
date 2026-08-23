@@ -1,0 +1,11 @@
+[expiry] 单次寿命 exp-orig_iat = 43200s = 12 小时
+[expiry] 无 Authorization 头          -> 401  {"detail":"Authentication credentials were not provided."}
+[expiry] 正确 'jwt ' 前缀               -> 200  {"count":9200,"results":[{"id":"34473697","name":"R数据科学实战：工具详解与案例分析","authors":["刘健","邬书豪"
+[expiry] 大写 'JWT ' 前缀               -> 200  {"count":9200,"results":[{"id":"34473697","name":"R数据科学实战：工具详解与案例分析","authors":["刘健","邬书豪"
+[expiry] 错误 'Bearer ' 前缀            -> 401  {"detail":"Authentication credentials were not provided."}
+[expiry] 签名被篡改                      -> 401  {"detail":"Error decoding signature."}
+[expiry] payload 改成已过期              -> 401  {"detail":"Error decoding signature."}
+[expiry] refresh #1: 200  exp 1787524619 -> 1787524624 (+5s)  orig_iat 不变=True
+[expiry] refresh #2: 200  exp 1787524624 -> 1787524626 (+2s)  orig_iat 不变=True
+[expiry] 用篡改 token 去 refresh -> 400 {"non_field_errors":["Error decoding signature."]}
+[expiry] 落盘 -> data/login3_expiry_probe.json

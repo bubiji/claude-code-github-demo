@@ -1,0 +1,8 @@
+=== login2.py probe  pid=76399  2026-08-23T10:35:50+00:00 ===
+[probe] 无 cookie      GET / -> 302 /login?next=/
+[probe] 伪造 sessionid GET / -> 302 /login?next=/
+[probe] 密码错误      POST /login -> 200（成功应为 302）  Set-Cookie: False
+[probe] sessionid=4lzt...i8ei 长度=32 有效期=14.0 天 属性=['expires=Sun, 06 Sep 2026 10:36:08 GMT', 'HttpOnly', 'Max-Age=1209600', 'Path=/', 'SameSite=Lax']
+[probe] GET /logout -> 302 /login
+[probe] 登出后复用旧 sessionid GET / -> 302 /login?next=/  ← 服务端已销毁 session
+[probe] 落盘 -> data/login2_cookie_probe.json
