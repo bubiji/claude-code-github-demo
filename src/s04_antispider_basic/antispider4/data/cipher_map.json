@@ -1,0 +1,126 @@
+{
+  "font_url": "https://antispider4.scrape.center/fonts/scrape.4f15ef91.ttf",
+  "css_urls": [
+    "https://antispider4.scrape.center/css/chunk-12088b7f.6a711c38.css",
+    "https://antispider4.scrape.center/css/chunk-7c105922.58ee4368.css",
+    "https://antispider4.scrape.center/css/app.654ba59e.css"
+  ],
+  "js_digit_to_icon": {
+    "0": 272,
+    "1": 643,
+    "2": 180,
+    "3": 437,
+    "4": 378,
+    "5": 504,
+    "6": 203,
+    "7": 102,
+    "8": 281,
+    "9": 789,
+    ".": 981
+  },
+  "icon_to_cipher_char": {
+    "102": "7",
+    "180": "2",
+    "203": "6",
+    "272": "0",
+    "281": "8",
+    "378": "4",
+    "437": "3",
+    "504": "5",
+    "643": "1",
+    "789": "9",
+    "981": "."
+  },
+  "table": [
+    {
+      "plain_digit": "0",
+      "icon_class": "icon-272",
+      "cipher_char": "0",
+      "codepoint": "U+0030",
+      "glyph_name": "zero"
+    },
+    {
+      "plain_digit": "1",
+      "icon_class": "icon-643",
+      "cipher_char": "1",
+      "codepoint": "U+0031",
+      "glyph_name": "one"
+    },
+    {
+      "plain_digit": "2",
+      "icon_class": "icon-180",
+      "cipher_char": "2",
+      "codepoint": "U+0032",
+      "glyph_name": "two"
+    },
+    {
+      "plain_digit": "3",
+      "icon_class": "icon-437",
+      "cipher_char": "3",
+      "codepoint": "U+0033",
+      "glyph_name": "three"
+    },
+    {
+      "plain_digit": "4",
+      "icon_class": "icon-378",
+      "cipher_char": "4",
+      "codepoint": "U+0034",
+      "glyph_name": "four"
+    },
+    {
+      "plain_digit": "5",
+      "icon_class": "icon-504",
+      "cipher_char": "5",
+      "codepoint": "U+0035",
+      "glyph_name": "five"
+    },
+    {
+      "plain_digit": "6",
+      "icon_class": "icon-203",
+      "cipher_char": "6",
+      "codepoint": "U+0036",
+      "glyph_name": "six"
+    },
+    {
+      "plain_digit": "7",
+      "icon_class": "icon-102",
+      "cipher_char": "7",
+      "codepoint": "U+0037",
+      "glyph_name": "seven"
+    },
+    {
+      "plain_digit": "8",
+      "icon_class": "icon-281",
+      "cipher_char": "8",
+      "codepoint": "U+0038",
+      "glyph_name": "eight"
+    },
+    {
+      "plain_digit": "9",
+      "icon_class": "icon-789",
+      "cipher_char": "9",
+      "codepoint": "U+0039",
+      "glyph_name": "nine"
+    },
+    {
+      "plain_digit": ".",
+      "icon_class": "icon-981",
+      "cipher_char": ".",
+      "codepoint": "U+002E",
+      "glyph_name": "period"
+    }
+  ],
+  "decode_map_icon_to_digit": {
+    "icon-272": "0",
+    "icon-643": "1",
+    "icon-180": "2",
+    "icon-437": "3",
+    "icon-378": "4",
+    "icon-504": "5",
+    "icon-203": "6",
+    "icon-102": "7",
+    "icon-281": "8",
+    "icon-789": "9",
+    "icon-981": "."
+  }
+}

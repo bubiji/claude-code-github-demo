@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "1",
+    "name": "霸王别姬 - Farewell My Concubine",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-504"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"5\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.5",
+    "api_score": "9.5",
+    "match": true
+  },
+  {
+    "id": "2",
+    "name": "这个杀手不太冷 - Léon",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-504"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"5\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.5",
+    "api_score": "9.5",
+    "match": true
+  },
+  {
+    "id": "3",
+    "name": "肖申克的救赎 - The Shawshank Redemption",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-504"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"5\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.5",
+    "api_score": "9.5",
+    "match": true
+  },
+  {
+    "id": "4",
+    "name": "泰坦尼克号 - Titanic",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-504"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"5\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.5",
+    "api_score": "9.5",
+    "match": true
+  },
+  {
+    "id": "5",
+    "name": "罗马假日 - Roman Holiday",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-504"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"5\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.5",
+    "api_score": "9.5",
+    "match": true
+  },
+  {
+    "id": "6",
+    "name": "唐伯虎点秋香 - Flirting Scholar",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-504"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"5\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.5",
+    "api_score": "9.5",
+    "match": true
+  },
+  {
+    "id": "7",
+    "name": "乱世佳人 - Gone with the Wind",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-504"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"5\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.5",
+    "api_score": "9.5",
+    "match": true
+  },
+  {
+    "id": "8",
+    "name": "喜剧之王 - The King of Comedy",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-504"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"5\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.5",
+    "api_score": "9.5",
+    "match": true
+  },
+  {
+    "id": "9",
+    "name": "楚门的世界 - The Truman Show",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "10",
+    "name": "狮子王 - The Lion King",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "11",
+    "name": "V字仇杀队 - V for Vendetta",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "12",
+    "name": "少年派的奇幻漂流 - Life of Pi",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "13",
+    "name": "美丽心灵 - A Beautiful Mind",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "14",
+    "name": "初恋这件小事 - สิ่งเล็กเล็กที่เรียกว่า...รัก",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "15",
+    "name": "借东西的小人阿莉埃蒂 - 借りぐらしのアリエッティ",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "16",
+    "name": "一一 - Yi yi: A One and a Two",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "17",
+    "name": "美丽人生 - La vita è bella",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-643"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"1\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.1",
+    "api_score": "9.1",
+    "match": true
+  },
+  {
+    "id": "18",
+    "name": "海上钢琴师 - La leggenda del pianista sull'oceano",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-643"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"1\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.1",
+    "api_score": "9.1",
+    "match": true
+  },
+  {
+    "id": "19",
+    "name": "千与千寻 - 千と千尋の神隠し",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-643"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"1\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.1",
+    "api_score": "9.1",
+    "match": true
+  },
+  {
+    "id": "20",
+    "name": "迁徙的鸟 - The Travelling Birds",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-643"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"1\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.1",
+    "api_score": "9.1",
+    "match": true
+  },
+  {
+    "id": "21",
+    "name": "黄金三镖客 - Il buono, il brutto, il cattivo.",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-643"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"1\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.1",
+    "api_score": "9.1",
+    "match": true
+  },
+  {
+    "id": "22",
+    "name": "海洋 - Océans",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-643"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"1\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.1",
+    "api_score": "9.1",
+    "match": true
+  },
+  {
+    "id": "23",
+    "name": "我爱你 - 그대를 사랑합니다",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-643"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"1\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.1",
+    "api_score": "9.1",
+    "match": true
+  },
+  {
+    "id": "24",
+    "name": "阿飞正传 - Days of Being Wild",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-643"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"1\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.1",
+    "api_score": "9.1",
+    "match": true
+  },
+  {
+    "id": "36",
+    "name": "7号房的礼物 - 7번방의 선물",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "25",
+    "name": "爱·回家 - 집으로...",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-643"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"1\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.1",
+    "api_score": "9.1",
+    "match": true
+  },
+  {
+    "id": "26",
+    "name": "龙猫 - となりのトトロ",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-643"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"1\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.1",
+    "api_score": "9.1",
+    "match": true
+  },
+  {
+    "id": "27",
+    "name": "七武士 - 七人の侍",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "28",
+    "name": "美国往事 - Once Upon a Time in America",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "29",
+    "name": "完美的世界 - A Perfect World",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "30",
+    "name": "上帝之城 - Cidade de Deus",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "31",
+    "name": "辩护人 - 변호인",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "32",
+    "name": "忠犬八公物语 - ハチ公物語",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "33",
+    "name": "海豚湾 - The Cove",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "34",
+    "name": "英雄本色 - A Better Tomorrow",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "35",
+    "name": "恐怖直播 - 더 테러 라이브",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "37",
+    "name": "窃听风暴 - Das Leben der Anderen",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "38",
+    "name": "时空恋旅人 - About Time",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "39",
+    "name": "穿条纹睡衣的男孩 - The Boy in the Striped Pajamas",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "40",
+    "name": "教父 - The Godfather",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "41",
+    "name": "萤火之森 - 蛍火の杜へ",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "42",
+    "name": "素媛 - 소원",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "43",
+    "name": "小鞋子 - بچههای آسمان",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "44",
+    "name": "熔炉 - 도가니",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "45",
+    "name": "大话西游之大圣娶亲 - A Chinese Odyssey Part Two - Cinderella",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "46",
+    "name": "新龙门客栈 - New Dragon Gate Inn",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "47",
+    "name": "触不可及 - Intouchables",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "48",
+    "name": "钢琴家 - The Pianist",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "49",
+    "name": "本杰明·巴顿奇事 - The Curious Case of Benjamin Button",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "50",
+    "name": "倩女幽魂 - A Chinese Ghost Story",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "51",
+    "name": "哈利·波特与死亡圣器（下） - Harry Potter and the Deathly Hallows: Part 2",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "52",
+    "name": "甜蜜蜜 - Comrades: Almost a Love Story",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "53",
+    "name": "蝙蝠侠：黑暗骑士崛起 - The Dark Knight Rises",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "54",
+    "name": "鬼子来了 - Devils on the Doorstep",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "55",
+    "name": "无敌破坏王 - Wreck-It Ralph",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "56",
+    "name": "致命魔术 - The Prestige",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "57",
+    "name": "神偷奶爸 - Despicable Me",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "58",
+    "name": "断背山 - Brokeback Mountain",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "59",
+    "name": "怦然心动 - Flipped",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "60",
+    "name": "驯龙高手 - How to Train Your Dragon",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "61",
+    "name": "飞屋环游记 - Up",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "62",
+    "name": "黑客帝国3：矩阵革命 - The Matrix Revolutions",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-281"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"8\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.8",
+    "api_score": "8.8",
+    "match": true
+  },
+  {
+    "id": "63",
+    "name": "速度与激情5 - Fast Five",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "64",
+    "name": "勇敢的心 - Braveheart",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "65",
+    "name": "三傻大闹宝莱坞 - 3 Idiots",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "66",
+    "name": "闻香识女人 - Scent of a Woman",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "67",
+    "name": "末代皇帝 - The Last Emperor",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "68",
+    "name": "风之谷 - 風の谷のナウシカ",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "69",
+    "name": "大话西游之月光宝盒 - A Chinese Odyssey",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "70",
+    "name": "放牛班的春天 - Les choristes",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "71",
+    "name": "当幸福来敲门 - The Pursuit of Happyness",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "72",
+    "name": "幽灵公主 - もののけ姫",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "73",
+    "name": "十二怒汉 - 12 Angry Men",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "74",
+    "name": "搏击俱乐部 - Fight Club",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "75",
+    "name": "疯狂原始人 - The Croods",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "76",
+    "name": "阿凡达 - Avatar",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "77",
+    "name": "哈尔的移动城堡 - ハウルの動く城",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "78",
+    "name": "盗梦空间 - Inception",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "79",
+    "name": "忠犬八公的故事 - Hachi: A Dog's Tale",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "80",
+    "name": "拯救大兵瑞恩 - Saving Private Ryan",
+    "icon_classes": [
+      "icon-281",
+      "icon-981",
+      "icon-789"
+    ],
+    "computed_before": [
+      "\"8\"",
+      "\".\"",
+      "\"9\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "8.9",
+    "api_score": "8.9",
+    "match": true
+  },
+  {
+    "id": "81",
+    "name": "活着 - To Live",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "82",
+    "name": "机器人总动员 - WALL·E",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "83",
+    "name": "天堂电影院 - Nuovo Cinema Paradiso",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "84",
+    "name": "指环王2：双塔奇兵 - The Lord of the Rings: The Two Towers",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "85",
+    "name": "指环王1：护戒使者 - The Lord of the Rings: The Fellowship of the Ring",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "86",
+    "name": "射雕英雄传之东成西就 - The Eagle Shooting Heroes",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "87",
+    "name": "蝙蝠侠：黑暗骑士 - The Dark Knight",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "88",
+    "name": "无间道 - Infernal Affairs",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "89",
+    "name": "教父2 - The Godfather: Part Ⅱ",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "90",
+    "name": "加勒比海盗 - Pirates of the Caribbean: The Curse of the Black Pearl",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "91",
+    "name": "哈利·波特与魔法石 - Harry Potter and the Sorcerer's Stone",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "92",
+    "name": "指环王3：王者无敌 - The Lord of the Rings: The Return of the King",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "93",
+    "name": "黑客帝国 - The Matrix",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "94",
+    "name": "剪刀手爱德华 - Edward Scissorhands",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "95",
+    "name": "春光乍泄 - Happy Together",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "96",
+    "name": "大闹天宫 - The Monkey King",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "97",
+    "name": "天空之城 - 天空の城ラピュタ",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "98",
+    "name": "音乐之声 - The Sound of Music",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-272"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"0\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.0",
+    "api_score": "9.0",
+    "match": true
+  },
+  {
+    "id": "99",
+    "name": "辛德勒的名单 - Schindler's List",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-504"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"5\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.5",
+    "api_score": "9.5",
+    "match": true
+  },
+  {
+    "id": "100",
+    "name": "魂断蓝桥 - Waterloo Bridge",
+    "icon_classes": [
+      "icon-789",
+      "icon-981",
+      "icon-504"
+    ],
+    "computed_before": [
+      "\"9\"",
+      "\".\"",
+      "\"5\""
+    ],
+    "html_score_text": "",
+    "decoded_score": "9.5",
+    "api_score": "9.5",
+    "match": true
+  }
+]
