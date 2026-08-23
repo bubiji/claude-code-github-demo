@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "case": "spa1",
+    "issue": 5,
+    "mode": "compare",
+    "total_records": 1
+  },
+  "records": [
+    {
+      "api_total": 104,
+      "dom_total": 100,
+      "matched_identical": 100,
+      "matched_with_diff": 0,
+      "dom_only": [],
+      "diff_detail": []
+    }
+  ]
+}
