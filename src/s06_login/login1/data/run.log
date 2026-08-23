@@ -1,0 +1,27 @@
+[locate] index.html 里的路由 chunk: ['/js/chunk-cc71364c.d38f911d.js', '/js/chunk-vendors.f1c69639.js']
+[locate] 入口 app.js: ['/js/app.d03bfa52.js']
+[locate] 命中 chunk: /js/chunk-cc71364c.d38f911d.js (5901 字节)
+[locate] onSubmit 函数体（原样）:
+    var e=c.encode(JSON.stringify(this.form));this.$http.post(a["a"].state.url.root,{token:e}).then((function(e){console.log("data",e)}))
+[locate] 加密表达式: e=c.encode(JSON.stringify(this.form))
+[locate] 提交表达式: $http.post(a["a"].state.url.root,{token:e}
+[locate] vuex state.url.root = '/'  →  提交到 https://login1.scrape.center/
+[locate] Base64 字母表 == 标准表: True
+[locate] encode() 有 URL-safe 分支: True；onSubmit 未启用（只传 1 个参数）→ 用标准 Base64、保留 '=' 补位
+
+[encrypt] JSON.stringify 结果: {"username":"admin","password":"admin"}
+[encrypt] token = eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiJhZG1pbiJ9
+[encrypt] 反解回明文 = {'username': 'admin', 'password': 'admin'}
+[encrypt] 反例（json.dumps 默认带空格）= eyJ1c2VybmFtZSI6ICJhZG1pbiIsICJwYXNzd29yZCI6ICJhZG1pbiJ9  → 与浏览器一致? False
+
+[submit] POST https://login1.scrape.center/ -> 405
+[submit] 响应首段: '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>ngin'
+
+[probe] POST    /                          -> 405
+[probe] OPTIONS /                          -> 405
+[probe] PUT     /                          -> 405
+[probe] POST    /api/login                 -> 405
+[probe] POST    /js/app.d03bfa52.js        -> 405
+[probe] GET     /                          -> 200
+
+[done] 结果落盘 -> data/login1_result.json

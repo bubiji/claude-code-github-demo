@@ -1,0 +1,57 @@
+{
+  "case": "login1",
+  "issue": 9,
+  "source": "https://login1.scrape.center",
+  "at": "2026-08-23 19:34:47 +0900",
+  "locate": {
+    "base": "https://login1.scrape.center",
+    "at": "2026-08-23 19:34:47",
+    "index_chunks": [
+      "/js/chunk-cc71364c.d38f911d.js",
+      "/js/chunk-vendors.f1c69639.js"
+    ],
+    "index_entry": [
+      "/js/app.d03bfa52.js"
+    ],
+    "chunk": "/js/chunk-cc71364c.d38f911d.js",
+    "onSubmit_body": "var e=c.encode(JSON.stringify(this.form));this.$http.post(a[\"a\"].state.url.root,{token:e}).then((function(e){console.log(\"data\",e)}))",
+    "encrypt_expr": "e=c.encode(JSON.stringify(this.form))",
+    "post_expr": "$http.post(a[\"a\"].state.url.root,{token:e}",
+    "url_root": "/",
+    "b64chars": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",
+    "b64chars_is_standard": true,
+    "encode_has_urlsafe_branch": true,
+    "urlsafe_used_by_onSubmit": false
+  },
+  "encrypt": {
+    "plaintext": "{\"username\":\"admin\",\"password\":\"admin\"}",
+    "token": "eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiJhZG1pbiJ9",
+    "roundtrip": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "naive_dumps_token": "eyJ1c2VybmFtZSI6ICJhZG1pbiIsICJwYXNzd29yZCI6ICJhZG1pbiJ9",
+    "naive_matches_browser": false
+  },
+  "submit": {
+    "url": "https://login1.scrape.center/",
+    "request_body": "{\"token\":\"eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiJhZG1pbiJ9\"}",
+    "status": 405,
+    "resp_headers": {
+      "Date": "Sun, 23 Aug 2026 10:34:48 GMT",
+      "Content-Type": "text/html",
+      "Content-Length": "559",
+      "Connection": "keep-alive",
+      "Strict-Transport-Security": "max-age=15724800; includeSubDomains"
+    },
+    "resp_text_head": "<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx/1.21.3</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome f"
+  },
+  "server_probe": {
+    "POST /": 405,
+    "OPTIONS /": 405,
+    "PUT /": 405,
+    "POST /api/login": 405,
+    "POST /js/app.d03bfa52.js": 405,
+    "GET /": 200
+  }
+}

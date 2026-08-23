@@ -1,0 +1,3 @@
+# 真实凭据一律不入库（本仓库是 public，见 issue #9 的脱敏要求）
+login2/data/cookies.json
+login3/data/jwt.json

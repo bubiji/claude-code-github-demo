@@ -1,0 +1,24 @@
+{
+  "_note": "脱敏样本，不是可用凭据。真实的 data/cookies.json 由 `python login2.py login` 生成，已被 .gitignore 排除（本仓库 public）。value 中间部分以 ... 省略。",
+  "saved_at": "2026-08-23T10:30:07+00:00",
+  "note": "login as admin",
+  "cookies": [
+    {
+      "name": "sessionid",
+      "value": "etjw...sj9j",
+      "value_real_length": 32,
+      "domain": "login2.scrape.center",
+      "path": "/",
+      "expires": 1788690607,
+      "expires_utc": "2026-09-06T10:30:07+00:00",
+      "secure": false,
+      "attrs_from_set_cookie": [
+        "expires=Sun, 06 Sep 2026 10:30:07 GMT",
+        "HttpOnly",
+        "Max-Age=1209600",
+        "Path=/",
+        "SameSite=Lax"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+########## ① login ##########
+[login] POST /api/login -> 200
+[login] token（脱敏）= eyJ0eX...NiJ9.eyJ1c2...k4fQ.mVf9ZY...tXkg
+[login] header  = {'typ': 'JWT', 'alg': 'HS256'}
+[login] payload = {'user_id': 1, 'username': 'admin', 'exp': 1787524598, 'email': 'admin@admin.com', 'orig_iat': 1787481398}
+[login] exp=2026-08-23T22:36:38+00:00  orig_iat=2026-08-23T10:36:38+00:00  寿命=43200s（12 小时）  剩余=12.00 小时
+[login] token 已落盘 -> data/jwt.json
+
+########## ② inspect ##########
+[inspect] 原始 token（脱敏三段）: eyJ0eX...NiJ9.eyJ1c2...k4fQ.mVf9ZY...tXkg
+[inspect] 三段长度 header/payload/signature = [36, 130, 43]
+[inspect] ① header    : {"typ": "JWT", "alg": "HS256"}
+[inspect] ② payload   : {"user_id": 1, "username": "admin", "exp": 1787524598, "email": "admin@admin.com", "orig_iat": 1787481398}
+[inspect] ③ signature : mVf9ZY-u...FCtXkg  （32 字节，HS256 = HMAC-SHA256，正好 32 字节）
+[inspect] exp      = 1787524598  2026-08-23T22:36:38+00:00
+[inspect] orig_iat = 1787481398  2026-08-23T10:36:38+00:00
+[inspect] 单次寿命 = 43200s；当前剩余 = 43199s（12.00 小时）；已过期 = False
+[inspect] 脱敏 dump -> data/login3_jwt_dump.json
+
+########## ③ fetch（正常路径，不该刷新）##########
+[auth] token 剩余 43199s > 阈值 300s，无需刷新
+[fetch] GET /api/book/?limit=18&offset=0 -> 200  count=9200 本页 18 条
+[fetch] GET /api/book/?limit=18&offset=18 -> 200  count=9200 本页 18 条
+[fetch] 共 36 条 -> data/login3_books.json (7099 字节)
+[fetch] 样例: R数据科学实战：工具详解与案例分析 | ['刘健', '邬书豪'] | 8.9
+
+########## ④ fetch --refresh-margin 999999（强制走刷新分支）##########
+[auth] token 剩余 43196s <= 阈值 999999s → 触发刷新
+[auth] 刷新完成：新 token eyJ0eX...NiJ9.eyJ1c2...k4fQ.k6ZDy9...ul0M，剩余 43200s
+[fetch] GET /api/book/?limit=18&offset=0 -> 200  count=9200 本页 18 条
+[fetch] GET /api/book/?limit=18&offset=18 -> 200  count=9200 本页 18 条
+[fetch] 共 36 条 -> data/login3_books.json (7207 字节)
+[fetch] 样例: R数据科学实战：工具详解与案例分析 | ['刘健', '邬书豪'] | 8.9

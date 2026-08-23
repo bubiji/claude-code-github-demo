@@ -1,0 +1,14 @@
+{
+  "_note": "脱敏样本，不是可用凭据。真实的 data/jwt.json 由 `python login3.py login` 生成，已被 .gitignore 排除（本仓库 public）。token 三段各只保留前后几位，中间以 ... 省略。",
+  "token": "eyJ0eX...NiJ9.eyJ1c2...Y0fQ.X-l_py...tvU0",
+  "token_real_segment_lengths": [36, 130, 43],
+  "obtained_how": "POST /api/login",
+  "saved_at": "2026-08-23T10:31:04+00:00",
+  "payload": {
+    "user_id": 1,
+    "username": "admin",
+    "exp": 1787524264,
+    "email": "admin@admin.com",
+    "orig_iat": 1787481064
+  }
+}

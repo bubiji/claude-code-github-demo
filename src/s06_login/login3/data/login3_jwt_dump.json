@@ -1,0 +1,34 @@
+{
+  "source": "https://login3.scrape.center",
+  "note": "public 仓库：token 与签名均为脱敏样本，仅保留结构与前后几位",
+  "token_masked": "eyJ0eX...NiJ9.eyJ1c2...k4fQ.mVf9ZY...tXkg",
+  "header": {
+    "typ": "JWT",
+    "alg": "HS256"
+  },
+  "payload": {
+    "user_id": 1,
+    "username": "admin",
+    "exp": 1787524598,
+    "email": "admin@admin.com",
+    "orig_iat": 1787481398
+  },
+  "signature_masked": "mVf9ZY-u...FCtXkg",
+  "signature_bytes": 32,
+  "segments_len": [
+    36,
+    130,
+    43
+  ],
+  "exp": {
+    "now_epoch": 1787481399,
+    "exp_epoch": 1787524598,
+    "exp_utc": "2026-08-23T22:36:38+00:00",
+    "orig_iat_epoch": 1787481398,
+    "orig_iat_utc": "2026-08-23T10:36:38+00:00",
+    "ttl_seconds": 43199,
+    "ttl_human": "12.00 小时",
+    "lifetime_seconds": 43200,
+    "expired": false
+  }
+}

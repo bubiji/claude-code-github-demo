@@ -1,0 +1,440 @@
+{
+  "source": "https://login2.scrape.center",
+  "pages": 3,
+  "count": 30,
+  "fetched_at": "2026-08-23T10:35:48+00:00",
+  "auth": "session cookie loaded from disk, no login in this process",
+  "pid": 76386,
+  "http_requests_made": [
+    {
+      "method": "GET",
+      "url": "https://login2.scrape.center/",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://login2.scrape.center/page/2",
+      "path": "/page/2",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "https://login2.scrape.center/page/3",
+      "path": "/page/3",
+      "status": 200
+    }
+  ],
+  "items": [
+    {
+      "name": "霸王别姬 - Farewell My Concubine",
+      "categories": [
+        "剧情",
+        "爱情"
+      ],
+      "info": [
+        "中国内地、中国香港/171 分钟",
+        "1993-07-26 上映"
+      ],
+      "score": "9.5",
+      "detail": "/detail/1"
+    },
+    {
+      "name": "这个杀手不太冷 - Léon",
+      "categories": [
+        "剧情",
+        "动作",
+        "犯罪"
+      ],
+      "info": [
+        "法国/110 分钟",
+        "1994-09-14 上映"
+      ],
+      "score": "9.5",
+      "detail": "/detail/2"
+    },
+    {
+      "name": "肖申克的救赎 - The Shawshank Redemption",
+      "categories": [
+        "剧情",
+        "犯罪"
+      ],
+      "info": [
+        "美国/142 分钟",
+        "1994-09-10 上映"
+      ],
+      "score": "9.5",
+      "detail": "/detail/3"
+    },
+    {
+      "name": "泰坦尼克号 - Titanic",
+      "categories": [
+        "剧情",
+        "爱情",
+        "灾难"
+      ],
+      "info": [
+        "美国/194 分钟",
+        "1998-04-03 上映"
+      ],
+      "score": "9.5",
+      "detail": "/detail/4"
+    },
+    {
+      "name": "罗马假日 - Roman Holiday",
+      "categories": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "info": [
+        "美国/118 分钟",
+        "1953-08-20 上映"
+      ],
+      "score": "9.5",
+      "detail": "/detail/5"
+    },
+    {
+      "name": "唐伯虎点秋香 - Flirting Scholar",
+      "categories": [
+        "喜剧",
+        "爱情",
+        "古装"
+      ],
+      "info": [
+        "中国香港/102 分钟",
+        "1993-07-01 上映"
+      ],
+      "score": "9.5",
+      "detail": "/detail/6"
+    },
+    {
+      "name": "乱世佳人 - Gone with the Wind",
+      "categories": [
+        "剧情",
+        "爱情",
+        "历史",
+        "战争"
+      ],
+      "info": [
+        "美国/238 分钟",
+        "1939-12-15 上映"
+      ],
+      "score": "9.5",
+      "detail": "/detail/7"
+    },
+    {
+      "name": "喜剧之王 - The King of Comedy",
+      "categories": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "info": [
+        "中国香港/85 分钟",
+        "1999-02-13 上映"
+      ],
+      "score": "9.5",
+      "detail": "/detail/8"
+    },
+    {
+      "name": "楚门的世界 - The Truman Show",
+      "categories": [
+        "剧情",
+        "科幻"
+      ],
+      "info": [
+        "美国/103 分钟",
+        ""
+      ],
+      "score": "9.0",
+      "detail": "/detail/9"
+    },
+    {
+      "name": "狮子王 - The Lion King",
+      "categories": [
+        "动画",
+        "歌舞",
+        "冒险"
+      ],
+      "info": [
+        "美国/89 分钟",
+        "1995-07-15 上映"
+      ],
+      "score": "9.0",
+      "detail": "/detail/10"
+    },
+    {
+      "name": "V字仇杀队 - V for Vendetta",
+      "categories": [
+        "剧情",
+        "动作",
+        "科幻",
+        "惊悚"
+      ],
+      "info": [
+        "美国、英国、德国/132 分钟",
+        "2005-12-11 上映"
+      ],
+      "score": "8.9",
+      "detail": "/detail/11"
+    },
+    {
+      "name": "少年派的奇幻漂流 - Life of Pi",
+      "categories": [
+        "剧情",
+        "奇幻",
+        "冒险"
+      ],
+      "info": [
+        "美国、中国台湾、英国、加拿大/127 分钟",
+        "2012-11-22 上映"
+      ],
+      "score": "8.9",
+      "detail": "/detail/12"
+    },
+    {
+      "name": "美丽心灵 - A Beautiful Mind",
+      "categories": [
+        "剧情",
+        "传记"
+      ],
+      "info": [
+        "美国/135 分钟",
+        "2001-12-13 上映"
+      ],
+      "score": "8.8",
+      "detail": "/detail/13"
+    },
+    {
+      "name": "初恋这件小事 - สิ่งเล็กเล็กที่เรียกว่า...รัก",
+      "categories": [
+        "喜剧",
+        "爱情"
+      ],
+      "info": [
+        "泰国/118 分钟",
+        "2012-06-05 上映"
+      ],
+      "score": "8.9",
+      "detail": "/detail/14"
+    },
+    {
+      "name": "借东西的小人阿莉埃蒂 - 借りぐらしのアリエッティ",
+      "categories": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "info": [
+        "日本/94 分钟",
+        "2010-07-17 上映"
+      ],
+      "score": "8.8",
+      "detail": "/detail/15"
+    },
+    {
+      "name": "一一 - Yi yi: A One and a Two",
+      "categories": [
+        "剧情",
+        "爱情",
+        "家庭"
+      ],
+      "info": [
+        "中国台湾、日本/173 分钟",
+        "2000-05-15 上映"
+      ],
+      "score": "8.8",
+      "detail": "/detail/16"
+    },
+    {
+      "name": "美丽人生 - La vita è bella",
+      "categories": [
+        "战争",
+        "剧情",
+        "爱情"
+      ],
+      "info": [
+        "意大利/116 分钟",
+        "2020-01-03 上映"
+      ],
+      "score": "9.1",
+      "detail": "/detail/17"
+    },
+    {
+      "name": "海上钢琴师 - La leggenda del pianista sull'oceano",
+      "categories": [
+        "剧情",
+        "爱情",
+        "音乐"
+      ],
+      "info": [
+        "意大利/126 分钟",
+        "2019-11-15 上映"
+      ],
+      "score": "9.1",
+      "detail": "/detail/18"
+    },
+    {
+      "name": "千与千寻 - 千と千尋の神隠し",
+      "categories": [
+        "动画",
+        "冒险",
+        "奇幻",
+        "家庭"
+      ],
+      "info": [
+        "日本/125 分钟",
+        "2019-06-21 上映"
+      ],
+      "score": "9.1",
+      "detail": "/detail/19"
+    },
+    {
+      "name": "迁徙的鸟 - The Travelling Birds",
+      "categories": [
+        "纪录片"
+      ],
+      "info": [
+        "法国、德国、意大利、西班牙、瑞士/98 分钟",
+        "2001-12-12 上映"
+      ],
+      "score": "9.1",
+      "detail": "/detail/20"
+    },
+    {
+      "name": "黄金三镖客 - Il buono, il brutto, il cattivo.",
+      "categories": [
+        "西部",
+        "冒险"
+      ],
+      "info": [
+        "意大利、西班牙、西德/161 分钟",
+        "1966-12-23 上映"
+      ],
+      "score": "9.1",
+      "detail": "/detail/21"
+    },
+    {
+      "name": "海洋 - Océans",
+      "categories": [
+        "纪录片"
+      ],
+      "info": [
+        "法国、瑞士、西班牙、美国、阿联酋/104 分钟",
+        "2011-08-12 上映"
+      ],
+      "score": "9.1",
+      "detail": "/detail/22"
+    },
+    {
+      "name": "我爱你 - 그대를 사랑합니다",
+      "categories": [
+        "剧情",
+        "爱情"
+      ],
+      "info": [
+        "韩国/118 分钟",
+        "2011-02-17 上映"
+      ],
+      "score": "9.1",
+      "detail": "/detail/23"
+    },
+    {
+      "name": "阿飞正传 - Days of Being Wild",
+      "categories": [
+        "剧情",
+        "爱情",
+        "犯罪"
+      ],
+      "info": [
+        "中国香港/94 分钟",
+        "2018-06-25 上映"
+      ],
+      "score": "9.1",
+      "detail": "/detail/24"
+    },
+    {
+      "name": "7号房的礼物 - 7번방의 선물",
+      "categories": [
+        "剧情",
+        "喜剧",
+        "家庭"
+      ],
+      "info": [
+        "韩国/127 分钟",
+        "2013-01-23 上映"
+      ],
+      "score": "8.8",
+      "detail": "/detail/36"
+    },
+    {
+      "name": "爱·回家 - 집으로...",
+      "categories": [
+        "剧情",
+        "家庭"
+      ],
+      "info": [
+        "韩国/80 分钟",
+        "2002-04-05 上映"
+      ],
+      "score": "9.1",
+      "detail": "/detail/25"
+    },
+    {
+      "name": "龙猫 - となりのトトロ",
+      "categories": [
+        "动画",
+        "冒险",
+        "奇幻",
+        "家庭"
+      ],
+      "info": [
+        "日本/86 分钟",
+        "2018-12-14 上映"
+      ],
+      "score": "9.1",
+      "detail": "/detail/26"
+    },
+    {
+      "name": "七武士 - 七人の侍",
+      "categories": [
+        "剧情",
+        "动作",
+        "冒险"
+      ],
+      "info": [
+        "日本/207 分钟",
+        "1954-04-26 上映"
+      ],
+      "score": "8.8",
+      "detail": "/detail/27"
+    },
+    {
+      "name": "美国往事 - Once Upon a Time in America",
+      "categories": [
+        "剧情",
+        "犯罪"
+      ],
+      "info": [
+        "意大利、美国/229 分钟",
+        "2015-04-23 上映"
+      ],
+      "score": "8.8",
+      "detail": "/detail/28"
+    },
+    {
+      "name": "完美的世界 - A Perfect World",
+      "categories": [
+        "剧情",
+        "犯罪"
+      ],
+      "info": [
+        "美国/138 分钟",
+        "1993-11-24 上映"
+      ],
+      "score": "8.8",
+      "detail": "/detail/29"
+    }
+  ]
+}

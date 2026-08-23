@@ -1,0 +1,100 @@
+{
+  "case": "login3",
+  "at": "2026-08-23T10:36:53+00:00",
+  "source": "https://login3.scrape.center",
+  "token_shape": {
+    "header": {
+      "typ": "JWT",
+      "alg": "HS256"
+    },
+    "payload": {
+      "user_id": 1,
+      "username": "admin",
+      "exp": 1787524619,
+      "email": "admin@admin.com",
+      "orig_iat": 1787481419
+    },
+    "signature_bytes": 32,
+    "token_masked": "eyJ0eX...NiJ9.eyJ1c2...E5fQ.C_Fd-u...c92g"
+  },
+  "exp": {
+    "now_epoch": 1787481419,
+    "exp_epoch": 1787524619,
+    "exp_utc": "2026-08-23T22:36:59+00:00",
+    "orig_iat_epoch": 1787481419,
+    "orig_iat_utc": "2026-08-23T10:36:59+00:00",
+    "ttl_seconds": 43200,
+    "ttl_human": "12.00 小时",
+    "lifetime_seconds": 43200,
+    "expired": false
+  },
+  "auth_cases": [
+    {
+      "case": "无 Authorization 头",
+      "status": 401,
+      "body": "{\"detail\":\"Authentication credentials were not provided.\"}",
+      "note": ""
+    },
+    {
+      "case": "正确 'jwt ' 前缀",
+      "status": 200,
+      "body": "{\"count\":9200,\"results\":[{\"id\":\"34473697\",\"name\":\"R数据科学实战：工具详解与案例分析\",\"authors\":[\"刘健\",\"邬书豪\"],\"cover\":null,\"score\":\"8.9\"}]}",
+      "note": ""
+    },
+    {
+      "case": "大写 'JWT ' 前缀",
+      "status": 200,
+      "body": "{\"count\":9200,\"results\":[{\"id\":\"34473697\",\"name\":\"R数据科学实战：工具详解与案例分析\",\"authors\":[\"刘健\",\"邬书豪\"],\"cover\":null,\"score\":\"8.9\"}]}",
+      "note": ""
+    },
+    {
+      "case": "错误 'Bearer ' 前缀",
+      "status": 401,
+      "body": "{\"detail\":\"Authentication credentials were not provided.\"}",
+      "note": "DRF-JWT 默认 JWT_AUTH_HEADER_PREFIX='JWT'，Bearer 会被当成未提供凭证"
+    },
+    {
+      "case": "签名被篡改",
+      "status": 401,
+      "body": "{\"detail\":\"Error decoding signature.\"}",
+      "note": ""
+    },
+    {
+      "case": "payload 改成已过期",
+      "status": 401,
+      "body": "{\"detail\":\"Error decoding signature.\"}",
+      "note": "本地把 exp 改到 1 小时前；因为改不动签名，服务端在校验 exp 之前就先挂在验签上——这说明「过期」和「伪造」在服务端是同一道 401 墙的两侧，客户端只能靠本地解 exp 提前判定"
+    }
+  ],
+  "refresh_chain": [
+    {
+      "round": 1,
+      "status": 200,
+      "old_exp": 1787524619,
+      "new_exp": 1787524624,
+      "exp_advanced": 5,
+      "orig_iat_unchanged": true,
+      "token_changed": true,
+      "new_token_masked": "eyJ0eX...NiJ9.eyJ1c2...E5fQ.MNil2m...oFiA"
+    },
+    {
+      "round": 2,
+      "status": 200,
+      "old_exp": 1787524624,
+      "new_exp": 1787524626,
+      "exp_advanced": 2,
+      "orig_iat_unchanged": true,
+      "token_changed": true,
+      "new_token_masked": "eyJ0eX...NiJ9.eyJ1c2...E5fQ.ea2u2y...Mpug"
+    }
+  ],
+  "refresh_with_broken_token": {
+    "status": 400,
+    "body": "{\"non_field_errors\":[\"Error decoding signature.\"]}"
+  },
+  "notes": [
+    "exp - orig_iat = 43200 秒（12 小时），是 DRF-JWT 的 JWT_EXPIRATION_DELTA。",
+    "服务端不给短寿命 token，所以「等到自然过期」需要 12 小时，本次未采用等待法；改为 (a) 本地伪造过期 token 打服务端、(b) 用 --refresh-margin 强制触发刷新分支，两条都实跑。",
+    "orig_iat 在 refresh 后保持不变 —— DRF-JWT 用它算刷新窗口 (JWT_REFRESH_EXPIRATION_DELTA)，超窗后 refresh 会被拒，届时只能重新登录。"
+  ]
+}
