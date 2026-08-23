@@ -1,0 +1,13 @@
+{
+  "run_at": "2026-08-23T20:06:38+09:00",
+  "cases": [
+    {
+      "case": "spa6 接口 + spa2 写法(带 offset)",
+      "status": 401
+    },
+    {
+      "case": "spa2 接口 + spa6 写法(不带 offset)",
+      "status": 401
+    }
+  ]
+}

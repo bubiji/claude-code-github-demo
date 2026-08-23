@@ -1,0 +1,20 @@
+[
+  {
+    "run_at": "2026-08-23T19:58:34+09:00",
+    "unix_ts": 1787482714,
+    "requests": 33,
+    "movies": 104,
+    "total": 104,
+    "details": 5,
+    "first_index_token": "NWRjNmNkMzgwYzEzOGVlYTA2N2RkNTlhZTE0Nzk0OWZkNWE0MWZkNywxNzg3NDgyNzE1"
+  },
+  {
+    "run_at": "2026-08-23T20:06:38+09:00",
+    "unix_ts": 1787483198,
+    "requests": 18,
+    "movies": 104,
+    "total": 104,
+    "details": 5,
+    "first_index_token": "ZWNiOTM1NDVhZTUzZTVkNTIzYzgzMDYyNjhiZGI0OGE3NDhhMWEwNiwxNzg3NDgzMTk5"
+  }
+]

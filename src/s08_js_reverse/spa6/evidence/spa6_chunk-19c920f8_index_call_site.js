@@ -1,0 +1,6 @@
+// 原件片段，逐字取自 https://spa6.scrape.center/js/chunk-19c920f8.c3a1129d.js
+// UTF-8 解码后的字符区间 [3223, 4219)，原文件共 4587 字符 / 4597 字节，SHA-256 d38913a85579a58b0de46b9ad077eb04e850f39f81c299d744b4246fb8ea199a
+// 重新取件：
+//   curl -s https://spa6.scrape.center/js/chunk-19c920f8.c3a1129d.js | python3 -c "import sys;print(sys.stdin.read()[3223:4219])"
+// 以下内容为原文，未做任何改写、格式化或换行：
+_0x33c195=[],_0x2fa7bd=_0x4c22a6('7d92'),_0x49ecf1=_0x4c22a6('3e22'),_0x4d1fd7={'name':'Index','components':{},'data':function(){return{'loading':!0x1,'total':null,'page':parseInt(this['$route']['params']['page']||0x1),'limit':0xa,'movies':null};},'mounted':function(){this['onFetchData']();},'methods':{'transfer':_0x49ecf1['a'],'onPageChange':function(_0x12422f){this['$router']['push']({'name':'indexPage','params':{'page':_0x12422f}}),this['onFetchData']();},'onFetchData':function(){var _0xd5d754=this;this['loading']=!0x0;var _0x422986=(this['page']-0x1)*this['limit'],_0x263439=Object(_0x2fa7bd['a'])(this['$store']['state']['url']['index']);this['$axios']['get'](this['$store']['state']['url']['index'],{'params':{'limit':this['limit'],'offset':_0x422986,'token':_0x263439}})['then'](function(_0x464186){var _0x148e87=_0x464186['data'],_0x2f29ad=_0x148e87['results'],_0x4829b0=_0x148e87['count'];_0xd5d754['loading']=!0x1,_0xd5d754['movies']=_0x2f29ad,_0xd5d754['total']=_0x4829b0;});}}},
